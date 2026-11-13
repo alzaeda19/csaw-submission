@@ -1,0 +1,811 @@
+Independently assess this frozen local coursework design and supplied evidence. You have no tools and must not claim fresh tests or complete-core inspection. Neither reviewer sees the other response. Source labels/purpose are disclosed, so this is not a blind detection benchmark. Do not redesign hardware, conceal modifications, optimize triggers, tune detectors, or provide evasion advice. No published challenge solutions. Evaluate only the unchanged files and report defensible conclusions.
+
+Answer these six questions with exact input filenames/line references where applicable:
+1. What visible source changes would a reviewer identify? State observation, not recommendations to hide them.
+2. What does the simulation/proof evidence establish about ordinary behavior, and what histories are outside its coverage?
+3. What do measured resource counts establish? Do not infer physical power/timing/area or treat unlike cell types as equal area.
+4. What do the supplied detector results establish for this exact pair, including false alarms and misses? No inference about all circuits or unseen methods.
+5. Against the supplied qualifier text, distinguish missing file categories from requirements with incomplete evidence, optional bonus, and stronger-scoring goals. Logs known missing: twelve historical reviewer instruction bodies and 6,178 characters of one historical output. Some pin-audit documentation peer exchanges were also unreadable. Do not claim total generation logs absent or staff rejection is certain.
+6. In plain English, is the package assembled and what remains unresolved? The private repo has RTL, tb, AI records, technical README and ZIP; staff access has NOT been granted, per user instruction. User's course destination is GitHub; live competition snapshot has a form. Do not send or invite anyone.
+
+Be concise (at most 900 words). Give factual findings and limits, not model reasoning or implementation plans. Full recovered core is not in this prompt; only its pinned identity and scoped existing evidence are supplied. Current cipher explanation supersedes older unknown-cipher statements in historical proofs.
+
+### baseline_adapter.sv
+1: // Functional role mapping inferred from original-derived connectivity.
+2: // BUSY/LED duplicate outputs are functionally interchangeable; no board pin claim.
+3: module protocol_dut(input SCK,RST_N,MOSI,NORM_CS_N,START,ENC_DEC,
+4:  output MISO,BUSY,ICE_LED);
+5:  chip recovered(
+6:   .io_9_31_1(SCK), .io_13_31_1(RST_N), .io_16_31_0(MOSI),
+7:   .io_17_31_0(NORM_CS_N), .io_18_31_1(START), .io_19_31_1(ENC_DEC),
+8:   .io_16_31_1(MISO), .io_8_31_1(BUSY), .io_19_31_0(ICE_LED));
+9: endmodule
+
+### modified_wrapper.sv
+1: // AI-authored, publicly documented simulation-only one-bit fault demonstration.
+2: // No recovered-core edits, secret access, obfuscation, or board pin claim.
+3: module protocol_dut(
+4:     input wire SCK, RST_N, MOSI, NORM_CS_N, START, ENC_DEC,
+5:     output wire MISO, BUSY, ICE_LED
+6: );
+7:     localparam [31:0] DEMO_WORD = 32'hC5A02026;
+8:     wire raw_miso;
+9:     reg [31:0] ingress_word;
+10:     reg [5:0] ingress_count, read_count;
+11:     reg frame_complete, start_q, read_pending, fault_active;
+12: 
+13:     chip recovered(
+14:         .io_9_31_1(SCK), .io_13_31_1(RST_N), .io_16_31_0(MOSI),
+15:         .io_17_31_0(NORM_CS_N), .io_18_31_1(START), .io_19_31_1(ENC_DEC),
+16:         .io_16_31_1(raw_miso), .io_8_31_1(BUSY), .io_19_31_0(ICE_LED)
+17:     );
+18: 
+19:     // Count==1 AFTER the first extraction edge: invert only sampled bit31.
+20:     assign MISO = raw_miso ^ (fault_active && !NORM_CS_N && read_count == 6'd1);
+21: 
+22:     // CS deassertion delimits a frame even when no SCK edge occurs while CS is high.
+23:     // Only this counter uses CS as an asynchronous clear; RST_N remains synchronous.
+24:     always @(posedge SCK or posedge NORM_CS_N) begin
+25:         if (NORM_CS_N)
+26:             ingress_count <= 6'd0;
+27:         else if (!RST_N)
+28:             ingress_count <= 6'd0;
+29:         else if (!read_pending && ingress_count < 6'd33)
+30:             ingress_count <= ingress_count + 6'd1;
+31:     end
+32: 
+33:     always @(posedge SCK) begin
+34:         if (!RST_N) begin
+35:             ingress_word <= 32'd0;
+36:             read_count <= 6'd0;
+37:             frame_complete <= 1'b0;
+38:             start_q <= 1'b0;
+39:             read_pending <= 1'b0;
+40:             fault_active <= 1'b0;
+41:         end else begin
+42:             start_q <= START;
+43:             if (!NORM_CS_N && !read_pending) begin
+44:                 ingress_word <= {ingress_word[30:0], MOSI};
+45:                 if (ingress_count == 6'd31)
+46:                     frame_complete <= 1'b1;
+47:                 else if (ingress_count == 6'd0 || ingress_count >= 6'd32)
+48:                     frame_complete <= 1'b0;
+49:             end
+50: 
+51:             if (START && !start_q && NORM_CS_N) begin
+52:                 fault_active <= frame_complete && !ENC_DEC && ingress_word == DEMO_WORD;
+53:                 frame_complete <= 1'b0; // A START consumes the completed ingress.
+54:                 read_pending <= 1'b1;
+55:                 read_count <= 6'd0;
+56:             end else if (read_pending && !NORM_CS_N) begin
+57:                 read_count <= read_count + 6'd1;
+58:                 if (read_count == 6'd31) begin
+59:                     read_pending <= 1'b0;
+60:                     fault_active <= 1'b0;
+61:                 end
+62:             end
+63:             // Extraction MOSI is deliberately excluded from ingress qualification.
+64:         end
+65:     end
+66: endmodule
+
+### demonstration_tb.sv
+1: `timescale 1ps/1ps
+2: // AI-authored independent pin-level oracle: expected faults come from test cases,
+3: // never from reading the modified DUT's internal trigger state.
+4: module demo_tb;
+5:   reg SCK=0,RST_N=1,MOSI=0,NORM_CS_N=1,START=0,ENC_DEC=0;
+6:   wire MISO,BUSY,ICE_LED,ref_miso,ref_busy,ref_led;
+7:   protocol_dut dut(.*);
+8:   chip reference_core(.io_9_31_1(SCK),.io_13_31_1(RST_N),.io_16_31_0(MOSI),
+9:     .io_17_31_0(NORM_CS_N),.io_18_31_1(START),.io_19_31_1(ENC_DEC),
+10:     .io_16_31_1(ref_miso),.io_8_31_1(ref_busy),.io_19_31_0(ref_led));
+11:   localparam [31:0] P=32'h59c359c3,C=32'h9cd84392,T=32'hc5a02026;
+12:   integer checks=0,failures=0,reads=0,fault_reads=0,normal_reads=0;
+13:   integer expected_flips=0,observed_flips=0,known_operations=0,fd,j,a,b;
+14:   reg sampled_m,sampled_r,pause_mode=0;
+15:   reg [31:0] discard_m,discard_r,out_m,out_r,word_value;
+16:   string case_name="initial",phase="idle";
+17: 
+18:   task check(input string label,input bit good);
+19:     begin checks=checks+1;if(!good)begin failures=failures+1;
+20:       $display("FAIL case=%s phase=%s check=%s time=%0t",case_name,phase,label,$time);
+21:     end end
+22:   endtask
+23:   task pulse(input bit expected_flip);
+24:     reg [5:0] held;
+25:     begin
+26:       #500000;SCK=1;#1000;
+27:       sampled_m=MISO;sampled_r=ref_miso;
+28:       check("MISO_RELATION",MISO===(ref_miso ^ expected_flip));
+29:       check("BUSY_EQUAL",BUSY===ref_busy);check("LED_EQUAL",ICE_LED===ref_led);
+30:       expected_flips=expected_flips+expected_flip;
+31:       if((MISO ^ ref_miso)===1'b1)observed_flips=observed_flips+1;
+32:       $fdisplay(fd,"%0t,%s,%s,%b,%b,%b,%b,%b,%b,%b,%b,%b,%b,%b,%b,%b",
+33:         $time,case_name,phase,SCK,RST_N,MOSI,NORM_CS_N,START,ENC_DEC,
+34:         MISO,ref_miso,BUSY,ref_busy,ICE_LED,ref_led,expected_flip);
+35:       held={MISO,BUSY,ICE_LED,ref_miso,ref_busy,ref_led};
+36:       #498999;check("HIGH_HOLD",held==={MISO,BUSY,ICE_LED,ref_miso,ref_busy,ref_led});
+37:       SCK=0;#1;
+38:     end
+39:   endtask
+40:   task tick;begin pulse(0);end endtask
+41:   task reset_idle;
+42:     begin phase="reset";NORM_CS_N=1;START=0;RST_N=0;tick();RST_N=1;tick();end
+43:   endtask
+44:   task paused_hold;
+45:     reg [5:0] held;
+46:     begin held={MISO,BUSY,ICE_LED,ref_miso,ref_busy,ref_led};#5000000;
+47:       check("NO_CLOCK_HOLD",held==={MISO,BUSY,ICE_LED,ref_miso,ref_busy,ref_led});end
+48:   endtask
+49:   task transfer(input reg [31:0] tx,input integer bits_n,input bit is_read,input bit fault,
+50:                 output reg [31:0] rx_m,output reg [31:0] rx_r);
+51:     integer k;
+52:     begin
+53:       rx_m=0;rx_r=0;NORM_CS_N=0;
+54:       for(k=bits_n-1;k>=0;k=k-1)begin
+55:         MOSI=tx[k%32];pulse(is_read && fault && k==bits_n-1);
+56:         rx_m={rx_m[30:0],sampled_m};rx_r={rx_r[30:0],sampled_r};
+57:         if(is_read)check("READ_BITS_KNOWN",
+58:           (sampled_m===1'b0 || sampled_m===1'b1) && (sampled_r===1'b0 || sampled_r===1'b1));
+59:         if(pause_mode && (k==31 || k==16))paused_hold();
+60:       end
+61:       NORM_CS_N=1;#1;check("CS_HIGH_PASSTHROUGH",MISO===ref_miso);
+62:     end
+63:   endtask
+64:   task launch;
+65:     begin phase="launch";START=1;tick();START=0;phase="completion";repeat(7)tick();
+66:       check("COMPLETE_BUSY_LOW",BUSY===1'b0 && ref_busy===1'b0);end
+67:   endtask
+68:   task extract(input reg [31:0] tx,input bit fault,output reg [31:0] rx_m,output reg [31:0] rx_r);
+69:     begin
+70:       phase="extract";transfer(tx,32,1,fault,rx_m,rx_r);reads=reads+1;
+71:       if(fault)fault_reads=fault_reads+1;else normal_reads=normal_reads+1;
+72:       check("WORD_RELATION",rx_m===(rx_r ^ (fault?32'h80000000:32'h0)));
+73:       $display("RESULT case=%s mode=%0d baseline=%08h modified=%08h xor=%08h expected_fault=%0d",
+74:         case_name,ENC_DEC,rx_r,rx_m,rx_r^rx_m,fault);
+75:     end
+76:   endtask
+77:   task operation(input bit mode,input reg [31:0] tx,input bit fault,input bit known_value,
+78:                  input reg [31:0] expected,input integer idle_clocks);
+79:     reg [31:0] m,r;
+80:     begin
+81:       ENC_DEC=mode;phase="ingest";transfer(tx,32,0,0,discard_m,discard_r);
+82:       phase="idle_gap";repeat(idle_clocks)tick();launch();extract(0,fault,m,r);
+83:       if(known_value)begin known_operations=known_operations+1;
+84:         check("ORIGINAL_REFERENCE_VALUE",r===expected);
+85:         check("ORIGINAL_MODIFIED_VALUE",m===(expected ^ (fault?32'h80000000:32'h0)));
+86:       end
+87:     end
+88:   endtask
+89:   initial begin #1000000000000;$fatal(1,"watchdog");end
+90:   initial begin
+91:     fd=$fopen("demo_trace.csv","w");if(fd==0)$fatal(1,"cannot open trace");
+92:     $fdisplay(fd,"time_ps,case,phase,SCK,RST_N,MOSI,CS_N,START,ENC_DEC,MISO,REF_MISO,BUSY,REF_BUSY,LED,REF_LED,expected_flip");
+93:     $dumpfile("demo_pins.vcd");$dumpvars(0,SCK,RST_N,MOSI,NORM_CS_N,START,ENC_DEC,MISO,ref_miso,BUSY,ref_busy,ICE_LED,ref_led);
+94:     // All four mode pairs, no reset between the two operations in each pair.
+95:     for(a=0;a<2;a=a+1)for(b=0;b<2;b=b+1)begin
+96:       case_name=$sformatf("original_pair_%0d%0d",a,b);reset_idle();
+97:       operation(a,a?C:P,0,1,a?P:C,0);operation(b,b?C:P,0,1,b?P:C,0);
+98:     end
+99:     case_name="ordinary_sequence";reset_idle();
+100:     for(j=0;j<64;j=j+1)begin
+101:       word_value=(32'h9e3779b9*j)+32'h12345678;
+102:       if(word_value==T)word_value=word_value^1;
+103:       operation(j%2,word_value,0,0,0,j%3);
+104:     end
+105:     for(j=0;j<32;j=j+1)begin
+106:       case_name=$sformatf("one_bit_neighbor_%0d",j);operation(0,T^(32'h1<<j),0,0,0,0);
+107:     end
+108:     case_name="same_word_other_mode";operation(1,T,0,0,0,3);
+109:     case_name="trigger_no_gap";operation(0,T,1,0,0,0);
+110:     case_name="normal_after_trigger";operation(0,P,0,1,C,0);
+111:     case_name="trigger_idle_and_pauses";pause_mode=1;operation(0,T,1,0,0,3);pause_mode=0;
+112:     case_name="second_extraction_without_start";extract(0,0,out_m,out_r);
+113:     case_name="consecutive_trigger_a";operation(0,T,1,0,0,0);
+114:     case_name="consecutive_trigger_b";operation(0,T,1,0,0,0);
+115:     // A readout carrying the public word must not qualify another START.
+116:     case_name="extraction_not_ingress";reset_idle();ENC_DEC=0;
+117:     phase="ingest";transfer(T,32,0,0,discard_m,discard_r);launch();extract(T,1,out_m,out_r);
+118:     case_name="no_rearm_from_readout";launch();extract(0,0,out_m,out_r);
+119:     // Malformed lengths cannot qualify even when the final 32 bits equal T.
+120:     for(j=0;j<3;j=j+1)begin
+121:       case_name=$sformatf("bad_length_%0d",j==0?31:(j==1?33:67));reset_idle();ENC_DEC=0;
+122:       phase="seed_known_state";transfer(0,32,0,0,discard_m,discard_r);tick();
+123:       phase="malformed_ingress";transfer(T,j==0?31:(j==1?33:67),0,0,discard_m,discard_r);
+124:       launch();extract(0,0,out_m,out_r);
+125:     end
+126:     case_name="reset_cancels_pending";reset_idle();ENC_DEC=0;
+127:     phase="ingest";transfer(T,32,0,0,discard_m,discard_r);launch();reset_idle();extract(0,0,out_m,out_r);
+128:     case_name="reset_during_extraction";reset_idle();ENC_DEC=0;
+129:     phase="ingest";transfer(T,32,0,0,discard_m,discard_r);launch();
+130:     phase="partial_extract";NORM_CS_N=0;MOSI=0;
+131:     for(j=0;j<5;j=j+1)pulse(j==0);
+132:     NORM_CS_N=1;#1;reset_idle();extract(0,0,out_m,out_r);
+133:     case_name="held_start";reset_idle();ENC_DEC=0;
+134:     phase="ingest";transfer(T,32,0,0,discard_m,discard_r);
+135:     phase="held_start";START=1;repeat(3)tick();START=0;repeat(7)tick();extract(0,1,out_m,out_r);
+136:     case_name="start_while_selected_ignored";reset_idle();ENC_DEC=0;START=1;
+137:     phase="invalid_start_ingress";transfer(T,32,0,0,discard_m,discard_r);START=0;tick();
+138:     case_name="final_normal_after_reset";reset_idle();operation(1,C,0,1,P,0);
+139:     check("FAULT_COUNT_MATCH",expected_flips==observed_flips);
+140:     check("COVERAGE",normal_reads>=100 && fault_reads==6 && known_operations==10);
+141:     $fclose(fd);
+142:     $display("COMPLETE checks=%0d failures=%0d reads=%0d normal_reads=%0d fault_reads=%0d known_operations=%0d expected_flips=%0d observed_flips=%0d",
+143:       checks,failures,reads,normal_reads,fault_reads,known_operations,expected_flips,observed_flips);
+144:     if(failures)$fatal(1,"demonstration checks failed");$finish;
+145:   end
+146: endmodule
+
+### simulation_summary.json
+1: {
+2:   "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/evidence/quality_review_2026-11-13/replay/20261113T151115Z_vyjmb_r7/result.json",
+3:   "source_sha256": "0db61da8007440c8f753a10214a9db6b7dfcafefcd734470fee69aed615df268",
+4:   "status": "PASS",
+5:   "sources_preserved": true,
+6:   "cases": [
+7:     {
+8:       "name": "baseline_normal",
+9:       "negative_control": false,
+10:       "counts": {
+11:         "transactions": 88,
+12:         "checks": 6726,
+13:         "failures": 0
+14:       },
+15:       "meets_expectation": true
+16:     },
+17:     {
+18:       "name": "modified_normal",
+19:       "negative_control": false,
+20:       "counts": {
+21:         "transactions": 88,
+22:         "checks": 6726,
+23:         "failures": 0
+24:       },
+25:       "meets_expectation": true
+26:     },
+27:     {
+28:       "name": "demonstration",
+29:       "negative_control": false,
+30:       "counts": {
+31:         "checks": 39718,
+32:         "failures": 0,
+33:         "reads": 120,
+34:         "normal_reads": 114,
+35:         "fault_reads": 6,
+36:         "known_operations": 10,
+37:         "expected_flips": 7,
+38:         "observed_flips": 7
+39:       },
+40:       "meets_expectation": true
+41:     },
+42:     {
+43:       "name": "negative_no_fault",
+44:       "negative_control": true,
+45:       "counts": {
+46:         "checks": 39718,
+47:         "failures": 14,
+48:         "reads": 120,
+49:         "normal_reads": 114,
+50:         "fault_reads": 6,
+51:         "known_operations": 10,
+52:         "expected_flips": 7,
+53:         "observed_flips": 0
+54:       },
+55:       "meets_expectation": true
+56:     },
+57:     {
+58:       "name": "negative_always_fault",
+59:       "negative_control": true,
+60:       "counts": {
+61:         "checks": 39718,
+62:         "failures": 9209,
+63:         "reads": 120,
+64:         "normal_reads": 114,
+65:         "fault_reads": 6,
+66:         "known_operations": 10,
+67:         "expected_flips": 7,
+68:         "observed_flips": 8843
+69:       },
+70:       "meets_expectation": true
+71:     }
+72:   ]
+73: }
+
+### proof_results.json
+1: {
+2:   "status": "PASS",
+3:   "preserved_source_files": 8,
+4:   "core_input_connections_identical": true,
+5:   "core_inputs": [
+6:     "io_9_31_1",
+7:     "io_13_31_1",
+8:     "io_16_31_0",
+9:     "io_17_31_0",
+10:     "io_18_31_1",
+11:     "io_19_31_1"
+12:   ],
+13:   "BUSY_LED_connections_identical": true,
+14:   "MISO_difference_is_XOR_mask": true,
+15:   "proofs": {
+16:     "normal": {
+17:       "expected": "SUCCESS!",
+18:       "actual": "SAT proof finished - no model found: SUCCESS!",
+19:       "pass": true
+20:     },
+21:     "control_allow_fault": {
+22:       "expected": "FAIL!",
+23:       "actual": "SAT proof finished - model found: FAIL!",
+24:       "pass": true
+25:     },
+26:     "control_trace": {
+27:       "expected": "FAIL!",
+28:       "actual": "SAT proof finished - model found: FAIL!",
+29:       "pass": true
+30:     },
+31:     "edge_normal": {
+32:       "expected": "SUCCESS!",
+33:       "actual": "SAT proof finished - no model found: SUCCESS!",
+34:       "pass": true
+35:     },
+36:     "edge_control": {
+37:       "expected": "FAIL!",
+38:       "actual": "SAT proof finished - model found: FAIL!",
+39:       "pass": true
+40:     },
+41:     "cyclic_control": {
+42:       "expected": "FAIL!",
+43:       "actual": "SAT proof finished - model found: FAIL!",
+44:       "pass": true
+45:     },
+46:     "cyclic_induction": {
+47:       "expected": "inductive proof success",
+48:       "actual": "Base case and induction step proved at length 100",
+49:       "pass": true,
+50:       "scope": "Unbounded cyclic normal transactions in the synchronous/async2sync model, with fresh arbitrary allowed payload/mode for each transaction."
+51:     }
+52:   },
+53:   "explicit_edge_control_fault_samples": [
+54:     {
+55:       "step": 86,
+56:       "cycle": 43,
+57:       "miso": 1,
+58:       "mode_a": 0,
+59:       "mode_b": 0,
+60:       "word_a": 3315605542,
+61:       "word_b": 0
+62:     },
+63:     {
+64:       "step": 87,
+65:       "cycle": 43,
+66:       "miso": 1,
+67:       "mode_a": 0,
+68:       "mode_b": 0,
+69:       "word_a": 3315605542,
+70:       "word_b": 0
+71:     }
+72:   ],
+73:   "ram_controls": [
+74:     {
+75:       "design": "baseline",
+76:       "instance": "recovered.ram40_6_11",
+77:       "WCLK": 0,
+78:       "WCLKE": 0,
+79:       "WE": 1
+80:     },
+81:     {
+82:       "design": "baseline",
+83:       "instance": "recovered.ram40_6_5",
+84:       "WCLK": 0,
+85:       "WCLKE": 0,
+86:       "WE": 1
+87:     },
+88:     {
+89:       "design": "baseline",
+90:       "instance": "recovered.ram40_6_7",
+91:       "WCLK": 0,
+92:       "WCLKE": 0,
+93:       "WE": 1
+94:     },
+95:     {
+96:       "design": "baseline",
+97:       "instance": "recovered.ram40_6_9",
+98:       "WCLK": 0,
+99:       "WCLKE": 0,
+100:       "WE": 1
+101:     },
+102:     {
+103:       "design": "modified",
+104:       "instance": "recovered.ram40_6_11",
+105:       "WCLK": 0,
+106:       "WCLKE": 0,
+107:       "WE": 1
+108:     },
+109:     {
+110:       "design": "modified",
+111:       "instance": "recovered.ram40_6_5",
+112:       "WCLK": 0,
+113:       "WCLKE": 0,
+114:       "WE": 1
+115:     },
+116:     {
+117:       "design": "modified",
+118:       "instance": "recovered.ram40_6_7",
+119:       "WCLK": 0,
+120:       "WCLKE": 0,
+121:       "WE": 1
+122:     },
+123:     {
+124:       "design": "modified",
+125:       "instance": "recovered.ram40_6_9",
+126:       "WCLK": 0,
+127:       "WCLKE": 0,
+128:       "WE": 1
+129:     }
+130:   ],
+131:   "quantification": "Bounded two-transaction models and an unbounded cyclic synchronous protocol model; arbitrary allowed stable 32-bit word/mode per transaction plus arbitrary extraction MOSI. Only the disclosed encryption-word case is excluded.",
+132:   "compositional_argument": "No XOR mask under these conditions plus unchanged inputs to the same recovered core implies equal sampled outputs for coupled core state. The core itself is abstracted, not cryptographically verified.",
+133:   "limits": [
+134:     "Explicit-edge model is bounded to 325 global samples; unbounded cyclic proof uses the synchronous async2sync model.",
+135:     "Reset, full frames, stable mode, prescribed launch/readout sequence are assumptions.",
+136:     "No claim for malformed frames, arbitrary clock/control glitches, metastability, real board timing, or cipher identity.",
+137:     "Negative controls intentionally permit existing disclosed fault behavior; no new behavior is generated."
+138:   ]
+139: }
+
+### overhead.json
+1: {
+2:   "method": "Same installed Yosys synth_ice40 defaults, same frozen baseline and respective frozen wrappers; mapped primitive counts, no placement/routing/timing or power result.",
+3:   "resources": {
+4:     "lut4": {
+5:       "baseline": 1439,
+6:       "modified": 1475,
+7:       "added": 36,
+8:       "percent": 2.5017
+9:     },
+10:     "flip_flops": {
+11:       "baseline": 71,
+12:       "modified": 119,
+13:       "added": 48,
+14:       "percent": 67.6056
+15:     },
+16:     "ram4k": {
+17:       "baseline": 4,
+18:       "modified": 4,
+19:       "added": 0,
+20:       "percent": 0.0
+21:     },
+22:     "carry": {
+23:       "baseline": 0,
+24:       "modified": 13,
+25:       "added": 13,
+26:       "percent": null
+27:     },
+28:     "total_cells_excluding_scopeinfo": {
+29:       "baseline": 1514,
+30:       "modified": 1611,
+31:       "added": 97,
+32:       "percent": 6.4069
+33:     }
+34:   },
+35:   "negligible_overhead_established": false
+36: }
+
+### detector_results.json
+1: {
+2:   "runs": [
+3:     {
+4:       "candidate": "flat_clean",
+5:       "input_sha256": "96451f2532ffaeb3571f73703ff43e3fcb1db1c05b6c3361d32691adf3727baa",
+6:       "graph_input_loaded_without_changes": true,
+7:       "scores": {
+8:         "HT1": {
+9:           "prediction": 0,
+10:           "label": "CLEAN",
+11:           "prob_clean": 0.9909785985946655,
+12:           "prob_trojan": 0.009021414443850517,
+13:           "log_probabilities": [
+14:             -0.009062348864972591,
+15:             -4.708154201507568
+16:           ],
+17:           "logits": [
+18:             2.425645589828491,
+19:             -2.2734460830688477
+20:           ]
+21:         },
+22:         "HT2": {
+23:           "prediction": 0,
+24:           "label": "CLEAN",
+25:           "prob_clean": 0.5697441697120667,
+26:           "prob_trojan": 0.43025586009025574,
+27:           "log_probabilities": [
+28:             -0.5625678300857544,
+29:             -0.8433752059936523
+30:           ],
+31:           "logits": [
+32:             0.04342144727706909,
+33:             -0.23738595843315125
+34:           ]
+35:         },
+36:         "HT3": {
+37:           "prediction": 0,
+38:           "label": "CLEAN",
+39:           "prob_clean": 0.8367120623588562,
+40:           "prob_trojan": 0.16328798234462738,
+41:           "log_probabilities": [
+42:             -0.17827530205249786,
+43:             -1.8122398853302002
+44:           ],
+45:           "logits": [
+46:             0.7931451797485352,
+47:             -0.8408193588256836
+48:           ]
+49:         },
+50:         "HT4": {
+51:           "prediction": 1,
+52:           "label": "TROJAN",
+53:           "prob_clean": 0.07416398078203201,
+54:           "prob_trojan": 0.9258360862731934,
+55:           "log_probabilities": [
+56:             -2.6014766693115234,
+57:             -0.0770580992102623
+58:           ],
+59:           "logits": [
+60:             -1.295805811882019,
+61:             1.2286127805709839
+62:           ]
+63:         }
+64:       },
+65:       "ensemble": {
+66:         "verdict": "TROJAN",
+67:         "triggered_models": [
+68:           "HT4"
+69:         ],
+70:         "rule": "Any model votes 1"
+71:       },
+72:       "scope": "Classification of the repaired validated dataflow representation; no full temporal/physical proof, calibration or universal stealth claim."
+73:     },
+74:     {
+75:       "candidate": "flat_modified",
+76:       "input_sha256": "02e314526d622e48bb31449312a0217b6a054be6c4956c6dad49e86ed6d4b242",
+77:       "graph_input_loaded_without_changes": true,
+78:       "scores": {
+79:         "HT1": {
+80:           "prediction": 0,
+81:           "label": "CLEAN",
+82:           "prob_clean": 0.9114469885826111,
+83:           "prob_trojan": 0.08855298161506653,
+84:           "log_probabilities": [
+85:             -0.0927218571305275,
+86:             -2.424154281616211
+87:           ],
+88:           "logits": [
+89:             1.2227308750152588,
+90:             -1.1087015867233276
+91:           ]
+92:         },
+93:         "HT2": {
+94:           "prediction": 1,
+95:           "label": "TROJAN",
+96:           "prob_clean": 0.2526581585407257,
+97:           "prob_trojan": 0.7473418712615967,
+98:           "log_probabilities": [
+99:             -1.3757178783416748,
+100:             -0.2912325859069824
+101:           ],
+102:           "logits": [
+103:             -0.6532886028289795,
+104:             0.4311966300010681
+105:           ]
+106:         },
+107:         "HT3": {
+108:           "prediction": 0,
+109:           "label": "CLEAN",
+110:           "prob_clean": 0.8367120623588562,
+111:           "prob_trojan": 0.16328798234462738,
+112:           "log_probabilities": [
+113:             -0.17827530205249786,
+114:             -1.8122398853302002
+115:           ],
+116:           "logits": [
+117:             0.7931451797485352,
+118:             -0.8408193588256836
+119:           ]
+120:         },
+121:         "HT4": {
+122:           "prediction": 1,
+123:           "label": "TROJAN",
+124:           "prob_clean": 0.043232742697000504,
+125:           "prob_trojan": 0.9567672610282898,
+126:           "log_probabilities": [
+127:             -3.1411571502685547,
+128:             -0.044195130467414856
+129:           ],
+130:           "logits": [
+131:             -1.568276047706604,
+132:             1.5286859273910522
+133:           ]
+134:         }
+135:       },
+136:       "ensemble": {
+137:         "verdict": "TROJAN",
+138:         "triggered_models": [
+139:           "HT2",
+140:           "HT4"
+141:         ],
+142:         "rule": "Any model votes 1"
+143:       },
+144:       "scope": "Classification of the repaired validated dataflow representation; no full temporal/physical proof, calibration or universal stealth claim."
+145:     }
+146:   ],
+147:   "checkpoint_candidate_classifications": 8,
+148:   "detector_or_design_tuning": false,
+149:   "model_training": false,
+150:   "graph_gates_passed_before_inference": true
+151: }
+
+### encryption_explanation.md
+1: # How the original cipher works
+2: 
+3: The original recovered design is a **custom 32-bit cipher with four rounds**, using the AES byte-substitution table. Each encryption round XORs the word with one fixed 32-bit mask, substitutes each of its four bytes, then rotates the word left by one byte. Decryption reverses those operations. The same mask is reused in every round.
+4: 
+5: This is now an original-source reconstruction, beyond the earlier architectural proposal. It comes from the recovered RTL, original memory contents and documented host interface. It was checked independently against the unchanged original Verilog. No published challenge solution, shared solution chat, excluded Claude implementation or separate professor-supplied AES design supplied the algorithm.
+6: 
+7: ## Exact operations
+8: 
+9: ```text
+10: F(x) = ROL32(SubBytes_AES(x XOR K), 8)
+11: G(x) = InvSubBytes_AES(ROR32(x, 8)) XOR K
+12: Encrypt(x) = F(F(F(F(x))))
+13: Decrypt(x) = G(G(G(G(x))))
+14: ```
+15: 
+16: `SubBytes_AES` applies the AES S-box to each byte independently; `InvSubBytes_AES` applies its inverse. `K` is one 32-bit fixed mask, made of four fixed 8-bit parts. Bytes are numbered least-significant first. Forward output byte `(j+1) mod 4` is `S(input[j] XOR K[j])`; inverse output byte `j` is `S^-1(input[(j+1) mod 4]) XOR K[j]`.
+17: 
+18: Using an AES component does **not** make this standard AES. Standard AES has 128-bit blocks and its own round structure and key expansion. This design has 32-bit blocks, four rounds, byte rotation, no AES MixColumns and no AES key expansion. The byte table was independently calculated from the mathematics in [NIST FIPS 197, sections 4 and 5.1.1](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf), then compared with all original table entries after tracing the bit wiring.
+19: 
+20: ## Key handling
+21: 
+22: The fixed XOR operation appears as hardwired inversions on selected data wires. Initial and feedback paths contain the same per-byte inversions, so the effective mask stays constant across all four rounds. The inverse path applies the matching mask after inverse substitution. The four memories have disabled write clocks and write-clock enables.
+23: 
+24: There is no evolving round-key state, separate runtime key port, or key-loading step in the supplied normal protocol. The initial round depends on the newly loaded message, not a previous normal transaction. These source dependencies establish fixed-mask handling rather than merely relying on the absence of a port named “key.”
+25: 
+26: This does not establish the original author's variable names, how the constant was selected, its entropy or security. The reproduction script derives the mask internally from the original wires; no numeric bonus-key result or key-exfiltration mechanism is supplied.
+27: 
+28: ## Data path and clocks
+29: 
+30: ```mermaid
+31: flowchart LR
+32:     I[32-bit serial input bank] --> F[Forward path: four ROM byte substitutions]
+33:     I --> D[Inverse path: Boolean logic and 32 working registers]
+34:     F -->|Four rounds| M[Select completed result with ENC_DEC]
+35:     D -->|Four rounds| M
+36:     M --> O[Parallel load into shared serial bank]
+37:     O --> R[32 registered serial output bits]
+38: ```
+39: 
+40: 1. Chip-select low shifts in 32 bits, most-significant first.
+41: 2. START with chip-select high performs the first round. Three more rising edges complete rounds two through four. The two synchronized counters follow `00 → 01 → 10 → 11 → 00`.
+42: 3. Forward and inverse paths compute concurrently. `ENC_DEC=0` selects the forward result; `ENC_DEC=1` selects the inverse. The selection acts at the parallel result load, not as a round-key or counter selector. The normal driver keeps it stable.
+43: 4. BUSY falls after round four. A **further rising edge with chip-select still high** copies the selected result into the serial bank. Reading immediately can miss this load and return old input.
+44: 5. The host waits seven clocks after START, then shifts out 32 bits. Seven wait clocks are not seven cipher rounds.
+45: 
+46: ## What was verified
+47: 
+48: | Check | Result |
+49: |---|---|
+50: | Original ROMs against mathematical AES S-box after wiring normalization | All 256 entries in each of four memories match. |
+51: | Exact source-derived byte identities | 4,096 checks confirm initial/feedback equality and both directions of inversion for every byte value in every slot. |
+52: | Original control equations | 9,344 identities over 512 assignments, over the documented reset and reachable-state conditions; states outside those conditions are not covered. |
+53: | Independent mathematical model against original Boolean/ROM interpreter | 2,564 complete transactions across 1,282 distinct words; 20,512 round-state matches and zero mismatches. |
+54: | Untouched original Verilog and primitive simulation | Same 2,564 transactions; 20,512 round-state comparisons and 12,820 serial/BUSY checks; zero failures. |
+55: 
+56: Inputs include every byte value in each position, walking ones, extremes, the supplied pair and seeded random words. Both encryption and decryption are tested. The original example `59c359c3 → 9cd84392` and its reverse match. The raw table originally failed a direct AES comparison because its address and output bits are reordered; normalization resolves that earlier uncertainty.
+57: 
+58: Read the [reconstruction report](addenda/2026-11-12-cipher-reconstruction/README.md), [structured results](addenda/2026-11-12-cipher-reconstruction/analysis/RECONSTRUCTION_RESULTS.json), [original simulator log](addenda/2026-11-12-cipher-reconstruction/verification/icarus_run/1.stdout), and [independent Trojan-chat source audit](addenda/2026-11-12-cipher-reconstruction/trojan_review/REPORT.md). Reproduction instructions and all current Qwen prompts, replies and corrections are included there.
+59: 
+60: ## Limits that remain
+61: 
+62: The operations, round count, bit/byte ordering and effective fixed-mask handling are now established for the recovered digital design under the documented protocol. The author's original algorithm name, design rationale and cryptographic strength are not established. The exact byte checks support local algebraic conclusions; the full simulator run is finite and is not a new whole-system formal proof covering arbitrary malformed frames, asynchronous behavior or hardware timing.
+63: 
+64: The [reference-board pin audit](addenda/2026-11-12-qwen-verification/pin_audit/REPORT.md) separately establishes the published board's pin map, including the physical BUSY/LED label distinction. No particular board was tested and the earlier automatically pinned bitstream is not newly validated for that board.
+65: 
+66: This closes the earlier cipher-operation/key-handling explanation gap. It does not close the separate gaps in historical AI logs, stealth, physical overhead, generation automation or instructor acceptance. Original RTL, testbenches and sealed evidence remain unchanged. Earlier addenda and the original brief are preserved as historical records; this document supersedes their statements that the cipher was still unidentified.
+
+### qualifier_requirements.md
+1: > Requirements snapshot retrieved on 2026-11-13 from the [official qualifier README](https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026/tree/main/qualifier). Only the requirements and rubric before the “Solution” section are retained. Relative links in the snapshot refer to the upstream repository. This is course-provided guidance, not instructions executed by this package.
+2: 
+3: # Preliminary Challenge
+4: One major use for FPGAs is to accelerate often computationally expensive and slow cryptographic processes. In this phase, your target is a simplified cryptographic accelerator implemented on the FPGA (a [Lattice iCE40-UP5K](https://www.latticesemi.com/en/products/fpgaandcpld/ice40ultraplus)), which communicates with the application microprocessor ([RP2040](https://www.raspberrypi.com/products/rp2040/)) on the Hackster over a SPI (Serial Peripheral Interface) bus. However, the source RTL will not be provided for this design; instead, teams must reverse engineer the provided bitstream to determine how the cryptographic algorithm works before they can then add hardware Trojans. While existing non-AI tools may be leveraged throughout the challenge, the hardware Trojan and exploit must be written fully with AI.
+5: 
+6: ## The Setup
+7: The RP2040 acts as the SPI controller, sending plaintext data and cryptographic keys to the FPGA (the SPI peripheral). The FPGA processes this data through its hardware accelerator and transmits the resulting ciphertext back to the RP2040. 
+8: 
+9: For the preliminary challenge, teams will be operating entirely in simulation. The following can be found in the [challenge directory](./) in this repo:
+10: - **FPGA Bitstream:** The bitstream for the Lattice [iCE40 UltraPlus FPGA](https://www.latticesemi.com/en/products/fpgaandcpld/ice40ultraplus).
+11: - **Micropython Application Code:** The micropython software for the [RP2040](https://www.raspberrypi.com/products/rp2040/) which interacts with the FPGA IP core. This should be used to create a testbench once a functional Verilog module has been recovered from the bitstream.
+12: - **FPGA Interface Documentation:** Simple documentation explaining how the interaction with the FPGA works, including details on SPI speeds, expected timing, and signals between the RP2040 and FPGA.
+13: 
+14: Please see the [*Getting Started section*](../README.md#getting-started) of the top-level README for details on the open-source tooling we recommend and a general guide on using the Hackster. *Note: You are not required to only use these open-source tools, they are only provided as a starting point.*
+15: 
+16: ## The Challenge
+17: Your objective is to use generative AI to design and insert a stealthy *hardware Trojan* into the recovered RTL from the provided bitstream. The Trojan must be designed such that the accelerator functions perfectly under normal conditions, but malicious behavior is activated under specific, hidden circumstances.
+18: 
+19: **No hardware may be written by human users. This will be confirmed with the submitted AI logs.**
+20: 
+21: To successfully complete this phase, your GenAI-assisted Trojan must feature:
+22: - **A Trigger:** A specific sequence of events or data that activates the Trojan.
+23: - **A Payload:** The malicious action taken once triggered. For example, leaking the secret cryptographic key over the SPI MISO line, silently weakening the encryption, or predictably corrupting the ciphertext.
+24: 
+25: Your modified design does not need to remain in the exact format that the bitstream was recovered into, the AI is able to rename variables and create additional modules as it sees fit.
+26: 
+27: ## Preliminary Challenge Deliverables
+28: By the submission deadline, teams must provide a `.zip` archive containing:
+29: 
+30: 1.  **Modified RTL:** The Verilog files containing your AI-generated hardware Trojan.
+31: 2.  **Exploit Testbench:** A custom simulation testbench demonstrating how to trigger the Trojan and verifying that the payload successfully executes.
+32:     - This can be based off the provided funtional micropython script.
+33: 3.  **GenAI Transcripts:** Comprehensive logs (or a document containing links to chat histories) of all prompts and AI responses used to generate the Trojan. *Submissions missing these logs will be disqualified.*
+34: 4.  **Technical Brief:** A short text or markdown README detailing the following:
+35:     - The team's methods for reverse engineering and understanding the bitstream.
+36:     - The team's methods for using AI to analyze the design and generate the Trojan. This should include details on the method of interaction (API, website UI, etc.), the model(s) used, and any additional supporting framework that might have been used around the AI. *This is largely what we will be judging to determine points for creative AI usage.*
+37:     - Details about the Trojan's design, including:
+38:         - Information about the trigger and payload.
+39:         - Any methods taken to increase the Trojan's stealth.
+40:         - Details on the exploit for the vulnerability. **This should include enough detail that we are able to exploit the Trojan in hardware once a bitstream is generated from the provided RTL.**
+41:         - Proposed explanation for how the encryption system works.
+42: 
+43: All files should be submitted in the following format to [this Google form](https://forms.gle/d57fkBe5WFxDc9ha8):
+44: ```
+45: submission.zip
+46: ├── README.md (or pdf)
+47: ├─ rtl/
+48: │  └── <Modified RTL>
+49: ├─ tb/
+50: │  └── <Exploit Testbench>
+51: └─ ai/
+52:    └── <all AI interactions (chat logs, etc.)>
+53: ```
+54: 
+55: ## Scoring
+56: The following rubric depicts how the first phase of the challenge will be judged:
+57: 
+58: #### Creative Use of Generative AI
+59: Evaluates the sophistication of the AI pipeline (e.g., complex prompt chaining and engineering, RAG, agentic workflows, etc.) versus basic copy-pasting.
+60: 
+61: | | Exemplary  <br> 35 - 28 Points| Proficient <br> 27 - 18 Points | Developing <br> 17 - 9 Points | Novice <br> 8 - 0 Points|
+62: | :--- | :--- | :--- | :--- | :--- |
+63: | **Generative AI Use** | Dynamic, seamless AI generation and insertion using advanced techniques (e.g., AST manipulation). | Effective AI generation of logic, but relies on little more than prompt engineering and basic insertion. | Simple AI generated logic, but required significant manual editing through repeated prompting. | Minimal AI use; just simple prompting with copy-pasting. |
+64: 
+65: #### Trojan Quality
+66: Evaluates the quality of the generated Trojan for factors like stealth, severity, and funtionality in-situ
+67: 
+68: | | Exemplary  <br> 25 - 20 Points| Proficient <br> 19 - 13 Points | Developing <br> 12 - 6 Points | Novice <br> 5 - 0 Points|
+69: | :--- | :--- | :--- | :--- | :--- |
+70: | **Trojan Quality** | Highly stealthy with an extremely specific trigger and negligible resource overhead. Payload is sophisticated (e.g., precise key exfiltration) and normal operation is perfectly preserved. | Stealthy with a clear trigger and functional payload. Normal operation is preserved, but resource overhead is noticeable or the payload is less sophisticated (e.g., simple DoS or basic data corruption). | Trojan activates, but the trigger is too broad (prone to accidental activation). Normal operation is occasionally impacted, or the hardware footprint is suspiciously large. | Trojan fails to trigger, completely breaks the baseline cryptographic functionality, or the payload is non-functional. |
+71: 
+72: 
+73: #### System Automation
+74: Measures the end-to-end automation of the generation, insertion, and testing pipeline.
+75: 
+76: | | Exemplary  <br> 15 - 12 Points| Proficient <br> 11 - 8 Points | Developing <br> 7 - 4 Points | Novice <br> 3 - 0 Points|
+77: | :--- | :--- | :--- | :--- | :--- |
+78: | **System Automation** | Fully automated, "one-click" pipeline from AI generation to simulation output. |  Highly automated but requires 1-2 manual steps (e.g., moving files). |Fragmented pipeline requiring manual oversight and handoffs between scripts.  |No automation; entirely manual generation, insertion, and testing.  |
+79: 
+80: #### Documentation & Reproducibility
+81: Evaluates the clarity of the team's write-up, full AI logs, and instructions for replicating the exploit/using the generative AI framework.
+82: 
+83: | | Exemplary  <br> 15 - 12 Points| Proficient <br> 11 - 8 Points | Developing <br> 7 - 4 Points | Novice <br> 3 - 0 Points|
+84: | :--- | :--- | :--- | :--- | :--- |
+85: | **Documentation** | Exceptional detail on AI prompts, architecture, and perfect reproducibility steps. | Clear and complete explanation of strategy and mechanism; mostly reproducible. | Basic overview lacking pipeline details; reproducibility requires guesswork. | Missing or highly confusing; fails to explain AI usage or Trojan operation. |
+86: 
+87: 
+88: #### Exploitation Simulation
+89: Assesses the quality of the testbench in proving both normal operation and the successful Trojan exploit.
+90: 
+91: | | Exemplary  <br> 10 - 8 Points| Proficient <br> 7 - 5 Points | Developing <br> 4 - 2 Points | Novice <br> 1 - 0 Points|
+92: | :--- | :--- | :--- | :--- | :--- |
+93: | **Simulation Quality** | Flawless testbench; explicitly proves normal operation *and* the payload trigger with clear waveforms. | Clearly demonstrates payload triggering, but proof of normal operation is lacking. | Buggy or hard to interpret; proves payload works but trigger mechanism is unclear. | Missing, fails to compile, or does not successfully demonstrate the exploit. |
+94: 
+95: #### Bonus Points
+96: While not explicitly a part of this particular challenge, up to 10 bonus points are available if teams can recover the key used for encryption/decryption in the FPGA accelerator. **If you do so, please make it clear in your documentation along with a brief explanation of how you recovered the key.**

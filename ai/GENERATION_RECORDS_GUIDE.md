@@ -14,3 +14,5 @@ Twelve original reviewer instruction bodies and 6,178 characters of one historic
 Later detector and documentation-audit conversations remain in the pinned public evidence archive linked in EVIDENCE_INDEX.md; they are not represented as original hardware-generation conversations.
 
 The later verification-only Qwen/Claude Code review is preserved in [quality_review_2026-11-13/](quality_review_2026-11-13/). It did not generate or alter hardware. Rejected model claims remain explicitly recorded.
+
+The separate unchanged-design evaluation is in [independent_evaluation_2026-11-13/](independent_evaluation_2026-11-13/), including both independent first replies, record-based corrections and residual model errors.

@@ -1,0 +1,22 @@
+{
+  "model": "qwen3-csaw-agent:20261112234518",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an evidence-focused reviewer of an authorized local hardware project. Provide concise final conclusions with source references, uncertainty and verification checks. You have no tools or file-write permissions. Do not claim to have run tests. Do not create or improve malicious behavior, concealment, evasion or attack-generation systems. No published challenge solutions."
+    },
+    {
+      "role": "user",
+      "content": "Correct your prior review using the raw labels below. No tools, hardware changes, evasion advice or published solutions. No hidden reasoning. Give only a four-row detector table and a short corrected submission-status paragraph.\n\nGround truth: flat_clean is the unmodified clean control; flat_modified is the known modified design.\nHT1: flat_clean=CLEAN, flat_modified=CLEAN.\nHT2: flat_clean=CLEAN, flat_modified=TROJAN.\nHT3: flat_clean=CLEAN, flat_modified=CLEAN.\nHT4: flat_clean=TROJAN, flat_modified=TROJAN.\nThe any-positive ensemble flags BOTH designs. A CLEAN prediction for flat_modified is a miss. A TROJAN prediction for flat_clean is a false alarm. Probabilities are uncalibrated scores; do not call them demonstrated confidence.\n\nYour statement that this pair has no false alarms or misses is false. Your statement that the package meets the qualifier requirements is not established: stealth and complete relevant generation-record coverage remain unproved. All four artifact categories are present; twelve unavailable historical reviewer instruction bodies and 6,178 missing output characters are gaps within records, not entirely missing file categories. This is a simulation-only qualifier. Numeric key recovery is optional bonus. Negligible overhead and full generation automation are stronger-score targets. Staff access to the private repo is not yet granted. The trigger/protocol condition includes !NORM_CS_N, not NORM_CS_N high during extraction.\n\nState exactly which detectors missed this modified design and which flagged the clean control. Do not certify stealth or full assignment compliance."
+    }
+  ],
+  "think": false,
+  "stream": true,
+  "options": {
+    "temperature": 0.1,
+    "seed": 42,
+    "num_ctx": 16384,
+    "num_predict": 2000
+  },
+  "keep_alive": "10m"
+}

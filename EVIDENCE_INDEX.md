@@ -25,3 +25,7 @@ Historical reports inside the sealed addenda are unchanged. Their original absol
 ## Verification quality update
 
 [Review and limitations](docs/QUALITY_REVIEW.md), [model records](ai/quality_review_2026-11-13/) and [fresh replay evidence](evidence/quality_review_2026-11-13/) support the new read-only result checker. This later run preserves all original hardware inputs and adds no stealth claim.
+
+## Independent unchanged-design evaluation
+
+[Report](docs/INDEPENDENT_EVALUATION.md), [model inputs and replies](ai/independent_evaluation_2026-11-13/) and [direct evidence checks](evidence/independent_evaluation_2026-11-13/). This is a source-aware review of existing experimental records; no new detector, simulation or synthesis run was made.

@@ -1,0 +1,2 @@
+okay work with qwen and claude code to independently evaluate the unchanged design, save all the evidence in my private repo, and tell me plainly what’s still missing for submission
+

@@ -1,0 +1,65 @@
+{
+  "source": "work/csaw-private-submission/evidence/quality_review_2026-11-13/replay/20261113T151115Z_vyjmb_r7/demonstration/demo_trace.csv",
+  "source_sha256": "2ea5c835afc7933a98ff60571757bfa0e02f9e16e37ebc0c7be1d82f16080d2e",
+  "method": "Read saved CSV; count extract and partial_extract rows by named case/phase. Not a new simulation.",
+  "expected_flip_rows": [
+    {
+      "case": "trigger_no_gap",
+      "phase": "extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "7676501211",
+      "extraction_position": 1
+    },
+    {
+      "case": "trigger_idle_and_pauses",
+      "phase": "extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "7833501215",
+      "extraction_position": 1
+    },
+    {
+      "case": "consecutive_trigger_a",
+      "phase": "extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "7947501218",
+      "extraction_position": 1
+    },
+    {
+      "case": "consecutive_trigger_b",
+      "phase": "extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "8019501220",
+      "extraction_position": 1
+    },
+    {
+      "case": "extraction_not_ingress",
+      "phase": "extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "8093501222",
+      "extraction_position": 1
+    },
+    {
+      "case": "reset_during_extraction",
+      "phase": "partial_extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "8639501236",
+      "extraction_position": 1
+    },
+    {
+      "case": "held_start",
+      "phase": "extract",
+      "MISO": "0",
+      "REF_MISO": "1",
+      "time_ps": "8722501239",
+      "extraction_position": 1
+    }
+  ],
+  "all_first_extraction_bits": true,
+  "initial_check_error": "Initial scratch check filtered only extract and expected seven rows; it found six. The seventh is the explicitly named partial_extract reset test. Corrected to include both recorded phases."
+}

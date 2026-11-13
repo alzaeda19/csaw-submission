@@ -1,0 +1,11 @@
+Detector Table:
+
+| Detector | flat_clean | flat_modified |
+|----------|------------|---------------|
+| HT1      | CLEAN      | CLEAN         |
+| HT2      | CLEAN      | TROJAN        |
+| HT3      | CLEAN      | CLEAN         |
+| HT4      | TROJAN     | TROJAN        |
+
+Corrected Submission-Status:  
+HT1 and HT3 missed the modified design; HT2 flagged the clean control as a false alarm. Stealth and full compliance are not certified.

@@ -1,0 +1,11 @@
+1. **Visible source changes**: The `modified_wrapper.sv` introduces a `DEMO_WORD` and logic to invert the MISO signal under specific conditions (fault_active, NORM_CS_N, read_count == 6'd1). The `demonstration_tb.sv` includes a comprehensive testbench with multiple test cases, including fault injection and expected behavior checks. The `proof_results.json` confirms the MISO difference is an XOR mask, and the `simulation_summary.json` shows the testbench passes all checks.
+
+2. **Simulation/proof evidence**: The simulation establishes that the modified wrapper inverts the MISO signal only when specific conditions are met (fault_active, NORM_CS_N, read_count == 6'd1). The proof confirms the MISO difference is an XOR mask, but it does not cover all possible behaviors, especially malformed frames or asynchronous conditions.
+
+3. **Measured resource counts**: The `overhead.json` shows the modified design has 36 more LUTs and 48 more flip-flops than the baseline, indicating increased logic and state elements. The RAM usage remains unchanged, and the total cell count increased by 97, with a 6.4% increase in total cells.
+
+4. **Detector results**: The detector results show that the modified design is classified as a TROJAN with high confidence. The HT2 and HT4 models vote for TROJAN, indicating the presence of a hardware Trojan. The detector does not provide false alarms or misses for this exact pair, as the verdict is clear.
+
+5. **Qualifier requirements**: Missing file categories include historical reviewer instruction bodies (12) and 6,178 characters of one historical output. Some pin-audit documentation peer exchanges were unreadable. The package includes RTL, tb, AI records, technical README, and ZIP, but staff access has not been granted. The user's course destination is GitHub, and the live competition snapshot has a form.
+
+6. **Package assembly and unresolved issues**: The package is assembled with RTL, testbenches, AI records, and a technical README. Unresolved issues include missing historical logs, unreadable peer exchanges, and the lack of staff access. The private repo has the necessary files, but the user has not granted access. The package meets the qualifier requirements but lacks full documentation and logs for complete reproducibility.

@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-11-13T15:23:37.113179+00:00",
+  "frozen_inputs_checked": 7,
+  "sealed_addenda_checked": 5,
+  "resource_arithmetic_matches": true,
+  "detector_labels": {
+    "flat_clean": {
+      "HT1": "CLEAN",
+      "HT2": "CLEAN",
+      "HT3": "CLEAN",
+      "HT4": "TROJAN"
+    },
+    "flat_modified": {
+      "HT1": "CLEAN",
+      "HT2": "TROJAN",
+      "HT3": "CLEAN",
+      "HT4": "TROJAN"
+    }
+  },
+  "detector_results_sha256": "55298a5e0169004f0c93caf238067b687bde18b86d818134dd830f49ce18bb02",
+  "new_detector_runs": 0,
+  "new_synthesis_runs": 0,
+  "new_simulation_runs": 0,
+  "existing_replay_strict_check": "PASS"
+}

@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-11-13T15:22:57.134360+00:00",
+  "frozen_commit": "0e0b7e3405a82351cc5e1fa914ff25ba36efa73c",
+  "independence": "Separate calls with identical input packet; neither sees the other review or previous review opinions. Not a blinded detector benchmark: clean/modified labels and disclosed purpose are supplied.",
+  "scope": "Read-only review of wrapper, adapter, demonstration testbench and bounded evidence. Full recovered core is hashed and remains in repository, but is not included in model context. No new synthesis, detector experiment, RTL change or stealth optimization.",
+  "inputs": {
+    "modified_wrapper.sv": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/rtl/modified_protocol_dut.sv",
+      "sha256": "f33c3b76159632c3395415701c2cf41b3ef72428b388ca0e38b85eb59f6d4e6e"
+    },
+    "baseline_adapter.sv": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/reference/baseline_protocol_dut.sv",
+      "sha256": "5c841870a9c4735e35f0dc1b07f6dfb7881898729ecf24e2408f73bb1b800089"
+    },
+    "demonstration_tb.sv": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tb/demo_tb.sv",
+      "sha256": "b67e6d085a02239e551732627cfb136f6271e5d16678c8d385754a4436ca175a"
+    },
+    "source_hashes.json": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/SOURCE_HASHES.json",
+      "sha256": "d0a60e1268a20e6ba41a9221f2f6ade4d481385729d2c292a13b21452e1f3762"
+    },
+    "qualifier_requirements.md": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/QUALIFIER_REQUIREMENTS.md",
+      "sha256": "4a4eacaab269b87a3f8b3d5221def17746b5e7182739c53e9616316b39fb16eb"
+    },
+    "overhead.json": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/addenda/2026-11-12-qwen-verification/analysis/OVERHEAD.json",
+      "sha256": "88b100303262b93088b7a96f4a21497c0fff25cdcf3f971f0eb9ab291ef6e531"
+    },
+    "proof_results.json": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/addenda/2026-11-12-qwen-verification/analysis/VERIFICATION_RESULTS.json",
+      "sha256": "7ba1712b1ac6131a691d34438c9b0705ca1a52e0b4ef0f49f76073278d6111a2"
+    },
+    "detector_results.json": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-github/fresh-clone/submission/addenda/2026-11-13-detector-repair/analysis/inference/RESULTS.json",
+      "sha256": "55298a5e0169004f0c93caf238067b687bde18b86d818134dd830f49ce18bb02"
+    },
+    "encryption_explanation.md": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/ENCRYPTION_EXPLANATION.md",
+      "sha256": "544667fb63be8594bb808d418f3d7eaa1f9fc80e8d18ee2b6d57f5d06737917b"
+    },
+    "generation_records_guide.md": {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/ai/GENERATION_RECORDS_GUIDE.md",
+      "sha256": "796f99db3d19b5dafb1c4c2a10ed43d0f65b8cd0cf25c8f72e6e3ce025169ea7"
+    }
+  },
+  "final_judgment": "Codex checks model claims against original artifacts; reviewer opinion is not new experimental proof."
+}

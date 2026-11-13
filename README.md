@@ -4,6 +4,8 @@ This private repository is the focused submission package. Download `submission.
 
 **All four deliverable categories are included; complete AI-log coverage and full challenge compliance are not established.** Stealth remains unestablished, and historical AI records have the exact gaps listed below. This package does not claim an approved alternative scope, a grade or staff acceptance.
 
+**Latest independent assessment:** [what remains for submission](SUBMISSION_STATUS.md) and [Qwen/Claude evaluation with corrected findings](docs/INDEPENDENT_EVALUATION.md). Hardware is unchanged.
+
 ## Required deliverables
 
 | Deliverable | Entry point |
