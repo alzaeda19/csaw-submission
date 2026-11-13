@@ -1,6 +1,6 @@
 {
-  "scope": "Private submission payload; excludes this manifest, ZIP/checksum, Git metadata and Python caches. Historical seals and frozen inputs unchanged.",
-  "created_utc": "2026-11-13T15:13:06.053101+00:00",
+  "scope": "Private submission payload; self/ZIP/checksum excluded. New caches excluded; original provenance-listed historical caches retained to preserve sealed evidence.",
+  "created_utc": "2026-11-13T15:14:27.963548+00:00",
   "files": {
     ".gitignore": {
       "bytes": 35,
@@ -438,6 +438,14 @@
       "bytes": 396,
       "sha256": "4d461b7c199c98fdf3d3d7887687896b305f1f6dfc17d010d337e36770d86701"
     },
+    "addenda/2026-11-12-cipher-reconstruction/trojan_review/__pycache__/check_byte_inverse.cpython-312.pyc": {
+      "bytes": 11313,
+      "sha256": "2df6d7af512ee71353d7713cf95105e809cbd86b940db03b2dda2cfced5c8df6"
+    },
+    "addenda/2026-11-12-cipher-reconstruction/trojan_review/__pycache__/trace_datapath.cpython-312.pyc": {
+      "bytes": 14330,
+      "sha256": "ce2dffb1c597545f91dcbbafe77808ada02da86301803373d61c717b8fb7e981"
+    },
     "addenda/2026-11-12-cipher-reconstruction/trojan_review/ai_records/ENCRYPTED_FIELD_INDEX.json": {
       "bytes": 22168,
       "sha256": "e907e236cd3daffd0f637a6a78210ba9d43895bc18a9983cc9f975332cf0521d"
@@ -573,6 +581,14 @@
     "addenda/2026-11-12-cipher-reconstruction/trojan_review/portable_reproduction/RECEIPT.json": {
       "bytes": 1747,
       "sha256": "5de42aba11364cacc71a1fceadb97401551c56511f5b9d36dcc405c3b7b21aa0"
+    },
+    "addenda/2026-11-12-cipher-reconstruction/trojan_review/portable_reproduction/__pycache__/check_byte_inverse.cpython-312.pyc": {
+      "bytes": 11335,
+      "sha256": "7a99c25451c7fae2a3a1e0f88599d6c766d4b2900e69427f180996886aa214a3"
+    },
+    "addenda/2026-11-12-cipher-reconstruction/trojan_review/portable_reproduction/__pycache__/trace_datapath.cpython-312.pyc": {
+      "bytes": 14352,
+      "sha256": "f0ed88c041529d954a78597c03a30ce83984b22e52d10761220f06a99811e551"
     },
     "addenda/2026-11-12-cipher-reconstruction/trojan_review/portable_reproduction/check_byte_inverse.py": {
       "bytes": 5153,
@@ -2221,6 +2237,10 @@
     "ai/packaging/visible_messages_and_tool_inputs.jsonl": {
       "bytes": 34111,
       "sha256": "2780a3af3b4c22b310ebd2b31acfd6d41a037f0c770527fe6fca64d856e12918"
+    },
+    "ai/quality_review_2026-11-13/PUBLICATION_REFINEMENT.md": {
+      "bytes": 858,
+      "sha256": "5b4b9df73ca159b8ee858067d43b5aa921ff873873198188f4b6645393ab7d4e"
     },
     "ai/quality_review_2026-11-13/USER_REQUEST.txt": {
       "bytes": 59,
