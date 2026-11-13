@@ -1,0 +1,72 @@
+[
+  {
+    "source": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/ai_logs/reviewer_exports/protocol_review.json",
+    "sha256": "20fedad069487a6d56f926feddbbe488886b24d35a1b880d500080e3b53a35d4",
+    "matched_operation_metadata": [
+      {
+        "type": "subAgentActivity",
+        "id": "call_d915ad0a8d4d428cba2d1299e8a5356f",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      },
+      {
+        "type": "subAgentActivity",
+        "id": "call_9b3eefdb992f438db087cc98a4e31f1f",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      },
+      {
+        "type": "subAgentActivity",
+        "id": "call_a1b80aa89ab84051ab4fd45f0278ea29",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      },
+      {
+        "type": "subAgentActivity",
+        "id": "call_339e27886fbd4cc2916066a2277aa61d",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      },
+      {
+        "type": "subAgentActivity",
+        "id": "call_19d3992a8fbf4734bc74853e44db8222",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      }
+    ],
+    "plain_message_or_arguments_available": false
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/ai_logs/reviewer_exports/report_review.json",
+    "sha256": "0f50b26cefb46159e4818be16ec60f3d9c86e195acea7260eb3760f33d3f35df",
+    "matched_operation_metadata": [
+      {
+        "type": "subAgentActivity",
+        "id": "call_8bb06266c1d74b9eac7fcbc2d757fec2",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      },
+      {
+        "type": "subAgentActivity",
+        "id": "call_305463d629114b7792565742cccbbbd6",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      },
+      {
+        "type": "subAgentActivity",
+        "id": "call_9900f5093bb74bcd98a4ccfe7a2a39ce",
+        "kind": "interacted",
+        "agentThreadId": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "agentPath": "/root"
+      }
+    ],
+    "plain_message_or_arguments_available": false
+  }
+]

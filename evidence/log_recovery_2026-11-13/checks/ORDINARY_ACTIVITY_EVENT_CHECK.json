@@ -1,0 +1,890 @@
+[
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+    "ordinary_activity_metadata": [
+      {
+        "native_line": 74,
+        "id": "call_43970112767d44079f2d74c060b989fc",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 79,
+        "id": "call_4f88e215129d4605b48d7740c7c5f725",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 83,
+        "id": "subagent-completed-01a1d245-2704-79d1-a305-f315a16334bb",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 84,
+        "id": "subagent-completed-01a1d245-380f-7651-b792-3700395b74a1",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 125,
+        "id": "call_a54c81f0c39b4368a03efe93bd47ab3d",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 144,
+        "id": "subagent-completed-01a1d247-4c5c-75f1-a171-d22909f3e518",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 176,
+        "id": "call_f1c5b5ba792545daabb2eb69865260c8",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 180,
+        "id": "subagent-completed-01a1d248-c06a-7843-90fc-21ef47d594c3",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 254,
+        "id": "call_45123319019f4ceaae28c0f0bc180ad5",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 266,
+        "id": "subagent-completed-01a1d24d-7c39-72e1-bc0c-69111e40c1fd",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 405,
+        "id": "call_d8ce58977fa04620a927bb2c63196fc3",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 410,
+        "id": "call_3ef982ae839e41daaecc2e7cb1274511",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 441,
+        "id": "call_ef3bffb928034fb3b416ba149e6c3678",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 453,
+        "id": "subagent-completed-01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 506,
+        "id": "subagent-completed-01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 558,
+        "id": "call_f1ce932c8cba4c30ba462ead9c2f6e26",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 613,
+        "id": "call_2f95644e6d104ae09742745a9b8fa395",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 629,
+        "id": "call_5b39a589344645d09f9850209109cd23",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 640,
+        "id": "subagent-completed-01a1d25f-d0b3-78e2-8959-429ec689173c",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 657,
+        "id": "call_cc13f5b5a3414e08b554581bc6619575",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 671,
+        "id": "subagent-completed-01a1d25d-97e0-7cf1-90c8-621f694be80a",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 759,
+        "id": "call_e3d7f06e062b42c1aa2b2331eaac21dc",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 768,
+        "id": "call_f4a414e1360c4d7dac4b9cc2390052f9",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 787,
+        "id": "call_b27fd5ef0ba24ba498615eeafe0bca37",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 808,
+        "id": "call_4d39c31c3b7140719eebb33cbbadd4e1",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 888,
+        "id": "call_4a6de30c45774de2af80bec96d28ac6b",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 893,
+        "id": "call_26ac091f14f040a9b60654721ee7b9a6",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 916,
+        "id": "call_0f31d339f6074c9d9f545e559ee8ccfe",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 943,
+        "id": "subagent-completed-01a1d279-e63f-7bc0-b1c5-22290fb72829",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 953,
+        "id": "subagent-completed-01a1d279-9a49-7321-924b-1aebabee5650",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1059,
+        "id": "call_57b24562d0df435ba53dd5fd2fc8fae2",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1067,
+        "id": "call_2ceaff257e1c4bcd94c5bbcdaea8a0d1",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1148,
+        "id": "subagent-completed-01a1d28c-128b-75d0-870d-954091557464",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1155,
+        "id": "subagent-completed-01a1d28b-ba7f-7351-9fc4-8fff92b1f6ef",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1337,
+        "id": "call_2daf185025cc42ad86e1f12642adda5e",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1362,
+        "id": "subagent-completed-01a1d297-dc70-7de3-9618-0863cfa10b69",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1419,
+        "id": "call_53acd72b2cbe40b9bfda82bb3a8bcfbc",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1431,
+        "id": "subagent-completed-01a1d29b-5522-7662-b3c5-88e7c3e2c4d9",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1523,
+        "id": "call_49cca503388e46a6997f94b370ff86b9",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1557,
+        "id": "call_fc0acb1f5e864a2fb2d0d630e99fbfe9",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1584,
+        "id": "subagent-completed-01a1d2a9-5b11-7e60-b817-99198859e321",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1675,
+        "id": "call_86b31bed9f75481c9d7219134374796e",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1689,
+        "id": "call_16bb3e11124c4eb6b23bf958b2777719",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1693,
+        "id": "subagent-completed-01a1d2ac-6485-76a0-b13a-ca76d3aecbae",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1838,
+        "id": "call_c77e99c28e034849910c40f8d5e417a3",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1920,
+        "id": "subagent-completed-01a1d2c0-9957-7101-890c-26e18a153f3a",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1961,
+        "id": "call_57e566683b1b4f87bb39d7e80bd4da0b",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1986,
+        "id": "call_7103b04365d44a59a2d5e830771a7841",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 1999,
+        "id": "subagent-completed-01a1d2c7-830c-76d2-a013-26f7c62ba870",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      }
+    ]
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+    "ordinary_activity_metadata": [
+      {
+        "native_line": 22,
+        "id": "call_19d3992a8fbf4734bc74853e44db8222",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 45,
+        "id": "call_339e27886fbd4cc2916066a2277aa61d",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 66,
+        "id": "call_a1b80aa89ab84051ab4fd45f0278ea29",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 89,
+        "id": "call_d915ad0a8d4d428cba2d1299e8a5356f",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 96,
+        "id": "call_9b3eefdb992f438db087cc98a4e31f1f",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 133,
+        "id": "call_e81664e6ad8b44c0ae8c04b31ec6776a",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 180,
+        "id": "call_8957e443f9f2463688009dcd07f88fba",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      }
+    ]
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+    "ordinary_activity_metadata": [
+      {
+        "native_line": 20,
+        "id": "call_9900f5093bb74bcd98a4ccfe7a2a39ce",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 43,
+        "id": "call_305463d629114b7792565742cccbbbd6",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 84,
+        "id": "call_8bb06266c1d74b9eac7fcbc2d757fec2",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      }
+    ]
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+    "ordinary_activity_metadata": [
+      {
+        "native_line": 32,
+        "id": "call_b8d9ba29ee544e048b28780a44e8eff8",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 48,
+        "id": "call_13146faa462946c98dba080b9c1fbcc5",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      },
+      {
+        "native_line": 88,
+        "id": "call_b87eacd723b742dbb74a7ab0c11978ca",
+        "field_names": [
+          "type",
+          "model",
+          "reasoning_effort",
+          "id",
+          "kind",
+          "agent_thread_id",
+          "agent_path"
+        ],
+        "contains_message_or_prompt_field": false
+      }
+    ]
+  }
+]

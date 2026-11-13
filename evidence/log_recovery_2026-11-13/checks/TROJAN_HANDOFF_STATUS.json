@@ -1,0 +1,10 @@
+{
+  "source": "Observed normal send_message_to_thread/wait_threads results in this task; no recovery response received.",
+  "thread_id": "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+  "thread_title": "trojan",
+  "latest_observed_turn_id": "01a1d59e-3d50-7810-85c0-e2a6d2826ded",
+  "status": "failed",
+  "error": "This content was flagged for possible cybersecurity risk. If this seems wrong, try rephrasing your request. Otherwise, confirm that the access_programs.cyber parameter is set to the appropriate tier, and note that some cybersecurity requests are still limited, even when Daybreak is on.",
+  "recovery_claimed_from_chat": false,
+  "response_to_block": "No further handoff retry. Codex continued the authorized read-only record audit; no design work."
+}

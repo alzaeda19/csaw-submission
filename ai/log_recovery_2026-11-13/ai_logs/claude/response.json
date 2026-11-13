@@ -1,0 +1,119 @@
+{
+  "duration_api_ms": 62676,
+  "stop_reason": "end_turn",
+  "session_id": "e7c1301e-6ba8-4512-aaee-9873fb64f32b",
+  "total_cost_usd": 0.5228602,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 44080,
+    "cache_read_input_tokens": 223341,
+    "output_tokens": 6274,
+    "output_tokens_details": {
+      "thinking_tokens": 847
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 44080,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1750,
+        "cache_read_input_tokens": 43298,
+        "cache_creation_input_tokens": 782,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 782
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-opus-5-5": {
+      "inputTokens": 18,
+      "outputTokens": 6274,
+      "cacheReadInputTokens": 223341,
+      "cacheCreationInputTokens": 44080,
+      "webSearchRequests": 0,
+      "costUSD": 0.5228602,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 847,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 44080,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "# Recovery audit result: nothing recovered\n\nI recovered no plaintext. None of the 12 inbound instruction bodies, none of the 11 outbound `send_message` arguments and none of the missing output range has an exact, identity-matched readable copy in this directory.\n\n## 1. Exact recoveries\nNone.\n\n- **`inputs/api_protocol_fresh.json` and `inputs/api_report_fresh.json`:** all 9 turns (5 protocol, 4 report) have `\"userMessagePresent\": false`. They contain only 9 final-answer items (`msg_01ef633e\u2026` and `msg_07d724c3\u2026`) and two command items (`exec-84b0552d\u2026`, `exec-6d9dc924\u2026`). None of the 12 inbound message IDs (`amsg_\u2026`) or 11 outbound call IDs (`call_\u2026`) appears in either file.\n- **`inputs/previous_VISIBLE_REVIEWER_TRANSCRIPT.md`:** the 12 inbound records show only the routing wrapper, ending at an empty `Payload:`. All 11 outbound calls read `[Tool arguments unavailable; see exact omission ledger.]`.\n- **`checks/INBOUND_NATIVE_RECHECK.json`:** all 12 entries have `fresh_plaintext_body_recovered: false`.\n- **`checks/OUTPUT_GAP_RECHECK.json`:** `new_text_recovered: 0`.\n\n## 2. Remaining gaps\n| Category | Count | Detail |\n|---|---|---|\n| Inbound reviewer instructions | **12 of 12 unrecovered** | 9 new-task requests, 3 follow-up messages. Protocol review lines 13, 36, 57, 80, 108, 162, 178; report review lines 13, 34, 55, 68, 96. |\n| Outbound `send_message` arguments, delivered | **10 unrecovered** | Protocol review lines 21, 44, 65, 88, 95, 132, 179; report review lines 19, 42, 83. |\n| Outbound `send_message` arguments, aborted | **1 unrecovered** | Report review line 63, `call_5ef0f9495e984fbbb802bc57cf7bd6b1`. Its result record (line 65, transcript line 2126) reads `aborted before dispatch`. |\n| Command output gap | **1 range, 6,178 characters** | `exec-84b0552d-5f11-464f-b396-05908175e4f9`, characters [20000, 26178) of 46,178. Characters [0, 20000) and [26178, 46178) are already covered. I did not rerun the command or reconstruct the text. |\n\n**Total: 23 unrecovered message bodies (12 inbound + 10 delivered + 1 aborted) and one output range.** These are gaps that were already documented, not new data loss.\n\n**Status conflict:** `inputs/OUTBOUND_GAPS.json` lists line 63 as `\"native_status\": \"completed\"`, but its line-65 result says `aborted before dispatch`. The \"completed\" status probably describes the call record, not delivery. I kept it separate as you asked.\n\n## 3. Are the visible candidates good enough?\nNo. At most they are about the same topic.\n\n- **The 9 fresh-API final answers** are separate items with their own IDs. They are the reviewers' replies, not the instructions they received or the messages they sent. Even where a turn matches, they are not exact counterparts.\n- **8 of the outbound call IDs** appear in `inputs/previous_APP_EXPORT_COMPARISON.json` as matching saved app items (e.g. JSON lines 292 and 302 for `call_19d3992a\u2026`). That only links the records to each other. The saved app items themselves are not in this directory, and nothing visible shows they contain readable arguments.\n- **The other 3 outbound calls** (protocol lines 132 and 179, report line 63) have no saved app counterpart. That matches the \"three encrypted-call metadata records\" noted in `previous_README.md`.\n\n## 4. Limitations\n- I used only Read, Glob and Grep inside this directory. I did not open native session files, encrypted content, hidden reasoning, account data or solutions, and I made no network calls, ran no commands and wrote nothing.\n- I didn't verify the native line hashes myself. They come from the supplied check files and receipts.\n- I deliberately didn't print the full text of the `exec-84b0552d` command item.\n- The four pin-audit exchanges and three progress messages belong to the Trojan chat's audit and are not counted here. Internal-metadata index counts are also not counted as missing messages.",
+  "ttft_ms": 1767,
+  "type": "result",
+  "duration_ms": 62799,
+  "uuid": "e98c2698-0e7d-4a09-b8db-e46e336fc6b0",
+  "ttft_stream_ms": 1724,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1724,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+    "claude-opus-5-5": {
+      "inputTokens": 18,
+      "outputTokens": 6274,
+      "cacheReadInputTokens": 223341,
+      "cacheCreationInputTokens": 44080,
+      "webSearchRequests": 0,
+      "costUSD": 0.5228602,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 847,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 44080,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  }
+}

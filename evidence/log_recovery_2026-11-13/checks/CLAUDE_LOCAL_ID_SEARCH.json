@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "rg",
+    "-l",
+    "-F",
+    "-f",
+    "outputs/CSAW_log_recovery_2026-11-13/inputs/SEARCH_IDS.txt",
+    "-g",
+    "*.jsonl",
+    "/Users/al-zayedal-hassan/.claude/projects"
+  ],
+  "returncode": 1,
+  "matching_files": [],
+  "stderr": "",
+  "scope": "Filename-only exact-identifier search of local Claude session JSONL; does not claim cloud-session coverage."
+}

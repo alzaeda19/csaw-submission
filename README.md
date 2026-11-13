@@ -6,6 +6,8 @@ This private repository is the focused submission package. Download `submission.
 
 **Latest independent assessment:** [what remains for submission](SUBMISSION_STATUS.md) and [Qwen/Claude evaluation with corrected findings](docs/INDEPENDENT_EVALUATION.md). Hardware is unchanged.
 
+**Latest record recovery:** [authentic output recovery and exact remaining gaps](docs/AI_LOG_RECOVERY.md).
+
 ## Required deliverables
 
 | Deliverable | Entry point |
@@ -104,7 +106,7 @@ The [reference-board pin audit](addenda/2026-11-12-qwen-verification/pin_audit/R
 ## Exact remaining gaps and delivery
 
 - Stealth remains unestablished; the evidence includes detection of the frozen modification.
-- Twelve historical reviewer instruction bodies and 6,178 characters of one tool output remain unavailable. The qualifier requires comprehensive logs and warns that missing logs can disqualify a submission. Available authentic logs and gap disclosures are retained; no records are fabricated.
+- The 6,178-character historical output gap is now fully recovered. Remaining known gaps are 12 incoming reviewer instructions, 11 outgoing reviewer argument fields (including one aborted call), and seven pin-audit exchanges. The [exact inventory](MISSING_AI_RECORDS.md) identifies each record. Comprehensive generation-log coverage remains unestablished; the qualifier warns that missing logs can disqualify a submission. No absent dialogue is fabricated.
 - Normal behavior is verified only within the saved simulations and encoded proof conditions, not every possible hardware history.
 - Numeric key recovery is a bonus, not claimed here. Negligible overhead and complete generation automation are higher-score targets, not additional missing file categories.
 

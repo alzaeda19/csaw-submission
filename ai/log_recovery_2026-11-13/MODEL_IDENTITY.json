@@ -1,0 +1,17 @@
+{
+  "client": "Claude Code 2.1.311",
+  "actual_output_models": {
+    "claude": {
+      "claude-opus-5-5": 6274
+    },
+    "claude_recovery_review": {
+      "claude-opus-5-5": 6692
+    }
+  },
+  "tools_allowed": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "scope": "Curated local recovery directory only; no model writes or execution tools."
+}

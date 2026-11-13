@@ -1,0 +1,365 @@
+[
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 21,
+      "native_line_sha256": "79931306ab611e07f8c764e32df490ae55cdbdd5abc1453112818e14118f3a95",
+      "native_raw_line_bytes": 4082,
+      "timestamp": "2026-11-13T00:18:44.664Z",
+      "turn_id": "01a1d245-2704-79d1-a305-f315a16334bb",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_19d3992a8fbf4734bc74853e44db8222",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 24,
+          "native_line_sha256": "48c033d8a39831026639eeb80075d887d39c10769e8ff1c1eca9c8db03d315e8",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:18:44.730Z",
+          "turn_id": "01a1d245-2704-79d1-a305-f315a16334bb",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 44,
+      "native_line_sha256": "df76d44e49e2e99c94446b447465971190fd3406df4faf88c69b02ad033c74d7",
+      "native_raw_line_bytes": 3573,
+      "timestamp": "2026-11-13T00:22:42.495Z",
+      "turn_id": "01a1d248-c06a-7843-90fc-21ef47d594c3",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_339e27886fbd4cc2916066a2277aa61d",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 47,
+          "native_line_sha256": "447bda896ab1cd5829c409ea3c5a8a542d2fb0067171d1e68f4a6db667899b28",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:22:42.563Z",
+          "turn_id": "01a1d248-c06a-7843-90fc-21ef47d594c3",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 65,
+      "native_line_sha256": "94de58fb0cb662be86e2336533079e17d8f84b16766a81e96d20b90b4c820077",
+      "native_raw_line_bytes": 3638,
+      "timestamp": "2026-11-13T00:27:58.167Z",
+      "turn_id": "01a1d24d-7c39-72e1-bc0c-69111e40c1fd",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_a1b80aa89ab84051ab4fd45f0278ea29",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 68,
+          "native_line_sha256": "29cb86911485502b9e2196d2397e40ace43dbe5742660f6a20212727640b48fb",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:27:58.197Z",
+          "turn_id": "01a1d24d-7c39-72e1-bc0c-69111e40c1fd",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 88,
+      "native_line_sha256": "31ea9c8f1c50aef5145d0de28b5a161cc466682b4d073bde6ff38a0a6e201a36",
+      "native_raw_line_bytes": 3870,
+      "timestamp": "2026-11-13T00:42:44.402Z",
+      "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_d915ad0a8d4d428cba2d1299e8a5356f",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 91,
+          "native_line_sha256": "4ee5953c980103a4bca28a15f9ee81dcb3923e401995ed274a3203765e505391",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:42:44.459Z",
+          "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 95,
+      "native_line_sha256": "4a5545abaf42c8c1a1235edb2afd6d470741e1f5c3d017e925cde3ea91d59efb",
+      "native_raw_line_bytes": 2315,
+      "timestamp": "2026-11-13T00:42:51.506Z",
+      "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_9b3eefdb992f438db087cc98a4e31f1f",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 98,
+          "native_line_sha256": "3b05a3ea703f0dd5179eecdde8e57722816e43800bd6c794e8050de13cac2fae",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:42:51.544Z",
+          "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 132,
+      "native_line_sha256": "73c256c6799e134556dc69245bc996f4b8ba5295d9f483ff9acba8bca9a12f71",
+      "native_raw_line_bytes": 2911,
+      "timestamp": "2026-11-13T00:46:14.299Z",
+      "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+      "section": "original_generation_ai_record_packaging"
+    },
+    "call_id": "call_e81664e6ad8b44c0ae8c04b31ec6776a",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 135,
+          "native_line_sha256": "54de611c1d02e2402cd63526fd39971ffb6c036bb93267945ed48b05483cc706",
+          "native_raw_line_bytes": 433,
+          "timestamp": "2026-11-13T00:46:14.344Z",
+          "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+          "section": "original_generation_ai_record_packaging"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "protocol_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+      "native_line": 179,
+      "native_line_sha256": "43ad37126f598843983c0b78af5b052c2d5021c453947726d68e8bbb7843029a",
+      "native_raw_line_bytes": 3276,
+      "timestamp": "2026-11-13T00:48:35.911Z",
+      "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+      "section": "original_generation_ai_record_packaging"
+    },
+    "call_id": "call_8957e443f9f2463688009dcd07f88fba",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "protocol_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+          "native_line": 182,
+          "native_line_sha256": "0590fa0dc1b726eb2701a33820410187bdff72752384db075c0ab7259b718f2b",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:48:36.013Z",
+          "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+          "section": "original_generation_ai_record_packaging"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "report_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+      "native_line": 19,
+      "native_line_sha256": "a75d5641816320b5f7e98ad4162d0e929006a647da3c18731ccc92524bc2a373",
+      "native_raw_line_bytes": 2954,
+      "timestamp": "2026-11-13T00:18:42.056Z",
+      "turn_id": "01a1d245-380f-7651-b792-3700395b74a1",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_9900f5093bb74bcd98a4ccfe7a2a39ce",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "report_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+          "native_line": 22,
+          "native_line_sha256": "3ec8519aeb50f91fc3f322379263617775ef68e5acb810111fe241acf7bda2b1",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:18:42.074Z",
+          "turn_id": "01a1d245-380f-7651-b792-3700395b74a1",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "report_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+      "native_line": 42,
+      "native_line_sha256": "57e1f8b10f4095bd5711e6ed5750dff24098822598a41d0ca3f0655759986c79",
+      "native_raw_line_bytes": 3101,
+      "timestamp": "2026-11-13T00:21:02.849Z",
+      "turn_id": "01a1d247-4c5c-75f1-a171-d22909f3e518",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_305463d629114b7792565742cccbbbd6",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "report_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+          "native_line": 45,
+          "native_line_sha256": "1eb5318df4a6052dee867cab509b59328e9b12b7ec83c60bdabe84b829a91e67",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:21:03.070Z",
+          "turn_id": "01a1d247-4c5c-75f1-a171-d22909f3e518",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  },
+  {
+    "source": {
+      "reviewer": "report_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+      "native_line": 63,
+      "native_line_sha256": "7248046a1653df0c61d7171e5a53e55066326e12d39c34b05ce4d8d231046594",
+      "native_raw_line_bytes": 2698,
+      "timestamp": "2026-11-13T00:42:50.898Z",
+      "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_5ef0f9495e984fbbb802bc57cf7bd6b1",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "report_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+          "native_line": 65,
+          "native_line_sha256": "aad3eb93799f7fb193fad8937679fda64e6eccbe0311a6fc12d5c1af71dcd4c9",
+          "native_raw_line_bytes": 455,
+          "timestamp": "2026-11-13T00:42:51.083Z",
+          "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+          "section": "review_and_report_generation"
+        },
+        "output": "aborted before dispatch"
+      }
+    ],
+    "aborted_before_dispatch": true
+  },
+  {
+    "source": {
+      "reviewer": "report_review",
+      "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+      "native_line": 83,
+      "native_line_sha256": "6e6d8a4b3c39e1b18d5598b859cfc94a2e1ab030852c04145448e015abb7d92f",
+      "native_raw_line_bytes": 2997,
+      "timestamp": "2026-11-13T00:43:43.183Z",
+      "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+      "section": "review_and_report_generation"
+    },
+    "call_id": "call_8bb06266c1d74b9eac7fcbc2d757fec2",
+    "name": "send_message",
+    "native_status": "completed",
+    "opaque_argument_confirmed": true,
+    "recovered": false,
+    "dispatch_receipts": [
+      {
+        "source": {
+          "reviewer": "report_review",
+          "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+          "native_line": 86,
+          "native_line_sha256": "9df12a68d21c05c3609bf861f64047b3d6c2775ad10331de002cc716f4df84b1",
+          "native_raw_line_bytes": 432,
+          "timestamp": "2026-11-13T00:43:43.443Z",
+          "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+          "section": "review_and_report_generation"
+        },
+        "output": ""
+      }
+    ],
+    "aborted_before_dispatch": false
+  }
+]

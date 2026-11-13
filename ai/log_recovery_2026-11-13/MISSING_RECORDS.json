@@ -1,0 +1,655 @@
+{
+  "checked_utc": "2026-11-13T16:01:03.743779+00:00",
+  "scope": "Known historical generation-review and pin-documentation record gaps; not a claim to inventory every unavailable record in all chats. Excludes hidden reasoning/internal metadata by design.",
+  "counts": {
+    "reviewer_inbound_instructions": 12,
+    "reviewer_outgoing_argument_fields": 11,
+    "of_outgoing_aborted_before_dispatch": 1,
+    "pin_audit_instruction_exchanges": 4,
+    "pin_audit_progress_exchanges": 3,
+    "missing_command_output_character_ranges": 0,
+    "indexed_unavailable_records": 30
+  },
+  "recovered_output_evidence": "checks/COMMAND_EVENT_RECOVERY.json",
+  "missing": [
+    {
+      "gap_id": "IN-P01",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d245-2b62-7b60-8bd1-86e43547510a",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 13,
+        "native_line_sha256": "19b9b478c6cd0f267e139bf364ed38571dc21b3a4c135a05f826e1488426d876",
+        "native_raw_line_bytes": 2165,
+        "timestamp": "2026-11-13T00:18:30.882Z",
+        "turn_id": "01a1d245-2704-79d1-a305-f315a16334bb",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-P02",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d248-c109-7071-9393-f1c41406bfff",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 36,
+        "native_line_sha256": "45e341ad3dbb0a7d79f533ef1608646a67ee0202bce890bb46054b9a5de6d7ab",
+        "native_raw_line_bytes": 1613,
+        "timestamp": "2026-11-13T00:22:25.801Z",
+        "turn_id": "01a1d248-c06a-7843-90fc-21ef47d594c3",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-P03",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d24d-7e64-7f53-814d-c0b885be00fa",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 57,
+        "native_line_sha256": "beebce6226b76b375bdd299e98c6edd74b2a42935a4b460e519ce2fdac230b03",
+        "native_raw_line_bytes": 1613,
+        "timestamp": "2026-11-13T00:27:36.420Z",
+        "turn_id": "01a1d24d-7c39-72e1-bc0c-69111e40c1fd",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-P04",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d25a-fb63-7ce2-aeab-71b76337140c",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 80,
+        "native_line_sha256": "9859d35b1877093a42b7e98ee86f95a612b8d7ec4ea29b65d06b244e9f66279a",
+        "native_raw_line_bytes": 1653,
+        "timestamp": "2026-11-13T00:42:20.448Z",
+        "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-P05",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d25d-98e6-73c0-9d3c-8179979a699f",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 108,
+        "native_line_sha256": "6bb165f5ced72d4a08079851bf1df6b69571182fd0933a5b1d59b20ec2d8c93f",
+        "native_raw_line_bytes": 2959,
+        "timestamp": "2026-11-13T00:45:11.782Z",
+        "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+        "section": "original_generation_ai_record_packaging"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-P06",
+      "category": "reviewer_inbound_instruction",
+      "kind": "MESSAGE",
+      "message_id": "amsg_01a1d260-21e4-7b93-a9f5-b356d72df6ab",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 162,
+        "native_line_sha256": "7008bd5440400d5585962b6d482508238aeaee574aa4002b40ca7c0248b62577",
+        "native_raw_line_bytes": 1378,
+        "timestamp": "2026-11-13T00:47:57.924Z",
+        "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+        "section": "original_generation_ai_record_packaging"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-P07",
+      "category": "reviewer_inbound_instruction",
+      "kind": "MESSAGE",
+      "message_id": "amsg_01a1d260-8118-7c73-9fc6-3da934009774",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 178,
+        "native_line_sha256": "7f8c804749cbb24381eb87e19066dc4ecfa407c83e740c5b870e90073cafeb16",
+        "native_raw_line_bytes": 1230,
+        "timestamp": "2026-11-13T00:48:22.296Z",
+        "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+        "section": "original_generation_ai_record_packaging"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-R01",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d245-3bf3-7282-89a5-e7ab67a1fb08",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 13,
+        "native_line_sha256": "bb4651702ca61870a1458ffdacbb416b3174efb01f0efe4f20491e5abe54f0a0",
+        "native_raw_line_bytes": 1928,
+        "timestamp": "2026-11-13T00:18:35.123Z",
+        "turn_id": "01a1d245-380f-7651-b792-3700395b74a1",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-R02",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d247-4cff-7e33-abbd-3769096958e2",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 34,
+        "native_line_sha256": "3ef88bb5f510c55f140728959fcd111d792cbc072adfc72a91a41060726a1da1",
+        "native_raw_line_bytes": 1501,
+        "timestamp": "2026-11-13T00:20:50.559Z",
+        "turn_id": "01a1d247-4c5c-75f1-a171-d22909f3e518",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-R03",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d25b-1302-7551-a4c7-e1d7db7afdb4",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 55,
+        "native_line_sha256": "e29beb747bfa9a773d4c65f89d99975ef8f56058796858f939123c1edf94978e",
+        "native_raw_line_bytes": 2417,
+        "timestamp": "2026-11-13T00:42:26.435Z",
+        "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-R04",
+      "category": "reviewer_inbound_instruction",
+      "kind": "MESSAGE",
+      "message_id": "amsg_01a1d25b-7350-76e3-a76c-5414aed97470",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 68,
+        "native_line_sha256": "395b681fc2bba40640e3aea3718a5ad8e8ae94a5f422f4ef84880e81f20c199e",
+        "native_raw_line_bytes": 1436,
+        "timestamp": "2026-11-13T00:42:51.088Z",
+        "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+        "section": "review_and_report_generation"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "IN-R05",
+      "category": "reviewer_inbound_instruction",
+      "kind": "NEW_TASK",
+      "message_id": "amsg_01a1d25f-d122-7db0-8c5d-d97ce2949ac0",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 96,
+        "native_line_sha256": "925c5c4c12fc7de61d4f155e959c51e8950eb1ead4efe3876da567062aa6204b",
+        "native_raw_line_bytes": 1738,
+        "timestamp": "2026-11-13T00:47:37.250Z",
+        "turn_id": "01a1d25f-d0b3-78e2-8959-429ec689173c",
+        "section": "original_generation_final_package_consistency_review"
+      },
+      "status": "unavailable",
+      "reason": "Routing wrapper retained; ordinary body is opaque in native record and absent from normal API projection."
+    },
+    {
+      "gap_id": "OUT-P01",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_19d3992a8fbf4734bc74853e44db8222",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 21,
+        "native_line_sha256": "79931306ab611e07f8c764e32df490ae55cdbdd5abc1453112818e14118f3a95",
+        "native_raw_line_bytes": 4082,
+        "timestamp": "2026-11-13T00:18:44.664Z",
+        "turn_id": "01a1d245-2704-79d1-a305-f315a16334bb",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-P02",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_339e27886fbd4cc2916066a2277aa61d",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 44,
+        "native_line_sha256": "df76d44e49e2e99c94446b447465971190fd3406df4faf88c69b02ad033c74d7",
+        "native_raw_line_bytes": 3573,
+        "timestamp": "2026-11-13T00:22:42.495Z",
+        "turn_id": "01a1d248-c06a-7843-90fc-21ef47d594c3",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-P03",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_a1b80aa89ab84051ab4fd45f0278ea29",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 65,
+        "native_line_sha256": "94de58fb0cb662be86e2336533079e17d8f84b16766a81e96d20b90b4c820077",
+        "native_raw_line_bytes": 3638,
+        "timestamp": "2026-11-13T00:27:58.167Z",
+        "turn_id": "01a1d24d-7c39-72e1-bc0c-69111e40c1fd",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-P04",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_d915ad0a8d4d428cba2d1299e8a5356f",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 88,
+        "native_line_sha256": "31ea9c8f1c50aef5145d0de28b5a161cc466682b4d073bde6ff38a0a6e201a36",
+        "native_raw_line_bytes": 3870,
+        "timestamp": "2026-11-13T00:42:44.402Z",
+        "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-P05",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_9b3eefdb992f438db087cc98a4e31f1f",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 95,
+        "native_line_sha256": "4a5545abaf42c8c1a1235edb2afd6d470741e1f5c3d017e925cde3ea91d59efb",
+        "native_raw_line_bytes": 2315,
+        "timestamp": "2026-11-13T00:42:51.506Z",
+        "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-P06",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_e81664e6ad8b44c0ae8c04b31ec6776a",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 132,
+        "native_line_sha256": "73c256c6799e134556dc69245bc996f4b8ba5295d9f483ff9acba8bca9a12f71",
+        "native_raw_line_bytes": 2911,
+        "timestamp": "2026-11-13T00:46:14.299Z",
+        "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+        "section": "original_generation_ai_record_packaging"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-P07",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_8957e443f9f2463688009dcd07f88fba",
+      "source": {
+        "reviewer": "protocol_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+        "native_line": 179,
+        "native_line_sha256": "43ad37126f598843983c0b78af5b052c2d5021c453947726d68e8bbb7843029a",
+        "native_raw_line_bytes": 3276,
+        "timestamp": "2026-11-13T00:48:35.911Z",
+        "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+        "section": "original_generation_ai_record_packaging"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-R01",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_9900f5093bb74bcd98a4ccfe7a2a39ce",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 19,
+        "native_line_sha256": "a75d5641816320b5f7e98ad4162d0e929006a647da3c18731ccc92524bc2a373",
+        "native_raw_line_bytes": 2954,
+        "timestamp": "2026-11-13T00:18:42.056Z",
+        "turn_id": "01a1d245-380f-7651-b792-3700395b74a1",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-R02",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_305463d629114b7792565742cccbbbd6",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 42,
+        "native_line_sha256": "57e1f8b10f4095bd5711e6ed5750dff24098822598a41d0ca3f0655759986c79",
+        "native_raw_line_bytes": 3101,
+        "timestamp": "2026-11-13T00:21:02.849Z",
+        "turn_id": "01a1d247-4c5c-75f1-a171-d22909f3e518",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-R03",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_5ef0f9495e984fbbb802bc57cf7bd6b1",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 63,
+        "native_line_sha256": "7248046a1653df0c61d7171e5a53e55066326e12d39c34b05ce4d8d231046594",
+        "native_raw_line_bytes": 2698,
+        "timestamp": "2026-11-13T00:42:50.898Z",
+        "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": true,
+      "dispatch_status": "aborted before dispatch",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "OUT-R04",
+      "category": "reviewer_outgoing_arguments",
+      "call_id": "call_8bb06266c1d74b9eac7fcbc2d757fec2",
+      "source": {
+        "reviewer": "report_review",
+        "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+        "native_line": 83,
+        "native_line_sha256": "6e6d8a4b3c39e1b18d5598b859cfc94a2e1ab030852c04145448e015abb7d92f",
+        "native_raw_line_bytes": 2997,
+        "timestamp": "2026-11-13T00:43:43.183Z",
+        "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+        "section": "review_and_report_generation"
+      },
+      "aborted_before_dispatch": false,
+      "dispatch_status": "call completed; output receipt empty, delivery not independently established",
+      "status": "unavailable",
+      "reason": "Opaque send_message arguments; matched app events retain operation metadata only."
+    },
+    {
+      "gap_id": "PIN-I1",
+      "category": "pin_audit_instruction",
+      "description_from_historical_audit": "initial delegation",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1522,
+          "timestamp": "2026-11-13T02:07:56.662Z",
+          "native_line_sha256": "569b87f4ad886eeae06f985c78ccb9303eb0a0b9d1bc1c6a47339f9d82ec1076",
+          "message_id": "fc_087488613283b568016af670f8ebc487d2b17c86966299d279",
+          "call_id": "call_49cca503388e46a6997f94b370ff86b9",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 13,
+          "timestamp": "2026-11-13T02:07:58.024Z",
+          "native_line_sha256": "10c3291cf97a11fff2739479eafb1b5db4b0aac9e0df5d5139ba1050508089d6",
+          "message_id": "amsg_01a1d2a9-6048-7001-a132-d24debfaa320",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    },
+    {
+      "gap_id": "PIN-I2",
+      "category": "pin_audit_instruction",
+      "description_from_historical_audit": "metadata-only clarification",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1556,
+          "timestamp": "2026-11-13T02:08:32.901Z",
+          "native_line_sha256": "afb7200935d59672d6efc51ff0cb87fd832d97ff02b8f7f17c225967e90a63a3",
+          "message_id": "fc_087488613283b568016af6711fe39487d2a35c6c6e1a4b95c9",
+          "call_id": "call_fc0acb1f5e864a2fb2d0d630e99fbfe9",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 60,
+          "timestamp": "2026-11-13T02:08:36.585Z",
+          "native_line_sha256": "cbcfc8fa4b40847d45ef0263fd60ead49a622e194583388bf494ce418f1e64c0",
+          "message_id": "amsg_01a1d2a9-f6e9-7320-a28e-57c12247912c",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    },
+    {
+      "gap_id": "PIN-I3",
+      "category": "pin_audit_instruction",
+      "description_from_historical_audit": "final visual-review request",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1674,
+          "timestamp": "2026-11-13T02:11:15.709Z",
+          "native_line_sha256": "0f17a8637064b1885e1b689d0773b7a67bae4b0e252319c302cf0f0e88bc445c",
+          "message_id": "fc_087488613283b568016af671bfc3b887d28ac85a411f533638",
+          "call_id": "call_86b31bed9f75481c9d7219134374796e",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 76,
+          "timestamp": "2026-11-13T02:11:15.832Z",
+          "native_line_sha256": "c60facc3f84824a9829e9abfb0358e131b0ae9d7ac80b77f0a2ca6979e752549",
+          "message_id": "amsg_01a1d2ac-64f8-7702-b394-8276a197abd7",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    },
+    {
+      "gap_id": "PIN-I4",
+      "category": "pin_audit_instruction",
+      "description_from_historical_audit": "exact-path clarification",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1688,
+          "timestamp": "2026-11-13T02:11:37.938Z",
+          "native_line_sha256": "3c5919e70999505470d6140be192e1faad6e43f11bff30d505dc2f0b40a963c1",
+          "message_id": "fc_087488613283b568016af671d8ef3087d2a38242c47ab604f0",
+          "call_id": "call_16bb3e11124c4eb6b23bf958b2777719",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 99,
+          "timestamp": "2026-11-13T02:11:37.949Z",
+          "native_line_sha256": "26fd319e2c9192abcaa32754544cb044a3075e0bfe8896f2daebf95525345b25",
+          "message_id": "amsg_01a1d2ac-bb5d-7ef0-8d82-52ebe659800e",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    },
+    {
+      "gap_id": "PIN-P1",
+      "category": "pin_audit_progress",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1538,
+          "timestamp": "2026-11-13T02:08:15.666Z",
+          "native_line_sha256": "bccdaf48fc088ca2649443a1817b77e114d30dc41a5a7bbd278b082d19fd2746",
+          "message_id": "amsg_01a1d2a9-a531-7ac2-8776-c0197eb48441",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 31,
+          "timestamp": "2026-11-13T02:08:13.825Z",
+          "native_line_sha256": "eb1359c275daf3ec8b06b7edac66d3fe4a04e069d3279bbb137215f753ec8bb9",
+          "message_id": "fc_068026f6fe2be800016af6710b982087d2b34dadf74bac2fe9",
+          "call_id": "call_b8d9ba29ee544e048b28780a44e8eff8",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One peer progress exchange represented at both endpoints.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    },
+    {
+      "gap_id": "PIN-P2",
+      "category": "pin_audit_progress",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1553,
+          "timestamp": "2026-11-13T02:08:29.234Z",
+          "native_line_sha256": "a89ca82f6a3ff23e9b5efe360af8769a41424264ac5f6c84da93f30abaa4c6df",
+          "message_id": "amsg_01a1d2a9-da32-7141-a916-77fe41844262",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 47,
+          "timestamp": "2026-11-13T02:08:28.774Z",
+          "native_line_sha256": "2586c90e573701637abb449c4afecd4a2ac54a07d59999c4b6456c4c32340b38",
+          "message_id": "fc_068026f6fe2be800016af6711b098487d2a2e039809ff2c255",
+          "call_id": "call_13146faa462946c98dba080b9c1fbcc5",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One peer progress exchange represented at both endpoints.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    },
+    {
+      "gap_id": "PIN-P3",
+      "category": "pin_audit_progress",
+      "source_records": [
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+          "native_line": 1685,
+          "timestamp": "2026-11-13T02:11:34.379Z",
+          "native_line_sha256": "e59bd59d8cc26849823724975fba0424057d989f70c10b0be39e87a441867900",
+          "message_id": "amsg_01a1d2ac-ad6b-7230-93a4-323139f8d256",
+          "call_id": null,
+          "type": "agent_message",
+          "opaque_body_or_arguments_confirmed": true
+        },
+        {
+          "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+          "native_line": 86,
+          "timestamp": "2026-11-13T02:11:26.650Z",
+          "native_line_sha256": "c3cf8544c7ced6cc0ce0bb0e8b9a058fe7bbdb01c2497bdebe62bbe91c02ef76",
+          "message_id": "fc_068026f6fe2be800016af671ccddc887d28d7c53c1c1556a8f",
+          "call_id": "call_b87eacd723b742dbb74a7ab0c11978ca",
+          "type": "function_call",
+          "opaque_body_or_arguments_confirmed": true
+        }
+      ],
+      "counting_basis": "One peer progress exchange represented at both endpoints.",
+      "recovered": false,
+      "status": "unavailable",
+      "reason": "Both ordinary-message endpoints remain opaque; fresh peer API has no incoming message body. Source-pair counting follows the historical pin audit."
+    }
+  ]
+}

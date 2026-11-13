@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+      "native_line": 99,
+      "source_timestamp": "2026-11-13T00:47:42.954Z",
+      "native_line_sha256": "98edf4b5117904516a7e47faee47c22794137cfe8ac211b4c718f3f5836a7a3c",
+      "native_field": "/payload/item/aggregated_output",
+      "item_id": "exec-84b0552d-5f11-464f-b396-05908175e4f9",
+      "characters": 46178,
+      "stdout_sha256": "e4cdcafc0fdae8694509752eb5ddaf30f08d7fc507b4392ba00cd3b9c6ea80b1",
+      "file": "report_native_event_99_stdout.txt",
+      "fresh_api_prefix_matches": true,
+      "previous_native_tail_matches": true,
+      "newly_recovered_characters": 6178,
+      "remaining_missing_characters": 0,
+      "method": "Exact original ordinary command-output event field; no reconstruction, rerun or decryption."
+    },
+    {
+      "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+      "native_line": 105,
+      "source_timestamp": "2026-11-13T00:47:51.879Z",
+      "native_line_sha256": "7b3ce68fef0642cc51149c383c810970e4f787782cf542d7cb35911338678696",
+      "native_field": "/payload/item/aggregated_output",
+      "item_id": "exec-6d9dc924-b32b-4b14-920f-bcc70d5fad38",
+      "characters": 28140,
+      "stdout_sha256": "f9375fbfd950f1fc2480d81453750ad539fedbe074bfe8fd30c97513520cf78b",
+      "file": "report_native_event_105_stdout.txt",
+      "fresh_api_prefix_matches": true,
+      "previous_native_tail_matches": true,
+      "newly_recovered_characters": 0,
+      "remaining_missing_characters": 0,
+      "method": "Exact original ordinary command-output event field; no reconstruction, rerun or decryption."
+    }
+  ],
+  "newly_recovered_characters": 6178,
+  "historical_output_gaps_remaining": 0,
+  "reason_earlier_search_missed_it": "Earlier export treated completion events as duplicate bookkeeping and retained the truncated response output / API projection. The original ordinary CommandExecution event preserves the full stdout."
+}

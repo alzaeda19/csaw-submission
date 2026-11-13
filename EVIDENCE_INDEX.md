@@ -29,3 +29,7 @@ Historical reports inside the sealed addenda are unchanged. Their original absol
 ## Independent unchanged-design evaluation
 
 [Report](docs/INDEPENDENT_EVALUATION.md), [model inputs and replies](ai/independent_evaluation_2026-11-13/) and [direct evidence checks](evidence/independent_evaluation_2026-11-13/). This is a source-aware review of existing experimental records; no new detector, simulation or synthesis run was made.
+
+## Authentic log recovery
+
+[Recovery report](docs/AI_LOG_RECOVERY.md), [exact remaining records](MISSING_AI_RECORDS.md), [full original outputs and checks](evidence/log_recovery_2026-11-13/) and [Claude review records](ai/log_recovery_2026-11-13/). The 6,178-character gap is closed; no missing message body is claimed recovered.

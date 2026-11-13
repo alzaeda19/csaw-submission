@@ -1,0 +1,13 @@
+{
+  "target_id": "exec-84b0552d-5f11-464f-b396-05908175e4f9",
+  "original_chars": 46178,
+  "fresh_prefix_chars": 20000,
+  "fresh_capture_equals_previous": true,
+  "remaining_range_zero_based_characters": [
+    20000,
+    26178
+  ],
+  "remaining_characters": 6178,
+  "new_text_recovered": 0,
+  "command_not_replayed": true
+}

@@ -1,0 +1,119 @@
+{
+  "duration_api_ms": 68500,
+  "stop_reason": "end_turn",
+  "session_id": "9ff1ed30-7a36-43f6-8821-dc20dd675e8b",
+  "total_cost_usd": 0.7968042000000001,
+  "usage": {
+    "input_tokens": 14,
+    "cache_creation_input_tokens": 76984,
+    "cache_read_input_tokens": 235181,
+    "output_tokens": 6692,
+    "output_tokens_details": {
+      "thinking_tokens": 2729
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 76984,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1598,
+        "cache_read_input_tokens": 78148,
+        "cache_creation_input_tokens": 1554,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1554
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-opus-5-5": {
+      "inputTokens": 14,
+      "outputTokens": 6692,
+      "cacheReadInputTokens": 235181,
+      "cacheCreationInputTokens": 76984,
+      "webSearchRequests": 0,
+      "costUSD": 0.7968042000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 2729,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 76984,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The 6,178-character gap is closed, based on the supplied receipts and the text boundaries I could inspect. Everything else stays where it was.\n\n## Output gap: closed\n- **Record:** `checks/COMMAND_EVENT_RECOVERY.json` points to report-review native line 99, field `/payload/item/aggregated_output`, item `exec-84b0552d-5f11-464f-b396-05908175e4f9`. That matches the item ID in the previous receipt and the fresh API. Line 105 is item `exec-6d9dc924-\u2026`, and its saved command matches the earlier receipt.\n- **What I checked myself (reading text only):**\n  - **Start of the missing text:** the old native copy stops at \"\u2026Subsequent archive sealing, verificat\u2026\" and the previous receipt says the API prefix runs 4 characters further. `recovered/report_output_missing_6178_characters.txt` starts at \"and final user-facing reply\u2026\", so the two pieces join cleanly at \"verification \".\n  - **End of the missing text:** the recovered file ends at \"\u2026/evidence/f\" in the modified_normal `paired_normal_tb.sv` path. The old tail (`previous_VISIBLE_REVIEWER_TRANSCRIPT.md:2472`) picks up at \"inal_runs/\u2026/modified_normal/sources/baseline.v\". That also joins cleanly.\n  - **Output fits the commands:** line 99 shows plain `cat` output, including `versions` and `source_checks`. Line 105 leaves out `versions` and `source_checks`, which is what its Python filter would do.\n- **What I did not check:** I computed no hashes and counted no characters. The figures 46,178 and 28,140, the `stdout_sha256` values, `native_line_sha256`, \"prefix matches\" and \"tail matches\" all come from Codex. Line 105's recorded hash (`f9375fbf\u2026`) is the same as the earlier assembled hash in `PREVIOUS_RECOVERY_RECEIPT.json`. That shows the two Codex receipts agree, not that I verified either one.\n- **Earlier result:** my earlier null result is superseded for this gap only. The new text comes from an original command-result field. It is not a rerun or a rebuild.\n\n## Remaining categories (exact)\n1. **Inbound reviewer instruction bodies:** 12 unavailable, 0 recovered.\n2. **Outbound `send_message` argument fields:** 11 unavailable (7 protocol-review, 4 report-review).\n   - 1 was aborted before dispatch (`call_5ef0f949\u2026`, receipt line 65).\n   - 10 have completed call records with empty output receipts. They are not confirmed delivered, and nothing shows what they said.\n   - 8 of the 11 match app operations that hold only operation metadata (5 + 3). The other two (`call_e81664e6\u2026`, `call_8957e443\u2026`) are packaging-phase calls with no matching app operation.\n3. **Pin-audit gaps:** 4 instruction exchanges (PIN-I1 to I4) and 3 progress exchanges (PIN-P1 to P3), so 7 in total. Each has two endpoint records; counting both ends would wrongly give 14. None are recovered.\n4. **Historical output gaps:** 0.\n\n## Inconsistencies and caveats\n- `checks/OUTPUT_GAP_RECHECK.json` still says `remaining_characters: 6178` and `new_text_recovered: 0`. It's an out-of-date check from before this evidence, not a conflict, but it should be marked as superseded so a reader doesn't take it as current.\n- In `OUTBOUND_GAPS.json`, the aborted call shows `native_status: \"completed\"` next to `aborted_before_dispatch: true`. \"Completed\" seems to describe the call record, not delivery. A note explaining that would help.\n- The old receipt used lines 100 and 107; the new one uses lines 99 and 105. These are different records of the same items: completion events versus response items, with the same IDs and timestamps a few milliseconds apart. That fits, but it means the line hashes are different and can't be compared.\n- In the line-99 output, a \"# Technical brief\" section appears between README and HANDOFF, but no brief file is in the `cat` list. It's inside the 20,000-character API prefix that was already accepted, so it doesn't affect this recovery. Probably README.md contains it, but I can't confirm that from these files.\n\nThe trojan chat produced nothing that I relied on. This result doesn't predict whether course staff will accept the package, and the 12 + 11 + 7 gaps above should not be treated as recoverable from what's in this folder.",
+  "ttft_ms": 1592,
+  "type": "result",
+  "duration_ms": 68746,
+  "uuid": "fcdb2b3f-c6e2-44b2-be4f-6b51b28e76cc",
+  "ttft_stream_ms": 1424,
+  "time_to_request_ms": 57,
+  "first_content_frame_ms": 1424,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+    "claude-opus-5-5": {
+      "inputTokens": 14,
+      "outputTokens": 6692,
+      "cacheReadInputTokens": 235181,
+      "cacheCreationInputTokens": 76984,
+      "webSearchRequests": 0,
+      "costUSD": 0.7968042000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 2729,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 76984,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "gap_id": "PIN-I1",
+    "category": "pin_audit_instruction",
+    "description_from_historical_audit": "initial delegation",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1522,
+        "timestamp": "2026-11-13T02:07:56.662Z",
+        "native_line_sha256": "569b87f4ad886eeae06f985c78ccb9303eb0a0b9d1bc1c6a47339f9d82ec1076",
+        "message_id": "fc_087488613283b568016af670f8ebc487d2b17c86966299d279",
+        "call_id": "call_49cca503388e46a6997f94b370ff86b9",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 13,
+        "timestamp": "2026-11-13T02:07:58.024Z",
+        "native_line_sha256": "10c3291cf97a11fff2739479eafb1b5db4b0aac9e0df5d5139ba1050508089d6",
+        "message_id": "amsg_01a1d2a9-6048-7001-a132-d24debfaa320",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+    "recovered": false
+  },
+  {
+    "gap_id": "PIN-I2",
+    "category": "pin_audit_instruction",
+    "description_from_historical_audit": "metadata-only clarification",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1556,
+        "timestamp": "2026-11-13T02:08:32.901Z",
+        "native_line_sha256": "afb7200935d59672d6efc51ff0cb87fd832d97ff02b8f7f17c225967e90a63a3",
+        "message_id": "fc_087488613283b568016af6711fe39487d2a35c6c6e1a4b95c9",
+        "call_id": "call_fc0acb1f5e864a2fb2d0d630e99fbfe9",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 60,
+        "timestamp": "2026-11-13T02:08:36.585Z",
+        "native_line_sha256": "cbcfc8fa4b40847d45ef0263fd60ead49a622e194583388bf494ce418f1e64c0",
+        "message_id": "amsg_01a1d2a9-f6e9-7320-a28e-57c12247912c",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+    "recovered": false
+  },
+  {
+    "gap_id": "PIN-I3",
+    "category": "pin_audit_instruction",
+    "description_from_historical_audit": "final visual-review request",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1674,
+        "timestamp": "2026-11-13T02:11:15.709Z",
+        "native_line_sha256": "0f17a8637064b1885e1b689d0773b7a67bae4b0e252319c302cf0f0e88bc445c",
+        "message_id": "fc_087488613283b568016af671bfc3b887d28ac85a411f533638",
+        "call_id": "call_86b31bed9f75481c9d7219134374796e",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 76,
+        "timestamp": "2026-11-13T02:11:15.832Z",
+        "native_line_sha256": "c60facc3f84824a9829e9abfb0358e131b0ae9d7ac80b77f0a2ca6979e752549",
+        "message_id": "amsg_01a1d2ac-64f8-7702-b394-8276a197abd7",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+    "recovered": false
+  },
+  {
+    "gap_id": "PIN-I4",
+    "category": "pin_audit_instruction",
+    "description_from_historical_audit": "exact-path clarification",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1688,
+        "timestamp": "2026-11-13T02:11:37.938Z",
+        "native_line_sha256": "3c5919e70999505470d6140be192e1faad6e43f11bff30d505dc2f0b40a963c1",
+        "message_id": "fc_087488613283b568016af671d8ef3087d2a38242c47ab604f0",
+        "call_id": "call_16bb3e11124c4eb6b23bf958b2777719",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 99,
+        "timestamp": "2026-11-13T02:11:37.949Z",
+        "native_line_sha256": "26fd319e2c9192abcaa32754544cb044a3075e0bfe8896f2daebf95525345b25",
+        "message_id": "amsg_01a1d2ac-bb5d-7ef0-8d82-52ebe659800e",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One instruction exchange represented at both endpoints, as identified by the preserved historical pin audit.",
+    "recovered": false
+  },
+  {
+    "gap_id": "PIN-P1",
+    "category": "pin_audit_progress",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1538,
+        "timestamp": "2026-11-13T02:08:15.666Z",
+        "native_line_sha256": "bccdaf48fc088ca2649443a1817b77e114d30dc41a5a7bbd278b082d19fd2746",
+        "message_id": "amsg_01a1d2a9-a531-7ac2-8776-c0197eb48441",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 31,
+        "timestamp": "2026-11-13T02:08:13.825Z",
+        "native_line_sha256": "eb1359c275daf3ec8b06b7edac66d3fe4a04e069d3279bbb137215f753ec8bb9",
+        "message_id": "fc_068026f6fe2be800016af6710b982087d2b34dadf74bac2fe9",
+        "call_id": "call_b8d9ba29ee544e048b28780a44e8eff8",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One peer progress exchange represented at both endpoints.",
+    "recovered": false
+  },
+  {
+    "gap_id": "PIN-P2",
+    "category": "pin_audit_progress",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1553,
+        "timestamp": "2026-11-13T02:08:29.234Z",
+        "native_line_sha256": "a89ca82f6a3ff23e9b5efe360af8769a41424264ac5f6c84da93f30abaa4c6df",
+        "message_id": "amsg_01a1d2a9-da32-7141-a916-77fe41844262",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 47,
+        "timestamp": "2026-11-13T02:08:28.774Z",
+        "native_line_sha256": "2586c90e573701637abb449c4afecd4a2ac54a07d59999c4b6456c4c32340b38",
+        "message_id": "fc_068026f6fe2be800016af6711b098487d2a2e039809ff2c255",
+        "call_id": "call_13146faa462946c98dba080b9c1fbcc5",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One peer progress exchange represented at both endpoints.",
+    "recovered": false
+  },
+  {
+    "gap_id": "PIN-P3",
+    "category": "pin_audit_progress",
+    "source_records": [
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+        "native_line": 1685,
+        "timestamp": "2026-11-13T02:11:34.379Z",
+        "native_line_sha256": "e59bd59d8cc26849823724975fba0424057d989f70c10b0be39e87a441867900",
+        "message_id": "amsg_01a1d2ac-ad6b-7230-93a4-323139f8d256",
+        "call_id": null,
+        "type": "agent_message",
+        "opaque_body_or_arguments_confirmed": true
+      },
+      {
+        "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+        "native_line": 86,
+        "timestamp": "2026-11-13T02:11:26.650Z",
+        "native_line_sha256": "c3cf8544c7ced6cc0ce0bb0e8b9a058fe7bbdb01c2497bdebe62bbe91c02ef76",
+        "message_id": "fc_068026f6fe2be800016af671ccddc887d28d7c53c1c1556a8f",
+        "call_id": "call_b87eacd723b742dbb74a7ab0c11978ca",
+        "type": "function_call",
+        "opaque_body_or_arguments_confirmed": true
+      }
+    ],
+    "counting_basis": "One peer progress exchange represented at both endpoints.",
+    "recovered": false
+  }
+]
