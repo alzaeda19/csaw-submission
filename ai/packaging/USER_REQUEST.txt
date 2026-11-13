@@ -1,0 +1,2 @@
+okay so now clean up the repo and separate out the actual stuff needed for submission into a private repo that fits all guidelines from [https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026/tree/main/qualifier](https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026/tree/main/qualifier)
+

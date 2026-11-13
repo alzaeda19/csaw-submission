@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-11-13T09:24:23.043402+00:00",
+  "source_commit": "5dd10cdb6ebbeba43b5ff6594f4006c2c999f1a3",
+  "copied_files_matching_source": 788,
+  "frozen_input_hashes_passed": 7,
+  "sealed_addenda": {
+    "2026-11-12": 40,
+    "2026-11-12-cipher-reconstruction": 133,
+    "2026-11-12-qwen-verification": 141,
+    "2026-11-12-recovered-records": 138,
+    "2026-11-13-submission-closeout": 67
+  },
+  "current_local_document_links_passed": 16,
+  "new_simulations_run": false,
+  "hardware_modified": false
+}

@@ -1,0 +1,94 @@
+{"native_line": 4150, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4151, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4154, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4155, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4156, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4157, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4158, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4159, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4160, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4161, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4162, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4163, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4165, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4166, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4167, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4168, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4169, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4170, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4171, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4172, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4173, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4174, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4176, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4177, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4178, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4179, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4180, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4181, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4182, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4183, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4186, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4187, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4188, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4189, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4190, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4191, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4192, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4193, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4195, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4196, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4197, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4198, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4199, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4200, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4201, "kind": "compacted:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4202, "kind": "world_state:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4203, "kind": "turn_context:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4204, "kind": "event_msg:thread_settings_applied", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4205, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4206, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4208, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4209, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4210, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4211, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4213, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4214, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4215, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4216, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4217, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4218, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4220, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4221, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4222, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4223, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4224, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4225, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4226, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4227, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4228, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4231, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4232, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4233, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4234, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4235, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4236, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4238, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4239, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4240, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4241, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4242, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4243, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4245, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4246, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4247, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4248, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4249, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4250, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4252, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4253, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4254, "kind": "response_item:custom_tool_call_output", "reason": "tool outputs excluded to avoid inherited snapshots, hidden records and instruction-file contents; separate evidence receipts retain checked results"}
+{"native_line": 4255, "kind": "event_msg:token_count", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4256, "kind": "event_msg:item_completed", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4257, "kind": "response_item:reasoning", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
+{"native_line": 4259, "kind": "token_usage_record:", "reason": "hidden reasoning, duplicate events or internal metadata; not required visible dialogue"}
