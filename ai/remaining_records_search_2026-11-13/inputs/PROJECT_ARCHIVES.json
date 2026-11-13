@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Baseline_2026-11-10_122045Z/package/hw2vec/assets/datasets.zip",
+    "bytes": 1231016
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Clean_AES_2026-11-10_123555Z/package/hw2vec/assets/datasets.zip",
+    "bytes": 1231016
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Existing_Designs_2026-11-10_180906Z/package/hw2vec/assets/datasets.zip",
+    "bytes": 1231016
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/zip_cp437_header.zip",
+    "bytes": 270
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/test_importlib/zipdata01/ziptestdata.zip",
+    "bytes": 876
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/test_importlib/zipdata02/ziptestdata.zip",
+    "bytes": 698
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/test_importlib/namespace_pkgs/top_level_portion1.zip",
+    "bytes": 332
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/zipdir.zip",
+    "bytes": 374
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/test_importlib/namespace_pkgs/nested_portion1.zip",
+    "bytes": 556
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06/synthesis_fit_timing_2026-11-06/tooling/oss-cad-suite/lib/python3.11/test/test_importlib/namespace_pkgs/missing_directory.zip",
+    "bytes": 515
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/package/submission.zip",
+    "bytes": 5709601
+  },
+  {
+    "path": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/verification/source_reproduction.zip",
+    "bytes": 203413
+  }
+]

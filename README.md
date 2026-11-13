@@ -6,7 +6,9 @@ This private repository is the focused submission package. Download `submission.
 
 **Latest independent assessment:** [what remains for submission](SUBMISSION_STATUS.md) and [Qwen/Claude evaluation with corrected findings](docs/INDEPENDENT_EVALUATION.md). Hardware is unchanged.
 
-**Latest record recovery:** [authentic output recovery and exact remaining gaps](docs/AI_LOG_RECOVERY.md).
+**Latest record recovery:** [Jarvis planning records and further Claude Code audit](docs/AI_LOG_RECOVERY_FOLLOWUP.md). Additional planning history is preserved; all 30 indexed review gaps remain. [Earlier authentic output recovery](docs/AI_LOG_RECOVERY.md) remains included.
+
+**Historical provenance caveat:** the recovered early Jarvis plan refers to published solutions before the later no-solutions instruction. This audit did not consult a solution, and these records do not establish whether the final hardware used one. They do prevent a blanket claim that every early planning interaction was solution-free; see the follow-up report.
 
 ## Required deliverables
 
@@ -65,7 +67,7 @@ Icarus rejected an output declared as a net in the module header and separately 
 Primitive simulation uses official Yosys `techlibs/ice40/cells_sim.v` from commit `5e740962d0c7b8c21b6701fe7a70a5e7ebe28661`, SHA-256 `b5b2bcd86c0d6eea269015aaebff1d5fb66e7ec3f7eded0bde07406e5ac99527`. Yosys itself was not built or run for that recovery. Functional signal mapping was inferred from recovered connectivity and original interface material; it is not a recovered board pin map. The initial recovery report also retained an optional IceStorm input-enable check failure for the inferred clock pad. This is a historical failure record, not a claim that later validator repairs remain broken. That recovery-stage report did not independently validate physical clock-pin wiring. The later source-and-schematic pin audit is included below; it is not a physical board test.
 
 
-The later original-source reconstruction identifies the cipher and effective key handling; it supersedes the earlier brief's limited algorithm proposal. No published challenge solution was used.
+The later original-source reconstruction identifies the cipher and effective key handling; it supersedes the earlier brief's limited algorithm proposal. Its findings are supported by the source-derived evidence linked below; the historical planning caveat above remains separate.
 
 ## Encryption explanation
 

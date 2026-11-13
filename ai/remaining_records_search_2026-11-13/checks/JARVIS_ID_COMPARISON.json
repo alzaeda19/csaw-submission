@@ -1,0 +1,10 @@
+{
+  "captured_rows": 61,
+  "unique_message_ids": 60,
+  "duplicate_message_ids": 1,
+  "loading_placeholders": 1,
+  "target_ids_compared": 44,
+  "matches": [],
+  "indexed_gaps_closed": 0,
+  "interpretation": "Additional early planning provenance; no exact missing record identity match. Loading is a UI placeholder, not recovered task text."
+}

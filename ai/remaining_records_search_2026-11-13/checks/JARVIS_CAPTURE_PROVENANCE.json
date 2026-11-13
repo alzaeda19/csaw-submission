@@ -1,0 +1,22 @@
+{
+  "method": "Exact JSON object captured from read-only CUA browser output, extracted from current-task ordinary tool-result records; no transcription or generated text. Time-of-day descriptions are UI labels, not inferred absolute timestamps.",
+  "native_source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/11/rollout-2026-11-11T22-38-22-01a1c563-aa79-7e12-ae2f-72d867d1e3da_01a1cdd5-c9db-7581-b129-a9c84bd76091.jsonl",
+  "records": [
+    {
+      "file": "JARVIS_PLANNING_MESSAGES.json",
+      "source_native_line": 5331,
+      "source_native_line_sha256": "ab819c1e75cc74be0f8a1c721c874ec1a8d65496802f6a55aff9841e5acf18dc",
+      "call_id": "call_6747dc8a8fb2413ba8342ac557e58180",
+      "captured_messages": 34,
+      "sha256": "9f46559878472fd328e3a4425190182644b3a3b4e62d35a7610d4c172ee5d9d1"
+    },
+    {
+      "file": "JARVIS_FOLLOWUP_MESSAGES.json",
+      "source_native_line": 5338,
+      "source_native_line_sha256": "65d237488bc5cf9b76714ccebf59ad99b829850fb8b955b66b546873bbdaed0d",
+      "call_id": "call_c9d6e307775844a99546ffbb3a9eed48",
+      "captured_messages": 27,
+      "sha256": "46ea549430908c19d13a657d0a7442316efde67c68fab9dfa0d3c02becd74b6d"
+    }
+  ]
+}

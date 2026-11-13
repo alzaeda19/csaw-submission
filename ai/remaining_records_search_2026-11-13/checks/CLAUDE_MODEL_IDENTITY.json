@@ -1,0 +1,20 @@
+[
+  {
+    "run": "claude",
+    "returned_models": [
+      "claude-opus-5-5"
+    ],
+    "is_error": false,
+    "returncode": 0,
+    "final_result_received": true
+  },
+  {
+    "run": "claude_final_audit",
+    "returned_models": [
+      "claude-opus-5-5"
+    ],
+    "is_error": false,
+    "returncode": 0,
+    "final_result_received": true
+  }
+]

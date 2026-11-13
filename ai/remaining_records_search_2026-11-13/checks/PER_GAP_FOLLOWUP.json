@@ -1,0 +1,479 @@
+{
+  "original_ledger_sha256": "a2f067d2bf563b5c39e86c5a62cfbe541b508387744114a6a7aabd0b4d31c27d",
+  "counts": {
+    "starting_indexed_gaps": 30,
+    "closed_in_this_followup": 0,
+    "remaining_indexed_gaps": 30
+  },
+  "records": [
+    {
+      "gap_id": "IN-P01",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-P02",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-P03",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-P04",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-P05",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-P06",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-P07",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-R01",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-R02",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-R03",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-R04",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "IN-R05",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P01",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_19d3992a8fbf4734bc74853e44db8222",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P02",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_339e27886fbd4cc2916066a2277aa61d",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P03",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_a1b80aa89ab84051ab4fd45f0278ea29",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P04",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_d915ad0a8d4d428cba2d1299e8a5356f",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P05",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_9b3eefdb992f438db087cc98a4e31f1f",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P06",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_e81664e6ad8b44c0ae8c04b31ec6776a",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-P07",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_8957e443f9f2463688009dcd07f88fba",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-R01",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_9900f5093bb74bcd98a4ccfe7a2a39ce",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-R02",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_305463d629114b7792565742cccbbbd6",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-R03",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "OUT-R04",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_8bb06266c1d74b9eac7fcbc2d757fec2",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-I1",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_49cca503388e46a6997f94b370ff86b9",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-I2",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_fc0acb1f5e864a2fb2d0d630e99fbfe9",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-I3",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_86b31bed9f75481c9d7219134374796e",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-I4",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_16bb3e11124c4eb6b23bf958b2777719",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-P1",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_b8d9ba29ee544e048b28780a44e8eff8",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-P2",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_13146faa462946c98dba080b9c1fbcc5",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    },
+    {
+      "gap_id": "PIN-P3",
+      "status": "unavailable",
+      "newly_recovered": false,
+      "matching_cache_rows": [
+        {
+          "item_id": "call_b87eacd723b742dbb74a7ab0c11978ca",
+          "item_type": "subAgentActivity",
+          "text_available": false
+        }
+      ],
+      "search_receipts": [
+        "checks/LOCAL_HISTORY_EXACT_ID_QUERY.json",
+        "checks/PROJECT_EXPORT_ID_SEARCH.json",
+        "checks/ORIGINAL_PACKAGE_ARCHIVE_SEARCH.json",
+        "checks/JARVIS_ID_COMPARISON.json",
+        "checks/EARLIER_PIN_EXPORTS_TARGET_CHECK.json"
+      ]
+    }
+  ]
+}

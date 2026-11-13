@@ -33,3 +33,7 @@ Historical reports inside the sealed addenda are unchanged. Their original absol
 ## Authentic log recovery
 
 [Recovery report](docs/AI_LOG_RECOVERY.md), [exact remaining records](MISSING_AI_RECORDS.md), [full original outputs and checks](evidence/log_recovery_2026-11-13/) and [Claude review records](ai/log_recovery_2026-11-13/). The 6,178-character gap is closed; no missing message body is claimed recovered.
+
+## Further searches and Jarvis Dot planning history
+
+[Follow-up report](docs/AI_LOG_RECOVERY_FOLLOWUP.md) and [original records, searches and Claude Code audits](ai/remaining_records_search_2026-11-13/). Selected planning excerpts, four original planning files and the linked planning-task capture add provenance; the 30 indexed missing records remain unavailable. Original hardware and sealed addenda are unchanged.

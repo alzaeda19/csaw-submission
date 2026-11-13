@@ -1,0 +1,14 @@
+Status: Claude Code 2.1.187 is installed. Authentication check reports loggedIn=false, authMethod=none, apiProvider=firstParty. Exactly two proposed agent definitions are in two-claude-agents.json; neither has been launched.
+
+Smallest next step: in the user's terminal, run `claude auth login --claudeai` and complete the Claude subscription sign-in. This is the supported subscription flow; do not use --console or enter an API key for this task. After sign-in, verify `claude auth status` and confirm Fable availability in the actual session before launching.
+
+New task scope supersedes the earlier three-agent browser plan. Use exactly two Claude Code agents: baseline_investigator and rubric_verification_reviewer. Do not substitute browser agents, silently fall back to another model or reuse prior solution-based planning. Preserve all existing repository files and do not push or submit.
+
+Coordinator launch brief after authentication:
+Use Fable if available. Launch exactly the two supplied custom agents and no others. Keep all work in an isolated authorized workspace; access the existing repository read-only. Investigation and baseline setup only until the defensive-handout scope is resolved. Never read, use or reveal the published solution, diagrams, embedded key or previous solution-derived outputs. Supply the rubric agent with only safely extracted requirements/rubric text. Save complete prompts, raw responses, tool calls, tool results, model/session IDs and artifact hashes from the first interaction. Do not use a logging format that omits subagent interactions; verify transcript coverage before claiming compliance. Do not run notebooks, paid APIs or unguarded execution cells. Return findings and user-facing choices; do not select or finish the Trojan. Keep the user's creativity central.
+
+No actual hardware generation, recovery, simulations or agent runs were performed while authentication was unavailable. The existing Git repository remained clean.
+
+User-selected creative direction: UNTAM’D-inspired fictional festival ticket-data simulation. A handshake inspired by the letters in UNTAM’D is desired, but exact sequence, encoding, timing and payload remain open. Present options to the user; do not choose these autonomously. No real festival system or data is in scope. Login remains pending; no new Claude Code agents have run.
+
+AHA deck handling: independent review confirms current qualifier pages 33–34. Avoid pages 7–13 and 31–32 (historical implementations/winning attacks), and never consult the published current solution. Pages 16–24 and 27–29 concern other years/competitions and are not current rules. Read/render only relevant permitted pages. UNTAM’D remains fictional framing around the supplied bitstream target. Claude Code authentication is still pending.

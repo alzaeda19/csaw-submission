@@ -1,0 +1,238 @@
+{
+  "scope": "Only fourteen endpoint records for seven existing gaps; raw opaque values and unrelated diagnostic/tool outputs excluded.",
+  "files": [
+    {
+      "file": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6/ai_records/peer_visible_fields.jsonl",
+      "file_sha256": "fed89e69f23b5bb74605ec1714a9bbf3c4aa317310d6132ce09cac6495a3e4d1",
+      "target_endpoint_records_found": 7,
+      "records": [
+        {
+          "gap_id": "PIN-I1",
+          "native_line": 13,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 83,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "8ccf6034183e0c8b6546b2161a073e58aa925afe293ac7bfcffe87cce2da5e79"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-P1",
+          "native_line": 31,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-P2",
+          "native_line": 47,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-I2",
+          "native_line": 60,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 82,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "3ad178ece5d9c56bdfd5ee5cae359e232be8fe311c20a502dfaca706d030cd78"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-I3",
+          "native_line": 76,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 83,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "8ccf6034183e0c8b6546b2161a073e58aa925afe293ac7bfcffe87cce2da5e79"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-P3",
+          "native_line": 86,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-I4",
+          "native_line": 99,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 82,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "3ad178ece5d9c56bdfd5ee5cae359e232be8fe311c20a502dfaca706d030cd78"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        }
+      ]
+    },
+    {
+      "file": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6/ai_records/audit_visible_fields.jsonl",
+      "file_sha256": "468687fd29f028a25f3fd2b232ee44236fd781a0359c84c2cee2a8d3574182bb",
+      "target_endpoint_records_found": 7,
+      "records": [
+        {
+          "gap_id": "PIN-I1",
+          "native_line": 1522,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-P1",
+          "native_line": 1538,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 82,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "78c7b25075e437e1fe115d083d509e116d2bf55984d7dba251e25695e74acb00"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-P2",
+          "native_line": 1553,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 82,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "78c7b25075e437e1fe115d083d509e116d2bf55984d7dba251e25695e74acb00"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-I2",
+          "native_line": 1556,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-I3",
+          "native_line": 1674,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-P3",
+          "native_line": 1685,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [
+            {
+              "pointer": "/payload/content/0/type",
+              "characters": 10,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": false,
+              "sha256": "e153d609c3f3006f0fa668cf758a28726a448ff20eca533747970f68d9bfa2ff"
+            },
+            {
+              "pointer": "/payload/content/0/text",
+              "characters": 82,
+              "opaque_marker_present": false,
+              "routing_wrapper_without_body": true,
+              "sha256": "78c7b25075e437e1fe115d083d509e116d2bf55984d7dba251e25695e74acb00"
+            }
+          ],
+          "potential_plaintext_body_candidate": false
+        },
+        {
+          "gap_id": "PIN-I4",
+          "native_line": 1688,
+          "old_export_hash_matches_source_without_line_ending": true,
+          "current_ledger_hash_matches_source_with_line_ending": true,
+          "ordinary_text_fields": [],
+          "potential_plaintext_body_candidate": false
+        }
+      ]
+    }
+  ],
+  "recovered_message_bodies": 0,
+  "initial_check_error": "First check directly compared newline-including ledger hashes with old export hashes and stopped. The original exporter uses raw.splitlines(), excluding line endings. Both hash conventions were then independently checked against the same original bytes; all 14 match. No source or old export was changed."
+}

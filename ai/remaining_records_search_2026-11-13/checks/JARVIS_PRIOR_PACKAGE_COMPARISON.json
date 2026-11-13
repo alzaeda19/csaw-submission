@@ -1,0 +1,23 @@
+{
+  "base_commit": "d87e907befe513f6d072a1cfc558188c5cf34e90",
+  "full_message_id_matches": [],
+  "planning_files": [
+    {
+      "file": "recovered/planning_files/assignment-plan.txt",
+      "identical_prior_paths": []
+    },
+    {
+      "file": "recovered/planning_files/two-agent-startup.txt",
+      "identical_prior_paths": []
+    },
+    {
+      "file": "recovered/planning_files/claude-planning-request.txt",
+      "identical_prior_paths": []
+    },
+    {
+      "file": "recovered/planning_files/two-claude-agents.json",
+      "identical_prior_paths": []
+    }
+  ],
+  "limitation": "Identity check uses full UI message IDs; another capture without those IDs may still contain overlapping text."
+}

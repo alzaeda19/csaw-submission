@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "/opt/homebrew/bin/claude",
+    "--print",
+    "--safe-mode",
+    "--tools",
+    "Read,Glob,Grep",
+    "--allowedTools",
+    "Read,Glob,Grep",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--disable-slash-commands",
+    "--no-session-persistence",
+    "--permission-mode",
+    "default",
+    "--system-prompt",
+    "You are an authentic-record recovery auditor. Work only within the supplied current directory and only read visible records. No external paths, opaque-body decryption, hidden reasoning inspection, reconstruction, writes, networking, or hardware work. Use Read/Glob/Grep to seek exact identity-matched plaintext counterparts. Report honest null results.",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--max-budget-usd",
+    "4"
+  ],
+  "cwd": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/outputs/CSAW_remaining_records_search_2026-11-13",
+  "started_utc": "2026-11-13T16:16:06.419623+00:00",
+  "prompt_sha256": "15eb05a84ac5f4683134a1965ee948782b67e219ab7d175499edf669adde7755",
+  "granted_tools": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "returncode": 0,
+  "ended_utc": "2026-11-13T16:18:17.347843+00:00",
+  "visible_events": 121,
+  "omitted_internal_or_reasoning_blocks": 9,
+  "final_result_received": true
+}

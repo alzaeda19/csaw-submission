@@ -1,0 +1,30 @@
+{
+  "method": "ZIP text-member reads without extracting or executing; datasets and tool-distribution test ZIPs excluded as non-record archives. Exact target IDs only.",
+  "archives": [
+    {
+      "archive": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/package/submission.zip",
+      "archive_sha256": "0c053f3595079dbe7aa11789e69b1e26d359619b7af72d7535d1da004ce0ca83",
+      "text_members_inspected": 112,
+      "matched_members": [
+        {
+          "member": "submission/ai/reviewer_exports/protocol_review.json",
+          "bytes": 51976,
+          "sha256": "20fedad069487a6d56f926feddbbe488886b24d35a1b880d500080e3b53a35d4",
+          "identical_packaged_file_exists": true
+        },
+        {
+          "member": "submission/ai/reviewer_exports/report_review.json",
+          "bytes": 68615,
+          "sha256": "0f50b26cefb46159e4818be16ec60f3d9c86e195acea7260eb3760f33d3f35df",
+          "identical_packaged_file_exists": true
+        }
+      ]
+    },
+    {
+      "archive": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/verification/source_reproduction.zip",
+      "archive_sha256": "6fe67cfe1b5e6aab5efa5de10969516fe1fcfa29d889e0529938ab1e9444bf1d",
+      "text_members_inspected": 1,
+      "matched_members": []
+    }
+  ]
+}

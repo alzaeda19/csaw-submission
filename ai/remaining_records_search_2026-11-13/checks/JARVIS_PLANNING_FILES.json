@@ -1,0 +1,29 @@
+{
+  "method": "Byte-for-byte copies of four original planning files identified in the historical task; not executed.",
+  "files": [
+    {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-05/task/assignment-plan.txt",
+      "copy": "recovered/planning_files/assignment-plan.txt",
+      "sha256": "a8e7bd7efe96c3449673e9a0a963e38ec34dfcf339fd80d75a69e6e5aef39615",
+      "bytes": 6387
+    },
+    {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-05/task/two-agent-startup.txt",
+      "copy": "recovered/planning_files/two-agent-startup.txt",
+      "sha256": "642d39ab946167b5e79174b1f32aa7ce3ca168440c0737e30f09c62a604969bc",
+      "bytes": 2824
+    },
+    {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-05/task/claude-planning-request.txt",
+      "copy": "recovered/planning_files/claude-planning-request.txt",
+      "sha256": "5f41052ebb072a82475e5c0ffd1191351fba1d52a37a07dc85c5679021fa4c41",
+      "bytes": 4265
+    },
+    {
+      "source": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-05/task/two-claude-agents.json",
+      "copy": "recovered/planning_files/two-claude-agents.json",
+      "sha256": "f6271a6238a57ea98b3dd10e1ab4b8dceff6bc38690054bfb0f151d001b559fa",
+      "bytes": 5287
+    }
+  ]
+}

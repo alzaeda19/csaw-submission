@@ -1,0 +1,196 @@
+{
+  "archived_sessions": {
+    "file_count": 1,
+    "files": [
+      "/Users/al-zayedal-hassan/.codex/archived_sessions/rollout-2026-09-09T10-50-10-01a086a5-d6c5-7931-9abf-5c809d81deaf.jsonl.zst"
+    ],
+    "listing_limited": false
+  },
+  "rollout-migrations": {
+    "file_count": 0,
+    "files": [],
+    "listing_limited": false
+  },
+  "claude-cowork-transcript-imports": {
+    "file_count": 0,
+    "files": [],
+    "listing_limited": false
+  },
+  "vendor_imports": {
+    "file_count": 1,
+    "files": [
+      "/Users/al-zayedal-hassan/.codex/vendor_imports/skills-curated-cache.json"
+    ],
+    "listing_limited": false
+  },
+  "thread_history_1.sqlite": {
+    "tables": {
+      "_sqlx_migrations": [
+        {
+          "name": "version",
+          "type": "BIGINT"
+        },
+        {
+          "name": "description",
+          "type": "TEXT"
+        },
+        {
+          "name": "installed_on",
+          "type": "TIMESTAMP"
+        },
+        {
+          "name": "success",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "checksum",
+          "type": "BLOB"
+        },
+        {
+          "name": "execution_time",
+          "type": "BIGINT"
+        }
+      ],
+      "thread_turns": [
+        {
+          "name": "thread_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "turn_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "rollout_ordinal",
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "type": "TEXT"
+        },
+        {
+          "name": "error_json",
+          "type": "TEXT"
+        },
+        {
+          "name": "started_at",
+          "type": "INTEGER"
+        },
+        {
+          "name": "completed_at",
+          "type": "INTEGER"
+        },
+        {
+          "name": "duration_ms",
+          "type": "INTEGER"
+        },
+        {
+          "name": "first_user_item_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "final_agent_item_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "rollout_byte_offset",
+          "type": "INTEGER"
+        },
+        {
+          "name": "rollout_end_ordinal",
+          "type": "INTEGER"
+        },
+        {
+          "name": "rollout_end_byte_offset",
+          "type": "INTEGER"
+        },
+        {
+          "name": "root_turn_id",
+          "type": "TEXT"
+        }
+      ],
+      "thread_items": [
+        {
+          "name": "thread_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "turn_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "item_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "rollout_ordinal",
+          "type": "INTEGER"
+        },
+        {
+          "name": "created_at_ms",
+          "type": "INTEGER"
+        },
+        {
+          "name": "item_json",
+          "type": "TEXT"
+        },
+        {
+          "name": "item_type",
+          "type": "TEXT"
+        },
+        {
+          "name": "updated_at_ordinal",
+          "type": "INTEGER"
+        },
+        {
+          "name": "started_at_ms",
+          "type": "INTEGER"
+        },
+        {
+          "name": "completed_at_ms",
+          "type": "INTEGER"
+        }
+      ],
+      "thread_history_projection_state": [
+        {
+          "name": "thread_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "next_rollout_byte_offset",
+          "type": "INTEGER"
+        },
+        {
+          "name": "next_rollout_ordinal",
+          "type": "INTEGER"
+        }
+      ],
+      "thread_realtime_items": [
+        {
+          "name": "thread_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "item_id",
+          "type": "TEXT"
+        },
+        {
+          "name": "rollout_ordinal",
+          "type": "INTEGER"
+        },
+        {
+          "name": "created_at_ms",
+          "type": "INTEGER"
+        },
+        {
+          "name": "item_type",
+          "type": "TEXT"
+        },
+        {
+          "name": "item_json",
+          "type": "TEXT"
+        }
+      ]
+    }
+  }
+}

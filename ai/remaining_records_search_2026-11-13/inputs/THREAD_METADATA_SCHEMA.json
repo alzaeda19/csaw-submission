@@ -1,0 +1,278 @@
+{
+  "threads": [
+    {
+      "name": "id",
+      "type": "TEXT"
+    },
+    {
+      "name": "rollout_path",
+      "type": "TEXT"
+    },
+    {
+      "name": "created_at",
+      "type": "INTEGER"
+    },
+    {
+      "name": "updated_at",
+      "type": "INTEGER"
+    },
+    {
+      "name": "source",
+      "type": "TEXT"
+    },
+    {
+      "name": "model_provider",
+      "type": "TEXT"
+    },
+    {
+      "name": "cwd",
+      "type": "TEXT"
+    },
+    {
+      "name": "title",
+      "type": "TEXT"
+    },
+    {
+      "name": "sandbox_policy",
+      "type": "TEXT"
+    },
+    {
+      "name": "approval_mode",
+      "type": "TEXT"
+    },
+    {
+      "name": "tokens_used",
+      "type": "INTEGER"
+    },
+    {
+      "name": "has_user_event",
+      "type": "INTEGER"
+    },
+    {
+      "name": "archived",
+      "type": "INTEGER"
+    },
+    {
+      "name": "archived_at",
+      "type": "INTEGER"
+    },
+    {
+      "name": "git_sha",
+      "type": "TEXT"
+    },
+    {
+      "name": "git_branch",
+      "type": "TEXT"
+    },
+    {
+      "name": "git_origin_url",
+      "type": "TEXT"
+    },
+    {
+      "name": "cli_version",
+      "type": "TEXT"
+    },
+    {
+      "name": "first_user_message",
+      "type": "TEXT"
+    },
+    {
+      "name": "agent_nickname",
+      "type": "TEXT"
+    },
+    {
+      "name": "agent_role",
+      "type": "TEXT"
+    },
+    {
+      "name": "memory_mode",
+      "type": "TEXT"
+    },
+    {
+      "name": "model",
+      "type": "TEXT"
+    },
+    {
+      "name": "reasoning_effort",
+      "type": "TEXT"
+    },
+    {
+      "name": "agent_path",
+      "type": "TEXT"
+    },
+    {
+      "name": "created_at_ms",
+      "type": "INTEGER"
+    },
+    {
+      "name": "updated_at_ms",
+      "type": "INTEGER"
+    },
+    {
+      "name": "thread_source",
+      "type": "TEXT"
+    },
+    {
+      "name": "preview",
+      "type": "TEXT"
+    },
+    {
+      "name": "recency_at",
+      "type": "INTEGER"
+    },
+    {
+      "name": "recency_at_ms",
+      "type": "INTEGER"
+    },
+    {
+      "name": "history_mode",
+      "type": "TEXT"
+    },
+    {
+      "name": "name",
+      "type": "TEXT"
+    },
+    {
+      "name": "is_pinned",
+      "type": "INTEGER"
+    },
+    {
+      "name": "thread_section_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "section_position",
+      "type": "INTEGER"
+    },
+    {
+      "name": "section_entered_at_ms",
+      "type": "INTEGER"
+    },
+    {
+      "name": "project_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "originator",
+      "type": "TEXT"
+    },
+    {
+      "name": "daybreak_enabled",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "creator_user_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "creator_account_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "attached_thread_parent_id",
+      "type": "TEXT"
+    }
+  ],
+  "thread_dynamic_tools": [
+    {
+      "name": "thread_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "position",
+      "type": "INTEGER"
+    },
+    {
+      "name": "name",
+      "type": "TEXT"
+    },
+    {
+      "name": "description",
+      "type": "TEXT"
+    },
+    {
+      "name": "input_schema",
+      "type": "TEXT"
+    },
+    {
+      "name": "defer_loading",
+      "type": "INTEGER"
+    },
+    {
+      "name": "namespace",
+      "type": "TEXT"
+    }
+  ],
+  "thread_spawn_edges": [
+    {
+      "name": "parent_thread_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "child_thread_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "status",
+      "type": "TEXT"
+    }
+  ],
+  "thread_sections": [
+    {
+      "name": "id",
+      "type": "TEXT"
+    },
+    {
+      "name": "name",
+      "type": "TEXT"
+    },
+    {
+      "name": "appearance",
+      "type": "TEXT"
+    }
+  ],
+  "thread_attachments": [
+    {
+      "name": "id",
+      "type": "TEXT"
+    },
+    {
+      "name": "thread_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "attachment_type",
+      "type": "TEXT"
+    },
+    {
+      "name": "identity_key",
+      "type": "TEXT"
+    },
+    {
+      "name": "payload",
+      "type": "TEXT"
+    },
+    {
+      "name": "created_at",
+      "type": "INTEGER"
+    }
+  ],
+  "thread_read_receipts": [
+    {
+      "name": "thread_id",
+      "type": "TEXT"
+    },
+    {
+      "name": "first_unread_turn",
+      "type": "TEXT"
+    },
+    {
+      "name": "revision",
+      "type": "TEXT"
+    },
+    {
+      "name": "last_published_turn",
+      "type": "TEXT"
+    }
+  ]
+}

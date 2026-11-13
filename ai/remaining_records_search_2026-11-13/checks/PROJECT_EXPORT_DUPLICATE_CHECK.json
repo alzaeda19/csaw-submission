@@ -1,0 +1,16 @@
+{
+  "matched_files": 20,
+  "already_packaged_identical_files": 18,
+  "not_identical_to_packaged_file": [
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6/ai_records/peer_visible_fields.jsonl",
+      "bytes": 87852,
+      "sha256": "fed89e69f23b5bb74605ec1714a9bbf3c4aa317310d6132ce09cac6495a3e4d1"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6/ai_records/audit_visible_fields.jsonl",
+      "bytes": 295243,
+      "sha256": "468687fd29f028a25f3fd2b232ee44236fd781a0359c84c2cee2a8d3574182bb"
+    }
+  ]
+}

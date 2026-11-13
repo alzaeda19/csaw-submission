@@ -1,0 +1,372 @@
+{
+  "inbound_exact_turn_queries": [
+    {
+      "gap_id": "IN-P01",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d245-2704-79d1-a305-f315a16334bb",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-P02",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d248-c06a-7843-90fc-21ef47d594c3",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-P03",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d24d-7c39-72e1-bc0c-69111e40c1fd",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-P04",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d25a-f923-7553-b5fc-0ebb8359d29a",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-P05",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-P06",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-P07",
+      "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+      "turn_id": "01a1d25d-97e0-7cf1-90c8-621f694be80a",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-R01",
+      "thread_id": "01a1d245-3808-71b3-a696-a4f14fca0a76",
+      "turn_id": "01a1d245-380f-7651-b792-3700395b74a1",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-R02",
+      "thread_id": "01a1d245-3808-71b3-a696-a4f14fca0a76",
+      "turn_id": "01a1d247-4c5c-75f1-a171-d22909f3e518",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-R03",
+      "thread_id": "01a1d245-3808-71b3-a696-a4f14fca0a76",
+      "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-R04",
+      "thread_id": "01a1d245-3808-71b3-a696-a4f14fca0a76",
+      "turn_id": "01a1d25b-1220-7e73-a91e-cf0a302c15d9",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    },
+    {
+      "gap_id": "IN-R05",
+      "thread_id": "01a1d245-3808-71b3-a696-a4f14fca0a76",
+      "turn_id": "01a1d25f-d0b3-78e2-8959-429ec689173c",
+      "row_found": true,
+      "first_user_item_id": null,
+      "turn_status": "completed"
+    }
+  ],
+  "pin_peer_turn_queries": [
+    {
+      "turn_id": "01a1d2a9-5b11-7e60-b817-99198859e321",
+      "first_user_item_id": null
+    },
+    {
+      "turn_id": "01a1d2ac-6485-76a0-b13a-ca76d3aecbae",
+      "first_user_item_id": null
+    }
+  ],
+  "exact_id_rows_by_table": {
+    "thread_items": 17,
+    "thread_realtime_items": 0
+  },
+  "nested_field_checks": [
+    {
+      "table": "thread_items",
+      "item_id": "call_13146faa462946c98dba080b9c1fbcc5",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "5b3f9e0f11b21540a7b34fe7be951c0b14f491fc6e9d92f65793ddd6c39265be"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_16bb3e11124c4eb6b23bf958b2777719",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "ee94e1e6f94bd54e5a87b4b14b28eb1c6b39a3be9144a834a12f4e78c0186a0e"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_19d3992a8fbf4734bc74853e44db8222",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "62f47a2038d9411140071ce9e0cb64736aa9b3e8d69a3e49db73896174787984"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_305463d629114b7792565742cccbbbd6",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "fd2457760f1f1d8267de435bf2aec885921ec556b2f408de20d6424aca8c8310"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_339e27886fbd4cc2916066a2277aa61d",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "4a072917cd1123d490de61de4974db5a52a1df535faf0c0e49a67811f307b92a"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_49cca503388e46a6997f94b370ff86b9",
+      "field_value_types": {
+        "type": "str",
+        "model": "str",
+        "reasoningEffort": "str",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "725e39cffe119f0a25a070522218aaa4f1e462e4a75f4ab691f02c3fcc2bf478"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_86b31bed9f75481c9d7219134374796e",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "af714ae320b97ca10901db0ef735d2185d01803e04da32f2c15f8fe3699f5e0a"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_8957e443f9f2463688009dcd07f88fba",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "1f8e791ee0d46ee1daad31ac9a8612ab63f0cdb7509920a254f869b8a04a0a35"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_8bb06266c1d74b9eac7fcbc2d757fec2",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "d6ab6050dfee4ef8312eea6511c646cdeebc8cbbd9278ffcefd8640ace6a8d23"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_9900f5093bb74bcd98a4ccfe7a2a39ce",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "2c18311baddc6a51b1fa78e6dd7dd01bb254a261c4fdf912e6de00b6dfb5233f"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_9b3eefdb992f438db087cc98a4e31f1f",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "88064addc9f2a037c15cc5ca6b13cbc4b9be76ab301e26bcfbd3aa9739453a05"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_a1b80aa89ab84051ab4fd45f0278ea29",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "0daf78aa6863dd82346ff0459d16c08568588c5fde69b324475257c23b9b90f2"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_b87eacd723b742dbb74a7ab0c11978ca",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "eabefc4561063e4cd626c2dd92371950097f558f034cb7cba30507d6b4395689"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_b8d9ba29ee544e048b28780a44e8eff8",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "c4ddb01350250af021f721a6ceaf7075e99c30b7ee254605e6d4e985263ad5ba"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_d915ad0a8d4d428cba2d1299e8a5356f",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "2ee579d14ad44712707055f57325d8e1c3c9e27faef10951ca7fc225e685a78e"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_e81664e6ad8b44c0ae8c04b31ec6776a",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "094f66bf975104ef323aaecdc9c9e5c723a5f9e8a6b52655284b69194ba2a157"
+    },
+    {
+      "table": "thread_items",
+      "item_id": "call_fc0acb1f5e864a2fb2d0d630e99fbfe9",
+      "field_value_types": {
+        "type": "str",
+        "model": "NoneType",
+        "reasoningEffort": "NoneType",
+        "id": "str",
+        "kind": "str",
+        "agentThreadId": "str",
+        "agentPath": "str"
+      },
+      "nested_container_fields": [],
+      "row_sha256": "18a39ae64f3367c321840437868aa2fac84cc7ce5a827dd566c4f58608862f35"
+    }
+  ],
+  "interpretation": "No first-user-item identifiers means this route supplies no alternate ordinary user-message item. Metadata containers are inspected only for field types, not hidden reasoning."
+}

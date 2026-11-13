@@ -1,0 +1,23 @@
+Use Fable for a planning-only review of my NYU CSAW assignment, with approximately three actual independent subagents if your session supports them. If unavailable, state that explicitly; do not invent agent execution. Do not implement RTL or exploits, modify the repository, execute notebooks, make paid API calls, push commits or submit anything.
+
+Instructor assignment: complete the 2026 CSAW qualifying challenge by November 13, 2026, 3 PM; confirm the deadline timezone. Use my existing repository https://github.com/alzaeda19/llm4chipdesign-hw . Do not substitute the competition's October deadline or finals task.
+
+Read these sources:
+https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026
+https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026/tree/main/qualifier
+https://github.com/GUIDE-EDA/GUIDE/blob/main/colab-scripts/GHOST_Trojan_GPT.py
+https://github.com/GUIDE-EDA/GUIDE/blob/main/colab-scripts/Hardware_Trojan_Insertion_Lab.ipynb
+https://github.com/GUIDE-EDA/GUIDE/blob/main/colab-scripts/TrojanLoc_LLM4ChipDesign_Tutorial.ipynb
+
+Verified local context: /Users/al-zayedal-hassan/Documents/llm4chipdesign-hw is clean and contains earlier homework projects HW_AutoChip, HW_ChipChat, HW_ROME_Coverage and HW_TestbenchGen. No AGENTS.md, CLAUDE.md or .agents guidance was found in this checkout. No qualifier implementation or testing has occurred in this planning task. Claude Code 2.1.187 supports fable and custom agents, but its CLI authentication is logged out. Browser Fable 5.1 was selected; actual agent capability remains unverified.
+
+Three workstreams:
+1. Requirements and baseline recovery: verify qualifier rules, inspect bitstream/interface/MicroPython assets, plan recovery tooling and SPI baseline validation, and provide a dependency map with an early stop/go gate.
+2. AI methodology and verification: plan full prompt/response logging, provenance from generation through artifacts and tool feedback, AI-only hardware and exploit authorship, differential untriggered regressions, activation/payload proof, reset and near-miss controls, waveforms and synthesis comparisons. No implementation now.
+3. Independent feasibility and presentation: challenge assumptions, map all rubric categories to evidence, prioritize minimum viable and stretch outcomes, build Nov 5-13 milestones and a timed five-minute progress presentation.
+
+Verified qualifier constraints: simulation-only, recover RTL from provided FPGA bitstream, understand accelerator via interface docs and MicroPython. Hardware Trojan and exploit must be entirely AI-written; human-written hardware is prohibited. Full prompts and responses are required. Deliver README technical brief, rtl/, tb/, ai/. Rubric weights: creative AI use 35, Trojan quality 25, automation 15, documentation/reproducibility 15, simulation 10; up to 10 optional key-recovery bonus points. Keep original assets immutable and preserve normal accelerator behavior.
+
+Attachment caveats: seven Library attachments could not be downloaded through the supported helper on this machine. Do not claim to have inspected them. A separate preliminary review reports lecture PDF page 103 agrees with the qualifier, while two screenshot handouts describe a defensive-analysis exercise with differing course headers and a restriction on new Trojaned RTL. Their relationship is awaiting user clarification. Keep these scopes separate and remain planning-only. That review also found an unguarded notebook section '13. Execute Trojan Insertion via API Call': RUN_BATCH_JOB=False does not disable it. Do not Run All. The GHOST script reportedly does not preserve full prompts/raw responses: audit and supplement logging before any future use.
+
+Return one source-grounded plan with verified requirements versus assumptions; agent identities/tool evidence if actual agents run; each workstream's outputs, dependencies and acceptance criteria; early baseline recovery gate; Nov 5-13 daily milestones; rubric-to-evidence mapping; proposed new isolated homework directory without changing existing projects; minimal and stretch goals; a five-minute progress presentation outline. Clearly distinguish planned work from demonstrated results. Do useful research rather than ending with only questions.

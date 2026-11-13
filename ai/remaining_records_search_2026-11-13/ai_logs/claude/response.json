@@ -1,0 +1,119 @@
+{
+  "duration_api_ms": 54403,
+  "stop_reason": "end_turn",
+  "session_id": "65a60a21-8704-4411-8923-3e3d9097c65e",
+  "total_cost_usd": 0.3653256,
+  "usage": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 31199,
+    "cache_read_input_tokens": 72408,
+    "output_tokens": 5061,
+    "output_tokens_details": {
+      "thinking_tokens": 2177
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 31199,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 4006,
+        "cache_read_input_tokens": 33013,
+        "cache_creation_input_tokens": 904,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 904
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-opus-5-5": {
+      "inputTokens": 8,
+      "outputTokens": 5061,
+      "cacheReadInputTokens": 72408,
+      "cacheCreationInputTokens": 31199,
+      "webSearchRequests": 0,
+      "costUSD": 0.3653256,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 2177,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 31199,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I found **no recovered bodies in these sources.** 0 of 30 gaps are recovered. The new history check found 17 rows by exact ID, but every one holds metadata only.\n\nI read the five named files and checked the rest of the directory. `CLAUDE_BRIEF.md` repeats your instructions. `checks/COMMAND_EVENT_RECOVERY.json`, the file that records the earlier command-output recovery, is not in this directory. I can't re-verify that gain, but nothing here counts it again: the baseline lists 0 missing output ranges. I ran no queries; every database result below comes from Codex's receipts.\n\n## What the new sources cover\n\n**Counts add up.** 12 inbound + 11 outgoing + 4 pin instructions + 3 pin progress = 30. The 44 IDs queried are also accounted for: 23 for the inbound and outgoing gaps, plus 21 for the pin exchanges, which are recorded at both ends.\n\n**Exact-ID check on the history database (`thread_history_1.sqlite`):**\n- **17 rows found, 0 bodies.** They cover 10 of the 11 outgoing calls and the 7 pin calls. Every row has `item_type = subAgentActivity` and only these fields: `type, model, reasoningEffort, id, kind, agentThreadId, agentPath`. `ordinary_text_field_present` is false for all of them.\n- **27 IDs not found:** all 19 `amsg_*` messages (the 12 inbound plus the 7 pin message ends), all 7 `fc_*` IDs, and `call_5ef0\u2026` (OUT-R03). That one is the aborted call, so a missing row is expected.\n- **13 gaps have no row at all:** IN-P01\u2026P07, IN-R01\u2026R05 and OUT-R03.\n- **Caveats:**\n  - The `field_names` list may cover only top-level keys. The receipt doesn't say whether nested values were checked for text.\n  - The receipt only reports matches from `thread_items`. It doesn't confirm that `thread_realtime_items` was searched.\n  - An inbound message may be stored under a different item ID on the receiving side, so \"no match\" only means no row has that exact ID.\n\n**Communication metadata:** the 62 records across the 4 session files hold only `trigger_turn`, and no body.\n\n**Thread metadata:** this is a list of columns only, so no values were read. `first_user_message`, `preview`, `title`, `name` and `thread_attachments.payload` haven't been looked at. Even if they hold text, it may be shortened or derived and must not be treated as a full original prompt.\n\n**Inventory:** the migration and transcript-import folders are empty. `vendor_imports` holds a skills cache, which is not relevant. The single archived session (Sep 2026) predates this work and wasn't opened.\n\n## What must be true before a candidate counts as recovered\n1. **Same identity:** the candidate carries the exact `message_id` or `call_id`. Otherwise it needs a fixed link to the exact record: same `thread_id` and `turn_id`, a position that maps to the same original log line, and a timestamp matching to the millisecond. Matching on a time window or on similar content is not enough.\n2. **Trustworthy origin:** it was written by ordinary app storage, not by a model summary or a re-run. It was read through read-only access, and the receipt names the database file, table, column, row key and the item's hash.\n3. **Complete text:** the field is meant to hold the full body, not a title or preview. It shows no signs of being cut off (an ellipsis or a length cap). The original line sizes are only a loose sanity check because the encoding inflates the stored body.\n4. **Pin exchanges:** recover each end of the pair separately. If both ends are found, they must match exactly. Text from one end alone doesn't recover the pair unless the counting rule allows that.\n5. **Not derived from the opaque bodies:** the text must not come from decoding them in any way.\n6. **OUT-R03 (aborted):** any text found is a draft that was never sent, so label it separately.\n\nReport found rows and recovered bodies as separate numbers.\n\n## Suggested next checks (at most three, read-only)\n1. **Inbound turns, by exact turn ID.** For the 12 inbound gaps, look up `thread_turns` using the given thread and `turn_id`. Then fetch the matching `thread_items` row by exact `first_user_item_id` and also check `thread_realtime_items`. First report only the item type, field names (including nested ones), text length and hash. Count a row only if it ties back to the specific message ID and timestamp. This matters most for turns with several messages (IN-P05/06/07, IN-R03/04), where the first item may belong to a different message.\n2. **Thread metadata for the three receiving threads.** Read `first_user_message`, `preview`, `title`, `name`, any matching `thread_spawn_edges` row and `thread_attachments.payload` for `01a1d245-26de\u2026`, `01a1d245-3808\u2026` and `01a1d2a9-5b06\u2026`. Record each value's length and hash. At most these could match the first task in each thread (IN-P01, IN-R01, PIN-I1 message end), and only if criteria 1\u20133 are met. Treat any text as a lead until then.\n3. **Nested fields in the 17 found rows.** For the 17 matched rows, list all nested keys and check whether `agentThreadId` points to the expected receiving thread. This can confirm routing, not recover a body. Optionally, list the item types (not contents) in each receiving thread's history within \u00b12 seconds of each gap's timestamp. Any candidate must still pass criterion 1 by exact link, not by closeness in time.\n\nThese checks only bound what this directory and these tables show. They don't prove the bodies are unrecoverable from every source. Final supplemental results from the main audit may not be here yet.",
+  "ttft_ms": 1627,
+  "type": "result",
+  "duration_ms": 54464,
+  "uuid": "0bfa08ac-39b1-45c0-b35b-2471c498d5ed",
+  "ttft_stream_ms": 1580,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1580,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+    "claude-opus-5-5": {
+      "inputTokens": 8,
+      "outputTokens": 5061,
+      "cacheReadInputTokens": 72408,
+      "cacheCreationInputTokens": 31199,
+      "webSearchRequests": 0,
+      "costUSD": 0.3653256,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 2177,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 31199,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  }
+}

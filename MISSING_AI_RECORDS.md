@@ -65,3 +65,7 @@ Four instructions and three progress messages are counted once per exchange, eve
 - 0 remaining character gaps in the two audited command outputs.
 
 **30 indexed unavailable records remain.** This number describes categories of records, including an aborted call; it is not a count of 30 confirmed delivered messages. No absent content was invented. The exact generation-log requirement and staff acceptance remain unestablished.
+
+## Further search and Jarvis planning records
+
+The [follow-up audit](docs/AI_LOG_RECOVERY_FOLLOWUP.md) checked additional database fields, old exports and archives with Claude Code. No indexed gap was closed. Selected authentic Jarvis planning messages and four original planning files are now included separately; they are not replacements for the 30 missing records.

@@ -1,0 +1,56 @@
+NYU CSAW 2026 qualifier: provisional planning baseline
+Prepared November 5, 2026. This plan was prepared in Codex; it is not a completed Claude/subagent result.
+
+STATUS AND LIMITATIONS
+The local submission checkout is clean and has earlier homework projects. No repository files were changed; no RTL was generated, recovered or simulated. Fable 5.1 was visibly selected on Claude web. Claude Code is installed (2.1.187) and supports custom agents but is signed out. Browser control failed during draft entry; no Send action was taken and no Claude response or subagent execution was verified. Seven Library attachment transfers failed, including after elevated-network attempts. Attachments were not inspected locally or uploaded to Claude.
+
+PRIMARY SOURCES
+Challenge: https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026
+Qualifier rules and rubric: https://github.com/JBlocklove/CSAW-AI-Hardware-Attack-Challenge-2026/tree/main/qualifier
+Tutorial resources are listed in claude-planning-request.txt and still need independent review in Claude.
+
+REQUIREMENTS
+Instructor deadline: November 13, 2026, 3 PM; timezone needs confirmation. The homework is the qualifier, despite the public competition's earlier deadline. Qualifier is simulation-only. Hardware and exploit must be AI-written, with complete AI transcripts. Submission structure is README, rtl/, tb/, ai/; class submission uses the existing GitHub repository. Check whether an archive is additionally required for the class; do not submit to the competition form automatically.
+
+THREE PROPOSED SUBAGENT CHARTERS
+A. Requirements and reverse engineering: inventory and hash original assets, document tool versions and recovery steps, infer and verify SPI timing and accelerator behavior against provided reference examples. Output source-linked requirements matrix, recovery notes and baseline test specification. Acceptance: reproducible recovery and baseline simulation match reference transactions before modifying the recovered design.
+B. AI pipeline and verification: define immutable full prompt/response logs, model identifiers, tool feedback, artifact hashes and revision lineage. Design differential normal-operation tests, activation/payload assertions, near-miss and reset controls, waveform capture and resource comparison. Output workflow specification and evidence checklist. Acceptance: every generated artifact traces to raw AI output; tests distinguish baseline behavior from intended triggered behavior and detect unintended differences.
+C. Independent reviewer and presentation: audit assumptions and scope, prioritize by rubric, identify stop/go criteria, prepare technical brief and five-minute progress outline. Output risk register, schedule and report storyboard. Acceptance: no claim lacks a matching log or test artifact, and a clean reproduction procedure is defined.
+
+DEPENDENCIES AND GATES
+A baseline must pass before any future integration work. B's logging must be ready before generation begins. C can review the rules and prepare presentation structure immediately. If recovery fails by November 7, freeze novelty work and focus on diagnosing the recovery chain; do not replace the target with a tutorial design or claim completion. If the handout scope is unresolved, keep generation at the planning stage and clarify which assignment each handout governs.
+
+PROPOSED SCHEDULE
+Nov 5: verify scope, preserve assets, audit tools and rules, define logging and three agent handoffs.
+Nov 6: plan/perform authorized recovery and reference SPI baseline; record every tool result.
+Nov 7: baseline gate. Require repeatable reference behavior; diagnose blockers before modification.
+Nov 8: after scope is settled and implementation is authorized, use AI for one bounded candidate and testbench; retain complete transcripts.
+Nov 9: normal-operation differential tests, reset/near-miss controls and triggered evidence.
+Nov 10: resource comparison, reproduce from clean inputs and capture waveforms.
+Nov 11: assemble technical brief, AI logs and evidence; independent audit.
+Nov 12: freeze implementation, rehearse five-minute presentation and validate a clean reproduction.
+Nov 13: final repository/archive audit and submission before instructor deadline; preserve a buffer.
+
+RUBRIC TO EVIDENCE
+Creative AI use (35): documented agent roles, prompt chains, tool-feedback loop and artifact lineage. Agent names alone are insufficient evidence.
+Trojan quality (25): measured normal-operation preservation, trigger specificity, payload correctness and synthesis overhead.
+Automation (15): repeatable generation-to-test workflow with explicit inputs, versions and fail-fast checks.
+Documentation/reproducibility (15): raw transcripts, technical brief, hashes, commands and clean-run evidence.
+Simulation (10): self-checking baseline and modified tests plus annotated activation/payload waveforms.
+Optional bonus: key recovery only after core submission evidence is complete.
+
+MINIMUM AND STRETCH
+Minimum complete submission: one recovered target, one AI-authored candidate, passing normal and triggered tests, complete provenance and reproducible documentation. A recovery-only report is honest progress, not a completed qualifier. Stretch: better automation, stronger negative testing, measured low overhead and optional key-recovery analysis.
+
+PROPOSED REPOSITORY FOLDER (NOT CREATED)
+HW_CSAW_Qualifier/README.md; original/; baseline/; rtl/; tb/; ai/; scripts/; results/; presentation/.
+Keep original assets immutable, separate recovered baseline and modified RTL, exclude credentials and large temporary waveforms appropriately, and leave earlier homework untouched.
+
+FIVE-MINUTE PROGRESS PRESENTATION
+0:00-0:35: assignment scope, target, deadline and what is verified today.
+0:35-1:20: target/interface and recovery approach; show actual evidence only if available.
+1:20-2:10: three workstreams, AI-only authorship and logging workflow; label agents as proposed until they run.
+2:10-3:25: validation evidence or explicitly planned test matrix: baseline, normal-operation comparison, trigger, payload and negative controls.
+3:25-4:15: rubric coverage, measured results if any, blockers and limitations.
+4:15-5:00: remaining milestones and next concrete gate.
+Current truthful progress: requirements and repository inspection plus planning; no recovery, implementation or simulation results yet.

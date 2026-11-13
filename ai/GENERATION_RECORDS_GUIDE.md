@@ -18,3 +18,5 @@ The later verification-only Qwen/Claude Code review is preserved in [quality_rev
 The separate unchanged-design evaluation is in [independent_evaluation_2026-11-13/](independent_evaluation_2026-11-13/), including both independent first replies, record-based corrections and residual model errors.
 
 The authentic full-output recovery, fresh record searches, Claude tool traces and precise missing-record ledger are in [log_recovery_2026-11-13/](log_recovery_2026-11-13/). Earlier sealed reports describe their historical cutoffs.
+
+[remaining_records_search_2026-11-13/](remaining_records_search_2026-11-13/) adds selected Jarvis Dot planning messages, the linked planning-task capture, four original planning files, further search receipts and two completed Claude Opus 5.5 audits. It is not a complete Jarvis/Claude export and does not close the 30 indexed gaps. The report preserves early solution references and the later no-solutions instruction without inventing a causal link to the final design.

@@ -28,3 +28,5 @@ Normal-operation evidence covers the saved tests and the formal proof's stated p
 - Passing all four particular detectors is not an explicit qualifier requirement.
 
 The [independent evaluation](docs/INDEPENDENT_EVALUATION.md) provides the evidence and model-error corrections. The [official requirements snapshot](QUALIFIER_REQUIREMENTS.md) is the basis for this distinction. The packet is ready for staff to review with these disclosures; it is not certified as fully satisfying every requirement.
+
+The [Jarvis/Claude record follow-up](docs/AI_LOG_RECOVERY_FOLLOWUP.md) adds selected early planning history but closes none of the 30 indexed gaps. It also discloses early solution references preceding the later no-solutions instruction, without asserting influence on the final hardware.

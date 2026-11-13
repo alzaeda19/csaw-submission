@@ -1,0 +1,38 @@
+[
+  {
+    "thread_id": "01a1d245-26de-7730-8903-654a1eb4004d",
+    "name": null,
+    "attachments_metadata": [],
+    "spawn_edges": [
+      [
+        "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "01a1d245-26de-7730-8903-654a1eb4004d",
+        "open"
+      ]
+    ]
+  },
+  {
+    "thread_id": "01a1d245-3808-71b3-a696-a4f14fca0a76",
+    "name": null,
+    "attachments_metadata": [],
+    "spawn_edges": [
+      [
+        "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "01a1d245-3808-71b3-a696-a4f14fca0a76",
+        "open"
+      ]
+    ]
+  },
+  {
+    "thread_id": "01a1d2a9-5b06-7930-859c-aa0fa0911cee",
+    "name": null,
+    "attachments_metadata": [],
+    "spawn_edges": [
+      [
+        "01a1b0ad-f593-7f90-a689-b621984f7cb4",
+        "01a1d2a9-5b06-7930-859c-aa0fa0911cee",
+        "open"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-12-19-01a1b0ad-f593-7f90-a689-b621984f7cb4_01a1d23f-7ed7-7fa1-9afd-64875b8a6cf8.jsonl",
+    "count": 46,
+    "field_types": {
+      "trigger_turn": [
+        "bool"
+      ]
+    }
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-29-01a1d245-26de-7730-8903-654a1eb4004d.jsonl",
+    "count": 7,
+    "field_types": {
+      "trigger_turn": [
+        "bool"
+      ]
+    }
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T19-18-34-01a1d245-3808-71b3-a696-a4f14fca0a76.jsonl",
+    "count": 5,
+    "field_types": {
+      "trigger_turn": [
+        "bool"
+      ]
+    }
+  },
+  {
+    "source": "/Users/al-zayedal-hassan/.codex/sessions/2026/11/12/rollout-2026-11-12T21-07-56-01a1d2a9-5b06-7930-859c-aa0fa0911cee.jsonl",
+    "count": 4,
+    "field_types": {
+      "trigger_turn": [
+        "bool"
+      ]
+    }
+  }
+]

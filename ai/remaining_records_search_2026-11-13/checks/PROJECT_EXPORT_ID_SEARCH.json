@@ -1,0 +1,129 @@
+{
+  "roots": [
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_AI_Log_Recovery_2026-11-10_125845Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Audit_2026-11-06",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Course_Update_2026-11-10",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Baseline_2026-11-10_122045Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Baseline_Readback_20261111T145521Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Clean_AES_2026-11-10_123555Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Detector_Existing_Designs_2026-11-10_180906Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Latest_Status_20261111T171049Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Normal_Verification_20261112T233345Z_l0jc6zzt",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Qwen_Harness_Inputs_20261112T232532Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Qwen_Intake_20261112T231830Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Qwen_Reply_Review_20261112T234202Z_vp2z_l6_",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Reference_Review_20261111T184435Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Restart_2026-11-06",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Set_Aside_2026-11-06",
+    "/Users/al-zayedal-hassan/Documents/CSAW_2026_Submission_Gap_Check_20261111T183543Z",
+    "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Agent_20261112T234518Z_cwib3p7a",
+    "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6",
+    "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan"
+  ],
+  "search": "Exact stable IDs, filenames only; no code executed. Content matches do not by themselves establish a recovered body.",
+  "exit_code": 0,
+  "stderr": "",
+  "matched_files": [
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_readiness_gap_recheck_20261113T054119Z_sb2iizba/RECEIPT.json",
+      "bytes": 16879,
+      "sha256": "1dad6aceac7f666fc66359686ac5c0a5116646d14e5c5e8d19b3b5fc1ed2c5ad"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_readiness_gap_recheck_20261113T054119Z_sb2iizba/inputs/NATIVE_SOURCE_RECEIPT.json",
+      "bytes": 13112,
+      "sha256": "129746e414161059bc5089a5904c4cc4ec0c4b25e84984f9f9bc4889a3dc6187"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_readiness_gap_recheck_20261113T054119Z_sb2iizba/inputs/PROMPT_GAPS.json",
+      "bytes": 11888,
+      "sha256": "736b4f83d4b356fd79548bcd26375593f58c56c7ffe9c5be009c87bf01671d42"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_readiness_gap_recheck_20261113T054119Z_sb2iizba/api_protocol.json",
+      "bytes": 7692,
+      "sha256": "75584d0b572902a226f288bc00917b6a821079eeeb87d6f283c1e374d049d370"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_readiness_gap_recheck_20261113T054119Z_sb2iizba/api_report.json",
+      "bytes": 46968,
+      "sha256": "e42677db279b9719dbf57884cf0fd250b214436e0cd02db0e15a576f61b9766e"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_readiness_gap_recheck_20261113T054119Z_sb2iizba/ai_records/visible_exact_fields.jsonl",
+      "bytes": 267045,
+      "sha256": "300e6c36b26612f796b2a9198ef2ba2d4f8c81c204d85ca5cbba18135a1fa5f5"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6/ai_records/peer_visible_fields.jsonl",
+      "bytes": 87852,
+      "sha256": "fed89e69f23b5bb74605ec1714a9bbf3c4aa317310d6132ce09cac6495a3e4d1"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/package/submission/ai/reviewer_exports/protocol_review.json",
+      "bytes": 51976,
+      "sha256": "20fedad069487a6d56f926feddbbe488886b24d35a1b880d500080e3b53a35d4"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/package/submission/ai/reviewer_exports/report_review.json",
+      "bytes": 68615,
+      "sha256": "0f50b26cefb46159e4818be16ec60f3d9c86e195acea7260eb3760f33d3f35df"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6/ai_records/audit_visible_fields.jsonl",
+      "bytes": 295243,
+      "sha256": "468687fd29f028a25f3fd2b232ee44236fd781a0359c84c2cee2a8d3574182bb"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6_records_v2/ai_records/peer_visible_fields.jsonl",
+      "bytes": 82875,
+      "sha256": "e9c946ab92e79eba33855d0fe95608682c54fe0ce0984a9a8aacb3f93691a550"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_original_pin_audit_20261113T020751Z_u4o_hhf6_records_v2/ai_records/audit_visible_fields.jsonl",
+      "bytes": 293327,
+      "sha256": "84db932b0530709bd7619214de88c4d3ea49b7e71a4a58aa52412054bb8ba528"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/ai_logs/reviewer_exports/protocol_review.json",
+      "bytes": 51976,
+      "sha256": "20fedad069487a6d56f926feddbbe488886b24d35a1b880d500080e3b53a35d4"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/CSAW_Qwen_Submission_20261113T001822Z_9sj2k3k6/ai_logs/reviewer_exports/report_review.json",
+      "bytes": 68615,
+      "sha256": "0f50b26cefb46159e4818be16ec60f3d9c86e195acea7260eb3760f33d3f35df"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_records_explanation_20261113T011536Z_jj4i8v2x/records/reviewer_recovery/APP_EXPORT_COMPARISON.json",
+      "bytes": 33821,
+      "sha256": "918a3b235433136663d6bfc01535236282de880fb6e3f5db3bb47a88d0441a3c"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_records_explanation_20261113T011536Z_jj4i8v2x/records/reviewer_recovery/PROMPT_GAPS.json",
+      "bytes": 11888,
+      "sha256": "736b4f83d4b356fd79548bcd26375593f58c56c7ffe9c5be009c87bf01671d42"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_records_explanation_20261113T011536Z_jj4i8v2x/records/reviewer_recovery/visible_reviewer_records.jsonl",
+      "bytes": 264898,
+      "sha256": "66d364b9d3839841234b05fc850312f5af1a896fe11fb444ef72f8ff594d268b"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_records_explanation_20261113T011536Z_jj4i8v2x/records/generation_tail/visible_task_records.jsonl",
+      "bytes": 628761,
+      "sha256": "82201279ca0c08ab4cba2b5a8c0d35027dda61151bb18ca86c844d39f967a043"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_records_explanation_20261113T011536Z_jj4i8v2x/records/generation_tail/VISIBLE_TASK_TRANSCRIPT.md",
+      "bytes": 547121,
+      "sha256": "3868bce017994825a9fd9b044b975682c1e1105ba2bb91f6715920b3692656f1"
+    },
+    {
+      "path": "/Users/al-zayedal-hassan/Documents/ChatGPT/trojan/CSAW_records_explanation_20261113T011536Z_jj4i8v2x/records/generation_tail/NEW_TAIL_RECORDS.jsonl",
+      "bytes": 228048,
+      "sha256": "aa336ed3c976a363240ece255d5c2a2483aec0f4870a8eb5f2156d44725716e0"
+    }
+  ],
+  "unique_file_hashes": 17
+}
