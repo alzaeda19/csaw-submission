@@ -27,7 +27,7 @@ When running from a Git checkout, supply an output directory outside every Git r
 python3 run_tests.py --tool-bin /absolute/path/to/tools --output-root /absolute/path/outside-git/csaw-results
 ```
 
-The unchanged runner checks all seven pinned source hashes, retains tool versions and commands, and checks five expected outcomes. It creates deliberately broken controls only in its output folder. See [evidence index](EVIDENCE_INDEX.md) for exact saved runs. This packaging task verifies file identity and ZIP relocation; it does not claim a new simulation run.
+The unchanged runner checks all seven pinned source hashes, retains tool versions and commands, and checks five expected outcomes. It creates deliberately broken controls only in its output folder. See [evidence index](EVIDENCE_INDEX.md) for exact saved runs. The initial packaging task verified file identity and ZIP relocation. The subsequent quality review below includes a fresh simulation replay.
 
 | Saved test | Result |
 |---|---|
@@ -38,6 +38,18 @@ The unchanged runner checks all seven pinned source hashes, retains tool version
 | Permanently inverted output control | Correctly fails with 9,209 failures |
 
 These are assertion counts and repeated examples, not thousands of independent cipher vectors. Trace CSV/VCD and exact exit receipts are included. The earlier extracted-source replay reproduced these outcomes using the same toolchain; cross-platform portability is not claimed.
+
+## Stronger result verification
+
+After the runner finishes, check the evidence folder it prints:
+
+```sh
+python3 verify_results.py /absolute/path/to/the/printed/evidence-folder
+```
+
+The separate checker requires exact negative-control counts and failure reasons, consistent raw logs and receipts, all five completed cases, unchanged source copies, nonempty traces and the recorded simulator build. This prevents an unrelated failure from being accepted merely because a negative test failed. It does not rerun simulation or establish stealth. The frozen original runner and hardware are unchanged.
+
+The [Qwen and Claude Code review](docs/QUALITY_REVIEW.md) records accepted findings, rejected model claims and refinements. A fresh five-case simulation replay passed, the stricter checker accepted it, and all 11 checker tests passed. [Fresh evidence](evidence/quality_review_2026-11-13/) is included. To check the checker itself: `python3 -m unittest discover -s tests -v`.
 
 ## Recovery and source provenance
 

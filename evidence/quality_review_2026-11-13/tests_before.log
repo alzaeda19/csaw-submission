@@ -1,0 +1,105 @@
+test_authentic_relocated_run_passes (test_verify_results.VerifyResultsTests.test_authentic_relocated_run_passes) ... ok
+test_crashed_negative_control_rejected (test_verify_results.VerifyResultsTests.test_crashed_negative_control_rejected) ... FAIL
+test_duplicate_case_rejected (test_verify_results.VerifyResultsTests.test_duplicate_case_rejected) ... FAIL
+test_missing_case_rejected (test_verify_results.VerifyResultsTests.test_missing_case_rejected) ... FAIL
+test_missing_trace_rejected (test_verify_results.VerifyResultsTests.test_missing_trace_rejected) ... FAIL
+test_source_change_rejected (test_verify_results.VerifyResultsTests.test_source_change_rejected) ... FAIL
+test_timeout_rejected (test_verify_results.VerifyResultsTests.test_timeout_rejected) ... FAIL
+test_truncated_completion_rejected (test_verify_results.VerifyResultsTests.test_truncated_completion_rejected) ... FAIL
+test_wrong_failure_reason_rejected (test_verify_results.VerifyResultsTests.test_wrong_failure_reason_rejected) ... FAIL
+test_wrong_negative_failure_count_rejected (test_verify_results.VerifyResultsTests.test_wrong_negative_failure_count_rejected) ... FAIL
+
+======================================================================
+FAIL: test_crashed_negative_control_rejected (test_verify_results.VerifyResultsTests.test_crashed_negative_control_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 41, in test_crashed_negative_control_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_duplicate_case_rejected (test_verify_results.VerifyResultsTests.test_duplicate_case_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 54, in test_duplicate_case_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_missing_case_rejected (test_verify_results.VerifyResultsTests.test_missing_case_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 50, in test_missing_case_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_missing_trace_rejected (test_verify_results.VerifyResultsTests.test_missing_trace_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 63, in test_missing_trace_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_source_change_rejected (test_verify_results.VerifyResultsTests.test_source_change_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 59, in test_source_change_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_timeout_rejected (test_verify_results.VerifyResultsTests.test_timeout_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 72, in test_timeout_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_truncated_completion_rejected (test_verify_results.VerifyResultsTests.test_truncated_completion_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 46, in test_truncated_completion_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_wrong_failure_reason_rejected (test_verify_results.VerifyResultsTests.test_wrong_failure_reason_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 68, in test_wrong_failure_reason_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_wrong_negative_failure_count_rejected (test_verify_results.VerifyResultsTests.test_wrong_negative_failure_count_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 37, in test_wrong_negative_failure_count_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.351s
+
+FAILED (failures=9)

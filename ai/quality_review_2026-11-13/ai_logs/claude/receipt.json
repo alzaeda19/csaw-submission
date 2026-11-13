@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "/opt/homebrew/bin/claude",
+    "--print",
+    "--safe-mode",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--disable-slash-commands",
+    "--no-session-persistence",
+    "--permission-mode",
+    "default",
+    "--system-prompt",
+    "You are a bounded verification reviewer. Only the supplied text is evidence. No tools, file writes, hardware changes, evasion advice, or published solutions. Return actionable final findings, not a plan to inspect.",
+    "--output-format",
+    "json",
+    "--max-budget-usd",
+    "4"
+  ],
+  "cwd": "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/outputs/CSAW_quality_review_2026-11-13",
+  "started_utc": "2026-11-13T15:07:53.484066+00:00",
+  "input_sha256": "7182fdcb0f555037b9fb0af5baf284c23f0d5713d11e002574df474eead73acf",
+  "tools_granted": [],
+  "returncode": 0,
+  "ended_utc": "2026-11-13T15:10:00.703444+00:00"
+}

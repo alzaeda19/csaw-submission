@@ -1,0 +1,806 @@
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.751563Z", "message": {"role": "assistant", "content": "###"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.788064Z", "message": {"role": "assistant", "content": " Final"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.817395Z", "message": {"role": "assistant", "content": " Review"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.845624Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.873372Z", "message": {"role": "assistant", "content": " Verification"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.902114Z", "message": {"role": "assistant", "content": " Flow"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.930521Z", "message": {"role": "assistant", "content": "\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.960088Z", "message": {"role": "assistant", "content": "####"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:12.988911Z", "message": {"role": "assistant", "content": " "}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.018105Z", "message": {"role": "assistant", "content": "1"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.047082Z", "message": {"role": "assistant", "content": "."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.076191Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.105008Z", "message": {"role": "assistant", "content": "Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.133647Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.162752Z", "message": {"role": "assistant", "content": " Mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.19256Z", "message": {"role": "assistant", "content": " Anchor"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.221734Z", "message": {"role": "assistant", "content": " M"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.250349Z", "message": {"role": "assistant", "content": "ismatch"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.279829Z", "message": {"role": "assistant", "content": " Risk"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.308601Z", "message": {"role": "assistant", "content": "**\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.337955Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.367788Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.396063Z", "message": {"role": "assistant", "content": "Evidence"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.424878Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.453295Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.482642Z", "message": {"role": "assistant", "content": " `"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.511315Z", "message": {"role": "assistant", "content": "run"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.540737Z", "message": {"role": "assistant", "content": "_tests"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.569355Z", "message": {"role": "assistant", "content": ".py"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.598044Z", "message": {"role": "assistant", "content": "`"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.627045Z", "message": {"role": "assistant", "content": " script"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.655539Z", "message": {"role": "assistant", "content": " attempts"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.684157Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.713345Z", "message": {"role": "assistant", "content": " mutate"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.742798Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.771432Z", "message": {"role": "assistant", "content": " `"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.801349Z", "message": {"role": "assistant", "content": "M"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.82965Z", "message": {"role": "assistant", "content": "ISO"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.858759Z", "message": {"role": "assistant", "content": "`"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.887855Z", "message": {"role": "assistant", "content": " assignment"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.916307Z", "message": {"role": "assistant", "content": " in"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.946452Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:13.975229Z", "message": {"role": "assistant", "content": " RTL"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.00384Z", "message": {"role": "assistant", "content": " by"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.033131Z", "message": {"role": "assistant", "content": " matching"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.062454Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.09134Z", "message": {"role": "assistant", "content": " regex"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.120255Z", "message": {"role": "assistant", "content": " `"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.149236Z", "message": {"role": "assistant", "content": "assign"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.177863Z", "message": {"role": "assistant", "content": " M"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.20719Z", "message": {"role": "assistant", "content": "ISO"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.23644Z", "message": {"role": "assistant", "content": " ="}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.265515Z", "message": {"role": "assistant", "content": " raw"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.29345Z", "message": {"role": "assistant", "content": "_m"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.322581Z", "message": {"role": "assistant", "content": "iso"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.351781Z", "message": {"role": "assistant", "content": " \\"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.380584Z", "message": {"role": "assistant", "content": "^"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.409873Z", "message": {"role": "assistant", "content": " \\("}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.438828Z", "message": {"role": "assistant", "content": "fault"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.468056Z", "message": {"role": "assistant", "content": "_active"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.497144Z", "message": {"role": "assistant", "content": " &&"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.526732Z", "message": {"role": "assistant", "content": " !"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.554731Z", "message": {"role": "assistant", "content": "N"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.583636Z", "message": {"role": "assistant", "content": "ORM"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.612438Z", "message": {"role": "assistant", "content": "_CS"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.641318Z", "message": {"role": "assistant", "content": "_N"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.670133Z", "message": {"role": "assistant", "content": " &&"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.699327Z", "message": {"role": "assistant", "content": " read"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.728193Z", "message": {"role": "assistant", "content": "_count"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.75719Z", "message": {"role": "assistant", "content": " =="}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.785883Z", "message": {"role": "assistant", "content": " "}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.814212Z", "message": {"role": "assistant", "content": "6"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.843159Z", "message": {"role": "assistant", "content": "\\x"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.872477Z", "message": {"role": "assistant", "content": "2"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.901707Z", "message": {"role": "assistant", "content": "7"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.930718Z", "message": {"role": "assistant", "content": "d"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.960321Z", "message": {"role": "assistant", "content": "1"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:14.988914Z", "message": {"role": "assistant", "content": "\\"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.017754Z", "message": {"role": "assistant", "content": ");"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.045724Z", "message": {"role": "assistant", "content": "`."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.073542Z", "message": {"role": "assistant", "content": " However"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.102037Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.130873Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.159178Z", "message": {"role": "assistant", "content": " regex"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.186364Z", "message": {"role": "assistant", "content": " uses"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.214752Z", "message": {"role": "assistant", "content": " `\\"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.243891Z", "message": {"role": "assistant", "content": "x"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.273036Z", "message": {"role": "assistant", "content": "2"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.303123Z", "message": {"role": "assistant", "content": "7"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.330779Z", "message": {"role": "assistant", "content": "d"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.359855Z", "message": {"role": "assistant", "content": "1"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.388439Z", "message": {"role": "assistant", "content": "`"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.417109Z", "message": {"role": "assistant", "content": " which"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.445824Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.474187Z", "message": {"role": "assistant", "content": " an"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.503099Z", "message": {"role": "assistant", "content": " escaped"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.531819Z", "message": {"role": "assistant", "content": " single"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.560375Z", "message": {"role": "assistant", "content": " quote"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.587456Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.61497Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.643447Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.672437Z", "message": {"role": "assistant", "content": " actual"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.700712Z", "message": {"role": "assistant", "content": " string"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.729348Z", "message": {"role": "assistant", "content": " in"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.758938Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.786793Z", "message": {"role": "assistant", "content": " RTL"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.815447Z", "message": {"role": "assistant", "content": " may"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.84361Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.872383Z", "message": {"role": "assistant", "content": " contain"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.90182Z", "message": {"role": "assistant", "content": " this"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.930906Z", "message": {"role": "assistant", "content": " exact"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.959473Z", "message": {"role": "assistant", "content": " format"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:15.988141Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.016833Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.045459Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.073885Z", "message": {"role": "assistant", "content": "Risk"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.102815Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.131373Z", "message": {"role": "assistant", "content": " If"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.160347Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.18882Z", "message": {"role": "assistant", "content": " RTL"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.217988Z", "message": {"role": "assistant", "content": " does"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.246771Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.275677Z", "message": {"role": "assistant", "content": " match"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.305417Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.332989Z", "message": {"role": "assistant", "content": " exact"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.361315Z", "message": {"role": "assistant", "content": " string"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.388128Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.415282Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.445353Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.473821Z", "message": {"role": "assistant", "content": " will"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.502928Z", "message": {"role": "assistant", "content": " fail"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.531948Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.561141Z", "message": {"role": "assistant", "content": " leading"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.589691Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.618677Z", "message": {"role": "assistant", "content": " an"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.64782Z", "message": {"role": "assistant", "content": " incorrect"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.676524Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.705633Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.734427Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.763932Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.792649Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.822071Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.850561Z", "message": {"role": "assistant", "content": "Impact"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.879281Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.908462Z", "message": {"role": "assistant", "content": " This"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.937342Z", "message": {"role": "assistant", "content": " could"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.966491Z", "message": {"role": "assistant", "content": " result"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:16.994407Z", "message": {"role": "assistant", "content": " in"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.023985Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.052993Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.082408Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.111052Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.140022Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.168887Z", "message": {"role": "assistant", "content": " controls"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.197397Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.225917Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.253529Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.282752Z", "message": {"role": "assistant", "content": "Recommend"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.310033Z", "message": {"role": "assistant", "content": "ation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.338964Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.366639Z", "message": {"role": "assistant", "content": " Update"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.393706Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.423071Z", "message": {"role": "assistant", "content": " regex"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.452039Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.481574Z", "message": {"role": "assistant", "content": " use"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.510784Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.540336Z", "message": {"role": "assistant", "content": " raw"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.569453Z", "message": {"role": "assistant", "content": " string"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.598143Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.627635Z", "message": {"role": "assistant", "content": " ensure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.655894Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.684991Z", "message": {"role": "assistant", "content": " exact"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.714189Z", "message": {"role": "assistant", "content": " string"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.743369Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.772241Z", "message": {"role": "assistant", "content": " used"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.801247Z", "message": {"role": "assistant", "content": " in"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.830861Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.859744Z", "message": {"role": "assistant", "content": " RTL"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.889063Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.917977Z", "message": {"role": "assistant", "content": "####"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.947656Z", "message": {"role": "assistant", "content": " "}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:17.976359Z", "message": {"role": "assistant", "content": "2"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.005007Z", "message": {"role": "assistant", "content": "."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.033924Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.063116Z", "message": {"role": "assistant", "content": "No"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.092091Z", "message": {"role": "assistant", "content": " Explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.121279Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.149886Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.178738Z", "message": {"role": "assistant", "content": " Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.207513Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.236561Z", "message": {"role": "assistant", "content": " Mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.265082Z", "message": {"role": "assistant", "content": " Success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.294223Z", "message": {"role": "assistant", "content": "**\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.323388Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.352447Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.382059Z", "message": {"role": "assistant", "content": "Evidence"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.409895Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.440334Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.468614Z", "message": {"role": "assistant", "content": " script"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.497594Z", "message": {"role": "assistant", "content": " checks"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.526756Z", "message": {"role": "assistant", "content": " if"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.555219Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.584229Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.613164Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.642095Z", "message": {"role": "assistant", "content": " applied"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.6712Z", "message": {"role": "assistant", "content": " (`"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.700017Z", "message": {"role": "assistant", "content": "count"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.730485Z", "message": {"role": "assistant", "content": " !="}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.758107Z", "message": {"role": "assistant", "content": " "}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.787029Z", "message": {"role": "assistant", "content": "1"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.815275Z", "message": {"role": "assistant", "content": "`)"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.844464Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.873784Z", "message": {"role": "assistant", "content": " does"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.903029Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.931938Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.961431Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:18.990114Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.019175Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.048816Z", "message": {"role": "assistant", "content": " actually"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.08253Z", "message": {"role": "assistant", "content": " changes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.111295Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.139559Z", "message": {"role": "assistant", "content": " behavior"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.16858Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.197421Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.226585Z", "message": {"role": "assistant", "content": " simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.255157Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.298362Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.313933Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.36559Z", "message": {"role": "assistant", "content": "Risk"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.377101Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.420859Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.438795Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.4766Z", "message": {"role": "assistant", "content": " may"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.499943Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.52418Z", "message": {"role": "assistant", "content": " be"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.560475Z", "message": {"role": "assistant", "content": " applied"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.58053Z", "message": {"role": "assistant", "content": " correctly"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.609037Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.636902Z", "message": {"role": "assistant", "content": " leading"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.670699Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.693722Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.720878Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.748996Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.782134Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.804522Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.837318Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.865571Z", "message": {"role": "assistant", "content": "Recommend"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.889339Z", "message": {"role": "assistant", "content": "ation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.932487Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.947764Z", "message": {"role": "assistant", "content": " Add"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:19.986606Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.003004Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.045809Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.060333Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.093727Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.128834Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.147893Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.188283Z", "message": {"role": "assistant", "content": " changes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.206457Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.244049Z", "message": {"role": "assistant", "content": " behavior"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.267828Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.299216Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.327212Z", "message": {"role": "assistant", "content": " simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.352886Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.393937Z", "message": {"role": "assistant", "content": " such"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.410298Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.45405Z", "message": {"role": "assistant", "content": " checking"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.468289Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.50601Z", "message": {"role": "assistant", "content": " number"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.528138Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.563828Z", "message": {"role": "assistant", "content": " failures"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.585283Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.614956Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.65083Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.682483Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.702887Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.733331Z", "message": {"role": "assistant", "content": "####"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.759427Z", "message": {"role": "assistant", "content": " "}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.787271Z", "message": {"role": "assistant", "content": "3"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.828651Z", "message": {"role": "assistant", "content": "."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.844707Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.884212Z", "message": {"role": "assistant", "content": "No"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.907326Z", "message": {"role": "assistant", "content": " Explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.934964Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.970533Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:20.990149Z", "message": {"role": "assistant", "content": " Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.02586Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.04751Z", "message": {"role": "assistant", "content": " Failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.075667Z", "message": {"role": "assistant", "content": "**\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.103364Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.140913Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.160755Z", "message": {"role": "assistant", "content": "Evidence"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.192451Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.227815Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.244996Z", "message": {"role": "assistant", "content": " script"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.284086Z", "message": {"role": "assistant", "content": " checks"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.306913Z", "message": {"role": "assistant", "content": " if"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.338863Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.366048Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.386852Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.425997Z", "message": {"role": "assistant", "content": " applied"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.444667Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.473479Z", "message": {"role": "assistant", "content": " does"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.504412Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.540166Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.559039Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.58727Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.623377Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.644394Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.682813Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.702246Z", "message": {"role": "assistant", "content": " fails"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.729612Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.761918Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.785447Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.815118Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.848897Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.885421Z", "message": {"role": "assistant", "content": "Risk"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.903625Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.939808Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.962906Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:21.992202Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.027176Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.056151Z", "message": {"role": "assistant", "content": " may"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.078931Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.108027Z", "message": {"role": "assistant", "content": " fail"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.137197Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.170116Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.195125Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.229726Z", "message": {"role": "assistant", "content": " leading"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.254368Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.28951Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.313988Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.353084Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.372968Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.403259Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.44034Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.46251Z", "message": {"role": "assistant", "content": "Recommend"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.492799Z", "message": {"role": "assistant", "content": "ation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.531833Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.552639Z", "message": {"role": "assistant", "content": " Add"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.580029Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.619255Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.637847Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.665049Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.695735Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.734119Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.76175Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.784547Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.81522Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.848741Z", "message": {"role": "assistant", "content": " fails"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.884591Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.90262Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.939518Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.960083Z", "message": {"role": "assistant", "content": " such"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:22.998733Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.026363Z", "message": {"role": "assistant", "content": " checking"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.047623Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.086033Z", "message": {"role": "assistant", "content": " number"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.103325Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.141152Z", "message": {"role": "assistant", "content": " failures"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.159346Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.194644Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.220689Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.243847Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.273072Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.306919Z", "message": {"role": "assistant", "content": "####"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.334664Z", "message": {"role": "assistant", "content": " "}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.370229Z", "message": {"role": "assistant", "content": "4"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.389813Z", "message": {"role": "assistant", "content": "."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.419462Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.447973Z", "message": {"role": "assistant", "content": "No"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.476476Z", "message": {"role": "assistant", "content": " Explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.5042Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.541426Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.564629Z", "message": {"role": "assistant", "content": " Positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.601293Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.621656Z", "message": {"role": "assistant", "content": " Success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.65655Z", "message": {"role": "assistant", "content": "**\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.677814Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.705742Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.734247Z", "message": {"role": "assistant", "content": "Evidence"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.762451Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.802884Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.820632Z", "message": {"role": "assistant", "content": " script"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.85933Z", "message": {"role": "assistant", "content": " checks"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.88036Z", "message": {"role": "assistant", "content": " if"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.908133Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.945712Z", "message": {"role": "assistant", "content": " simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:23.964974Z", "message": {"role": "assistant", "content": " passes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.00128Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.021927Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.050312Z", "message": {"role": "assistant", "content": " positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.078182Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.105517Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.135023Z", "message": {"role": "assistant", "content": " does"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.171373Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.195244Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.224655Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.258023Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.283764Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.317664Z", "message": {"role": "assistant", "content": " matches"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.339826Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.374282Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.402251Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.431632Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.464186Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.496258Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.523819Z", "message": {"role": "assistant", "content": "Risk"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.547792Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.576124Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.610951Z", "message": {"role": "assistant", "content": " positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.634693Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.66399Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.702206Z", "message": {"role": "assistant", "content": " may"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.721212Z", "message": {"role": "assistant", "content": " not"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.757915Z", "message": {"role": "assistant", "content": " pass"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.777986Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.816706Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.83528Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.868666Z", "message": {"role": "assistant", "content": " leading"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.893397Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.932044Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.952583Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:24.988629Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.009575Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.043273Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.066974Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.10235Z", "message": {"role": "assistant", "content": "Recommend"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.129959Z", "message": {"role": "assistant", "content": "ation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.157877Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.181984Z", "message": {"role": "assistant", "content": " Add"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.216861Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.239831Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.268872Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.303849Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.32664Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.354584Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.38323Z", "message": {"role": "assistant", "content": " positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.418967Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.440172Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.46893Z", "message": {"role": "assistant", "content": " passes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.496627Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.524948Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.557723Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.580848Z", "message": {"role": "assistant", "content": " such"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.608305Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.636028Z", "message": {"role": "assistant", "content": " checking"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.673426Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.700419Z", "message": {"role": "assistant", "content": " number"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.723346Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.751341Z", "message": {"role": "assistant", "content": " failures"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.779897Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.811127Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.835193Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.870992Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.892704Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.921209Z", "message": {"role": "assistant", "content": "###"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.950069Z", "message": {"role": "assistant", "content": " Recommended"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:25.985242Z", "message": {"role": "assistant", "content": " Improvement"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.014607Z", "message": {"role": "assistant", "content": "\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.044665Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.076032Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.103452Z", "message": {"role": "assistant", "content": "Implement"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.131668Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.15508Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.183679Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.216081Z", "message": {"role": "assistant", "content": " Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.239867Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.274998Z", "message": {"role": "assistant", "content": " Mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.295873Z", "message": {"role": "assistant", "content": " Success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.33191Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.351771Z", "message": {"role": "assistant", "content": " Add"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.380042Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.417745Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.436163Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.465059Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.497028Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.522813Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.557093Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.579203Z", "message": {"role": "assistant", "content": " changes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.612015Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.634468Z", "message": {"role": "assistant", "content": " behavior"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.663274Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.690933Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.719191Z", "message": {"role": "assistant", "content": " simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.747381Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.785753Z", "message": {"role": "assistant", "content": " such"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.803596Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.837163Z", "message": {"role": "assistant", "content": " checking"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.860101Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.889373Z", "message": {"role": "assistant", "content": " number"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.920479Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.945406Z", "message": {"role": "assistant", "content": " failures"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:26.980443Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.007834Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.030605Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.058083Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.086666Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.113884Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.142163Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.170339Z", "message": {"role": "assistant", "content": "Implement"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.202911Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.234669Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.255622Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.284039Z", "message": {"role": "assistant", "content": " Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.317961Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.346624Z", "message": {"role": "assistant", "content": " Failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.371418Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.405457Z", "message": {"role": "assistant", "content": " Add"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.427761Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.455239Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.488546Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.511918Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.540268Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.568263Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.604533Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.625842Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.653351Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.681894Z", "message": {"role": "assistant", "content": " fails"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.710058Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.741819Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.775103Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.795412Z", "message": {"role": "assistant", "content": " such"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.829601Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.853136Z", "message": {"role": "assistant", "content": " checking"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.883467Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.917277Z", "message": {"role": "assistant", "content": " number"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.938691Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:27.972133Z", "message": {"role": "assistant", "content": " failures"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.000148Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.025183Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.059525Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.091196Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.111423Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.139792Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.178977Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.198068Z", "message": {"role": "assistant", "content": "Implement"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.238391Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.25675Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.2951Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.325557Z", "message": {"role": "assistant", "content": " Positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.353015Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.381053Z", "message": {"role": "assistant", "content": " Success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.415732Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.4335Z", "message": {"role": "assistant", "content": " Add"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.467498Z", "message": {"role": "assistant", "content": " a"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.491256Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.51931Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.555622Z", "message": {"role": "assistant", "content": " verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.575486Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.609919Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.638035Z", "message": {"role": "assistant", "content": " positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.662258Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.697367Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.718242Z", "message": {"role": "assistant", "content": " passes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.752471Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.779884Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.811631Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.839105Z", "message": {"role": "assistant", "content": " such"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.861187Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.894992Z", "message": {"role": "assistant", "content": " checking"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.918455Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.946985Z", "message": {"role": "assistant", "content": " number"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:28.981998Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.004982Z", "message": {"role": "assistant", "content": " failures"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.033138Z", "message": {"role": "assistant", "content": " or"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.063079Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.091874Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.1239Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.156215Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.18744Z", "message": {"role": "assistant", "content": "###"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.209517Z", "message": {"role": "assistant", "content": " S"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.237728Z", "message": {"role": "assistant", "content": "uggested"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.268377Z", "message": {"role": "assistant", "content": " Meaning"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.306832Z", "message": {"role": "assistant", "content": "ful"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.325643Z", "message": {"role": "assistant", "content": " Tests"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.361959Z", "message": {"role": "assistant", "content": "\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.382071Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.410137Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.445187Z", "message": {"role": "assistant", "content": "Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.472968Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.496471Z", "message": {"role": "assistant", "content": " Mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.52451Z", "message": {"role": "assistant", "content": " Success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.55243Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.592096Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.610119Z", "message": {"role": "assistant", "content": " Verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.637906Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.66691Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.703107Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.72632Z", "message": {"role": "assistant", "content": " changes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.758753Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.78362Z", "message": {"role": "assistant", "content": " behavior"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.81822Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.846088Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.870233Z", "message": {"role": "assistant", "content": " simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.905722Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.933188Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.957234Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:29.992638Z", "message": {"role": "assistant", "content": "Negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.014494Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.059166Z", "message": {"role": "assistant", "content": " Failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.076828Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.115743Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.135193Z", "message": {"role": "assistant", "content": " Verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.175966Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.206084Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.234629Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.257377Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.28607Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.324917Z", "message": {"role": "assistant", "content": " fails"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.342746Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.384709Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.399989Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.436728Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.464428Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.492472Z", "message": {"role": "assistant", "content": "Positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.51522Z", "message": {"role": "assistant", "content": " Control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.544011Z", "message": {"role": "assistant", "content": " Success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.571895Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.611072Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.62859Z", "message": {"role": "assistant", "content": " Verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.666565Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.685655Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.713274Z", "message": {"role": "assistant", "content": " positive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.741626Z", "message": {"role": "assistant", "content": " control"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.769655Z", "message": {"role": "assistant", "content": " test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.797194Z", "message": {"role": "assistant", "content": " passes"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.825806Z", "message": {"role": "assistant", "content": " as"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.861437Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.888717Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.911943Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.939738Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:30.968775Z", "message": {"role": "assistant", "content": "Simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.00768Z", "message": {"role": "assistant", "content": " Output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.02652Z", "message": {"role": "assistant", "content": " Verification"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.062856Z", "message": {"role": "assistant", "content": " Test"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.083849Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.1122Z", "message": {"role": "assistant", "content": " Verify"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.141725Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.170727Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.20617Z", "message": {"role": "assistant", "content": " simulation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.22796Z", "message": {"role": "assistant", "content": " output"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.265519Z", "message": {"role": "assistant", "content": " matches"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.284614Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.312181Z", "message": {"role": "assistant", "content": " expected"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.340154Z", "message": {"role": "assistant", "content": " values"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.372977Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.396605Z", "message": {"role": "assistant", "content": "###"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.432986Z", "message": {"role": "assistant", "content": " Final"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.45532Z", "message": {"role": "assistant", "content": " Review"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.487735Z", "message": {"role": "assistant", "content": "\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.512305Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.547353Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.572045Z", "message": {"role": "assistant", "content": "Correct"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.610086Z", "message": {"role": "assistant", "content": "ness"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.628932Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.658226Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.69791Z", "message": {"role": "assistant", "content": " verification"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.725302Z", "message": {"role": "assistant", "content": " flow"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.760898Z", "message": {"role": "assistant", "content": " has"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.796582Z", "message": {"role": "assistant", "content": " several"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.818857Z", "message": {"role": "assistant", "content": " risks"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.86008Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.887548Z", "message": {"role": "assistant", "content": " including"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.92707Z", "message": {"role": "assistant", "content": " potential"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.962607Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:31.990453Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.03484Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.061265Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.100777Z", "message": {"role": "assistant", "content": " negative"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.127174Z", "message": {"role": "assistant", "content": " controls"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.164876Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.191772Z", "message": {"role": "assistant", "content": " lack"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.22713Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.262943Z", "message": {"role": "assistant", "content": " explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.290681Z", "message": {"role": "assistant", "content": " tests"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.322312Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.358196Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.384326Z", "message": {"role": "assistant", "content": " success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.418266Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.445324Z", "message": {"role": "assistant", "content": " failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.477069Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.504233Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.544728Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.572538Z", "message": {"role": "assistant", "content": "Re"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.604685Z", "message": {"role": "assistant", "content": "pro"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.633158Z", "message": {"role": "assistant", "content": "duc"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.667688Z", "message": {"role": "assistant", "content": "ibility"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.702003Z", "message": {"role": "assistant", "content": " Support"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.723805Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.759144Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.795472Z", "message": {"role": "assistant", "content": " verification"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.816304Z", "message": {"role": "assistant", "content": " flow"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.854692Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.87513Z", "message": {"role": "assistant", "content": " generally"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.911585Z", "message": {"role": "assistant", "content": " repro"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.935892Z", "message": {"role": "assistant", "content": "ducible"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.981677Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:32.997093Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.033384Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.06938Z", "message": {"role": "assistant", "content": " lack"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.100422Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.129379Z", "message": {"role": "assistant", "content": " explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.162948Z", "message": {"role": "assistant", "content": " tests"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.192453Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.221662Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.253436Z", "message": {"role": "assistant", "content": " success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.280988Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.316502Z", "message": {"role": "assistant", "content": " failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.336531Z", "message": {"role": "assistant", "content": " could"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.365774Z", "message": {"role": "assistant", "content": " lead"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.394366Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.435331Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.455418Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.491643Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.512138Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.54673Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.569271Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.597085Z", "message": {"role": "assistant", "content": "Documentation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.626227Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.661271Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.689124Z", "message": {"role": "assistant", "content": " documentation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.711713Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.740779Z", "message": {"role": "assistant", "content": " comprehensive"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.768859Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.80414Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.826008Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.859438Z", "message": {"role": "assistant", "content": " lack"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.884488Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.9115Z", "message": {"role": "assistant", "content": " explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.955054Z", "message": {"role": "assistant", "content": " tests"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:33.981285Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.018469Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.03945Z", "message": {"role": "assistant", "content": " success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.073457Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.096855Z", "message": {"role": "assistant", "content": " failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.125778Z", "message": {"role": "assistant", "content": " could"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.16058Z", "message": {"role": "assistant", "content": " be"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.188573Z", "message": {"role": "assistant", "content": " improved"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.211432Z", "message": {"role": "assistant", "content": ".\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.239986Z", "message": {"role": "assistant", "content": "-"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.269503Z", "message": {"role": "assistant", "content": " **"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.308333Z", "message": {"role": "assistant", "content": "Pack"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.328848Z", "message": {"role": "assistant", "content": "aging"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.36863Z", "message": {"role": "assistant", "content": "**:"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.388241Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.416532Z", "message": {"role": "assistant", "content": " packaging"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.454701Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.476661Z", "message": {"role": "assistant", "content": " correct"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.513965Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.536801Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.573579Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.601153Z", "message": {"role": "assistant", "content": " lack"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.632984Z", "message": {"role": "assistant", "content": " of"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.657752Z", "message": {"role": "assistant", "content": " explicit"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.68788Z", "message": {"role": "assistant", "content": " tests"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.724664Z", "message": {"role": "assistant", "content": " for"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.756671Z", "message": {"role": "assistant", "content": " mutation"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.783892Z", "message": {"role": "assistant", "content": " success"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.815371Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.842254Z", "message": {"role": "assistant", "content": " failure"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.875124Z", "message": {"role": "assistant", "content": " could"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.911407Z", "message": {"role": "assistant", "content": " be"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.935568Z", "message": {"role": "assistant", "content": " improved"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.960288Z", "message": {"role": "assistant", "content": ".\n\n"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:34.998664Z", "message": {"role": "assistant", "content": "Overall"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.018716Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.057295Z", "message": {"role": "assistant", "content": " the"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.08605Z", "message": {"role": "assistant", "content": " verification"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.108267Z", "message": {"role": "assistant", "content": " flow"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.144703Z", "message": {"role": "assistant", "content": " is"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.173655Z", "message": {"role": "assistant", "content": " mostly"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.195001Z", "message": {"role": "assistant", "content": " correct"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.228434Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.253152Z", "message": {"role": "assistant", "content": " repro"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.287144Z", "message": {"role": "assistant", "content": "ducible"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.311685Z", "message": {"role": "assistant", "content": ","}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.341275Z", "message": {"role": "assistant", "content": " but"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.370445Z", "message": {"role": "assistant", "content": " there"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.39907Z", "message": {"role": "assistant", "content": " are"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.437574Z", "message": {"role": "assistant", "content": " several"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.458065Z", "message": {"role": "assistant", "content": " risks"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.487197Z", "message": {"role": "assistant", "content": " that"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.515404Z", "message": {"role": "assistant", "content": " could"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.544724Z", "message": {"role": "assistant", "content": " lead"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.587805Z", "message": {"role": "assistant", "content": " to"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.601718Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.639552Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.660537Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.698787Z", "message": {"role": "assistant", "content": "."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.719114Z", "message": {"role": "assistant", "content": " The"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.75819Z", "message": {"role": "assistant", "content": " recommended"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.786015Z", "message": {"role": "assistant", "content": " improvements"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.812534Z", "message": {"role": "assistant", "content": " would"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.841525Z", "message": {"role": "assistant", "content": " help"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.877941Z", "message": {"role": "assistant", "content": " prevent"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.902808Z", "message": {"role": "assistant", "content": " false"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.937223Z", "message": {"role": "assistant", "content": " passing"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.959681Z", "message": {"role": "assistant", "content": " results"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:35.989436Z", "message": {"role": "assistant", "content": " and"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:36.024086Z", "message": {"role": "assistant", "content": " make"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:36.046777Z", "message": {"role": "assistant", "content": " honest"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:36.077841Z", "message": {"role": "assistant", "content": " reproduction"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:36.111228Z", "message": {"role": "assistant", "content": " easier"}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:36.139235Z", "message": {"role": "assistant", "content": "."}, "done": false}
+{"model": "qwen3-csaw-agent:20261112234518", "created_at": "2026-11-13T15:08:36.167247Z", "message": {"role": "assistant", "content": ""}, "done": true, "done_reason": "stop", "total_duration": 42629557917, "load_duration": 4152216542, "prompt_eval_count": 5545, "prompt_eval_cached_count": 0, "prompt_eval_duration": 15018142000, "eval_count": 806, "eval_duration": 23412434000}

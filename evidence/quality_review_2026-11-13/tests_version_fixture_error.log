@@ -1,0 +1,26 @@
+test_authentic_relocated_run_passes (test_verify_results.VerifyResultsTests.test_authentic_relocated_run_passes) ... ok
+test_crashed_negative_control_rejected (test_verify_results.VerifyResultsTests.test_crashed_negative_control_rejected) ... ok
+test_duplicate_case_rejected (test_verify_results.VerifyResultsTests.test_duplicate_case_rejected) ... ok
+test_missing_case_rejected (test_verify_results.VerifyResultsTests.test_missing_case_rejected) ... ok
+test_missing_trace_rejected (test_verify_results.VerifyResultsTests.test_missing_trace_rejected) ... ok
+test_source_change_rejected (test_verify_results.VerifyResultsTests.test_source_change_rejected) ... ok
+test_timeout_rejected (test_verify_results.VerifyResultsTests.test_timeout_rejected) ... ok
+test_truncated_completion_rejected (test_verify_results.VerifyResultsTests.test_truncated_completion_rejected) ... ok
+test_unrecorded_tool_version_rejected (test_verify_results.VerifyResultsTests.test_unrecorded_tool_version_rejected) ... FAIL
+test_wrong_failure_reason_rejected (test_verify_results.VerifyResultsTests.test_wrong_failure_reason_rejected) ... ok
+test_wrong_negative_failure_count_rejected (test_verify_results.VerifyResultsTests.test_wrong_negative_failure_count_rejected) ... ok
+
+======================================================================
+FAIL: test_unrecorded_tool_version_rejected (test_verify_results.VerifyResultsTests.test_unrecorded_tool_version_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 73, in test_unrecorded_tool_version_rejected
+    self.rejected()
+  File "/Users/al-zayedal-hassan/Documents/Codex/2026-11-10/referenced-chatgpt-conversation-this-is-an/work/csaw-private-submission/tests/test_verify_results.py", line 29, in rejected
+    self.assertTrue(module.verify_run(self.run))
+AssertionError: [] is not true
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.605s
+
+FAILED (failures=1)

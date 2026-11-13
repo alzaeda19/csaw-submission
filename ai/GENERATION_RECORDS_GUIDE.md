@@ -12,3 +12,5 @@ Additional authentic records are in:
 Twelve original reviewer instruction bodies and 6,178 characters of one historical output remain unavailable. The qualifier warns that missing generation logs can disqualify a submission; inclusion of the available records does not guarantee acceptance. No missing dialogue is invented. Hidden reasoning and unrelated private material remain excluded. Earlier incomplete model replies remain errors, not accepted technical findings.
 
 Later detector and documentation-audit conversations remain in the pinned public evidence archive linked in EVIDENCE_INDEX.md; they are not represented as original hardware-generation conversations.
+
+The later verification-only Qwen/Claude Code review is preserved in [quality_review_2026-11-13/](quality_review_2026-11-13/). It did not generate or alter hardware. Rejected model claims remain explicitly recorded.

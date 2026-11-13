@@ -1,0 +1,41 @@
+### Final Review of Verification Flow
+
+#### 1. **Negative Control Mutation Anchor Mismatch Risk**
+- **Evidence**: The `run_tests.py` script attempts to mutate the `MISO` assignment in the RTL by matching the regex `assign MISO = raw_miso \^ \(fault_active && !NORM_CS_N && read_count == 6\x27d1\);`. However, the regex uses `\x27d1` which is an escaped single quote, but the actual string in the RTL may not contain this exact format.
+- **Risk**: If the RTL does not match the exact string, the mutation will fail, leading to an incorrect negative control test.
+- **Impact**: This could result in false passing results for negative controls.
+- **Recommendation**: Update the regex to use a raw string or ensure the exact string is used in the RTL.
+
+#### 2. **No Explicit Test for Negative Control Mutation Success**
+- **Evidence**: The script checks if the mutation is applied (`count != 1`) but does not verify that the mutation actually changes the behavior of the simulation.
+- **Risk**: The mutation may not be applied correctly, leading to false passing results.
+- **Recommendation**: Add a test to verify that the mutation changes the behavior of the simulation, such as checking the number of failures or the output values.
+
+#### 3. **No Explicit Test for Negative Control Failure**
+- **Evidence**: The script checks if the mutation is applied but does not verify that the negative control test fails as expected.
+- **Risk**: The negative control test may not fail as expected, leading to false passing results.
+- **Recommendation**: Add a test to verify that the negative control test fails as expected, such as checking the number of failures or the output values.
+
+#### 4. **No Explicit Test for Positive Control Success**
+- **Evidence**: The script checks if the simulation passes for the positive control but does not verify that the output matches the expected values.
+- **Risk**: The positive control test may not pass as expected, leading to false passing results.
+- **Recommendation**: Add a test to verify that the positive control test passes as expected, such as checking the number of failures or the output values.
+
+### Recommended Improvement
+- **Implement a Test for Negative Control Mutation Success**: Add a test to verify that the mutation changes the behavior of the simulation, such as checking the number of failures or the output values.
+- **Implement a Test for Negative Control Failure**: Add a test to verify that the negative control test fails as expected, such as checking the number of failures or the output values.
+- **Implement a Test for Positive Control Success**: Add a test to verify that the positive control test passes as expected, such as checking the number of failures or the output values.
+
+### Suggested Meaningful Tests
+- **Negative Control Mutation Success Test**: Verify that the mutation changes the behavior of the simulation.
+- **Negative Control Failure Test**: Verify that the negative control test fails as expected.
+- **Positive Control Success Test**: Verify that the positive control test passes as expected.
+- **Simulation Output Verification Test**: Verify that the simulation output matches the expected values.
+
+### Final Review
+- **Correctness**: The verification flow has several risks, including potential false passing results for negative controls and lack of explicit tests for mutation success and failure.
+- **Reproducibility Support**: The verification flow is generally reproducible, but the lack of explicit tests for mutation success and failure could lead to false passing results.
+- **Documentation**: The documentation is comprehensive, but the lack of explicit tests for mutation success and failure could be improved.
+- **Packaging**: The packaging is correct, but the lack of explicit tests for mutation success and failure could be improved.
+
+Overall, the verification flow is mostly correct and reproducible, but there are several risks that could lead to false passing results. The recommended improvements would help prevent false passing results and make honest reproduction easier.

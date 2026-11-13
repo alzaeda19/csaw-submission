@@ -1,0 +1,20 @@
+**Retracted Claims:**
+- "Absence of negative-control nonzero exit and failures>0 is a defect" — **Retracted**. The testbench compares live outputs with an independent reference, and the absence of these checks is not a defect.
+- "Positive controls require exact count dictionaries and zero exit" — **Retracted**. The testbench validates live outputs against a reference, and the original system does not enforce these constraints.
+- "The runner raises when substitution count is not exactly one" — **Retracted**. The runner uses raw regex and does not raise on substitution count mismatches.
+
+**Final Verdict:**
+The proposed fix is **valid and scoped**. It introduces a standalone read-only verifier that cross-checks all five expected cases, their local stdout/stderr/exit receipts, exact counts, source-copy hashes, and expected negative failure signatures. It fails on missing/extra/duplicate cases and truncated summaries, and authenticates consistency with pinned files. It cannot prove authenticity of arbitrary attacker-forged logs, which is a known limitation. Unit tests damage receipt/log fixtures to show rejection.
+
+**Source References:**
+- The runner uses Python raw regex and \x27 matches apostrophe.
+- Negative results accept any positive failure count with nonzero exit.
+- Saved runs (negative_no_fault, negative_always_fault) are valid and represent a future false-positive guard.
+- The testbench compares live outputs with an independent reference.
+
+**Uncertainty:**
+- The verifier cannot prove authenticity of arbitrary attacker-forged logs, which is a known limitation.
+- No tests were run; the proposal is based on provided facts.
+
+**Conclusion:**
+The proposal is **valid and scoped**, with no RTL changes, concealment, evasion, or detector tuning. It addresses the identified weakness without altering the original seven source inputs.

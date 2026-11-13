@@ -21,3 +21,7 @@ Later detector packages, pretrained model weights, toy datasets, graph tensors a
 Detector reports: [frozen-pair evaluation](https://github.com/alzaeda19/csaw/tree/5dd10cdb6ebbeba43b5ff6594f4006c2c999f1a3/submission/addenda/2026-11-13-detector-repair) and [miss investigation](https://github.com/alzaeda19/csaw/tree/5dd10cdb6ebbeba43b5ff6594f4006c2c999f1a3/submission/addenda/2026-11-13-detector-miss-investigation). These pinned links retain their complete surrounding evidence. No reduction in files establishes stealth or fills missing transcripts.
 
 Historical reports inside the sealed addenda are unchanged. Their original absolute paths identify the original machine and may require relocation for optional historical reruns; the primary run_tests.py uses the bundled relative source files. Cross-references to excluded later audit bundles remain available in the pinned public archive. See [copy provenance](docs/COPY_PROVENANCE.json) for the exact retained bytes.
+
+## Verification quality update
+
+[Review and limitations](docs/QUALITY_REVIEW.md), [model records](ai/quality_review_2026-11-13/) and [fresh replay evidence](evidence/quality_review_2026-11-13/) support the new read-only result checker. This later run preserves all original hardware inputs and adds no stealth claim.
